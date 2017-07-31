@@ -31,3 +31,11 @@ function getMax(arr) {
     return Math.max(...arr);
 }
 ```
+
+4) 排序方法
+
+```js
+function getMax(arr) {
+    return (arr.sort())[arr.length-1];
+}
+```

@@ -25,7 +25,7 @@ function isArray(arr) {
     return arr.constructor === Array;
 }
 ```
-4）Object.prototype.toString方法
+4) Object.prototype.toString方法
 
 ```js
 function isArray(arr) {

@@ -19,8 +19,13 @@ const arr = [33, 12, 95, 67, 89, 11, 3, 77, 66, 22];
 
 
 //ES6方法
+// function getMax(arr) {
+//     return Math.max(...arr);
+// }
+
+//排序方法
 function getMax(arr) {
-    return Math.max(...arr);
+    return (arr.sort())[arr.length-1];
 }
 
 console.log(getMax(arr));
