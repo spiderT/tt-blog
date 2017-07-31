@@ -9,3 +9,4 @@
 ##### 1.1.3. [求一个数组元素出现的次数](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/03-getCount.md)
 ##### 1.1.4. [检测是数组的方法](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/04-isArray.md)
 ##### 1.1.5. [数组的深拷贝](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/05-deepClone.md)
+##### 1.1.6. [数组的排序](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/06-sort.md)

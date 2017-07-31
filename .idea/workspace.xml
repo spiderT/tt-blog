@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/array/05-deepClone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/array/05-deepClone.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/array/06-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/array/06-sort.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/array/01-getMax.js" afterPath="$PROJECT_DIR$/js/array/01-getMax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/array/01-getMax.md" afterPath="$PROJECT_DIR$/js/array/01-getMax.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/array/04-isArray.md" afterPath="$PROJECT_DIR$/js/array/04-isArray.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,42 +17,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05-deepClone.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/array/05-deepClone.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-getMax.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/array/01-getMax.md">
+      <file leaf-file-name="06-sort.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/array/06-sort.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="455">
-                <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+                <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
                 <folding>
-                  <marker date="1501485402000" expanded="true" signature="58:191" ph="{...}" />
-                  <marker date="1501485402000" expanded="true" signature="103:173" ph="{...}" />
-                  <marker date="1501485402000" expanded="true" signature="129:167" ph="{...}" />
-                  <marker date="1501485402000" expanded="true" signature="233:272" ph="{...}" />
-                  <marker date="1501485402000" expanded="true" signature="315:347" ph="{...}" />
-                  <marker date="1501485402000" expanded="true" signature="389:431" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="72:479" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="99:126" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="288:416" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="319:361" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="367:410" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="524:790" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="567:772" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="605:766" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="640:756" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="876:1120" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="919:1102" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1009:1070" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1195:1511" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1238:1493" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1315:1465" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1347:1455" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1579:2077" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1620:2021" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1718:2015" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1765:2005" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="1888:1991" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2048:2075" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2130:2603" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2173:2585" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2256:2465" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2348:2399" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2405:2455" ph="{...}" />
+                  <marker date="1501495350000" expanded="true" signature="2510:2554" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -63,40 +59,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-getMax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/array/01-getMax.js">
+      <file leaf-file-name="06-sort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/array/06-sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="471">
+              <caret line="110" column="1" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05-deepClone.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/array/05-deepClone.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="384">
-                <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-                <folding>
-                  <marker date="1501487114000" expanded="true" signature="65:93" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="90:93" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="141:169" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="165:169" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="222:254" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="252:254" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="299:402" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="345:381" ph="{...}" />
-                  <marker date="1501487114000" expanded="true" signature="448:516" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>let</find>
+      <find>var</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>var</replace>
+      <replace>let</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,11 +106,13 @@
         <option value="$PROJECT_DIR$/js/array/03-getCount.md" />
         <option value="$PROJECT_DIR$/js/array/04-isArray.js" />
         <option value="$PROJECT_DIR$/js/array/04-isArray.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/array/01-getMax.js" />
         <option value="$PROJECT_DIR$/js/array/01-getMax.md" />
         <option value="$PROJECT_DIR$/js/array/05-deepClone.js" />
         <option value="$PROJECT_DIR$/js/array/05-deepClone.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/array/06-sort.js" />
+        <option value="$PROJECT_DIR$/js/array/06-sort.md" />
       </list>
     </option>
   </component>
@@ -170,6 +155,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,12 +617,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501462898606</updated>
-      <workItem from="1501462900498" duration="17684000" />
+      <workItem from="1501462900498" duration="24391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17684000" />
+    <option name="totallyTimeSpent" value="24391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-299" y="-1049" width="1849" height="981" extended-state="0" />
@@ -673,14 +672,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/array/02-removeRepeat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/array/02-removeRepeat.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -748,17 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/array/01-getMax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -767,11 +747,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/array/05-deepClone.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="349">
+            <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <folding>
+              <marker date="1501487114000" expanded="true" signature="65:93" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="90:93" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="141:169" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="165:169" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="222:254" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="252:254" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="299:402" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="345:381" ph="{...}" />
+              <marker date="1501487114000" expanded="true" signature="448:516" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array/02-removeRepeat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/array/01-getMax.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="7" />
             <folding>
               <marker date="1501485402000" expanded="true" signature="58:191" ph="{...}" />
               <marker date="1501485402000" expanded="true" signature="103:173" ph="{...}" />
@@ -787,27 +796,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/array/05-deepClone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/array/05-deepClone.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="384">
-            <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="86" lean-forward="true" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="87" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array/06-sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="110" column="1" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array/06-sort.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="455">
+            <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
             <folding>
-              <marker date="1501487114000" expanded="true" signature="65:93" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="90:93" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="141:169" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="165:169" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="222:254" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="252:254" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="299:402" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="345:381" ph="{...}" />
-              <marker date="1501487114000" expanded="true" signature="448:516" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="72:479" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="99:126" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="288:416" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="319:361" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="367:410" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="524:790" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="567:772" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="605:766" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="640:756" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="876:1120" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="919:1102" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1009:1070" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1195:1511" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1238:1493" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1315:1465" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1347:1455" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1579:2077" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1620:2021" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1718:2015" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1765:2005" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="1888:1991" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2048:2075" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2130:2603" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2173:2585" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2256:2465" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2348:2399" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2405:2455" ph="{...}" />
+              <marker date="1501495350000" expanded="true" signature="2510:2554" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
