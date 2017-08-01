@@ -10,3 +10,5 @@
 ##### 1.1.4. [检测是数组的方法](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/04-isArray.md)
 ##### 1.1.5. [数组的深拷贝](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/05-deepClone.md)
 ##### 1.1.6. [数组的排序](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/06-sort.md)
+##### 1.1.7. [数组的遍历](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/07-traversal.md)
+##### 1.1.8. [数组的属性和方法总结](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/properties&methods.md)
