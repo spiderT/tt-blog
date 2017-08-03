@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/array/07-traversal.js" afterPath="$PROJECT_DIR$/js/array/07-traversal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/array/07-traversal.md" afterPath="$PROJECT_DIR$/js/array/07-traversal.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,19 +19,19 @@
         <entry file="file://$PROJECT_DIR$/js/array/07-traversal.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="693">
-                <caret line="75" column="3" lean-forward="true" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+              <first_editor relative-caret-position="341">
+                <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
                 <folding>
-                  <marker date="1501728679000" expanded="true" signature="76:84" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="228:236" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="235:236" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="300:308" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="418:426" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="479:498" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="558:566" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="643:668" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="772:780" ph="{...}" />
-                  <marker date="1501728679000" expanded="true" signature="882:890" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="76:84" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="228:236" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="235:236" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="300:308" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="418:426" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="478:497" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="556:564" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="640:665" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="768:776" ph="{...}" />
+                  <marker date="1501730116000" expanded="true" signature="877:885" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -618,15 +617,24 @@
       <workItem from="1501462900498" duration="24755000" />
       <workItem from="1501547048448" duration="9890000" />
       <workItem from="1501558599159" duration="227000" />
-      <workItem from="1501723122642" duration="6559000" />
+      <workItem from="1501723122642" duration="6981000" />
     </task>
+    <task id="LOCAL-00001" summary="js array traversal">
+      <created>1501729711086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501729711086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41431000" />
+    <option name="totallyTimeSpent" value="41853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-299" y="-1049" width="1849" height="1042" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -647,8 +655,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27986726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27986726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25987756" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -667,6 +675,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="js array traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="js array traversal" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -678,16 +690,16 @@
           <first_editor relative-caret-position="171">
             <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             <folding>
-              <marker date="1501728679000" expanded="true" signature="76:84" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="228:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="235:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="300:308" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="418:426" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="479:498" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="558:566" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="643:668" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="772:780" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="882:890" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="76:84" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="228:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="235:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="300:308" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="418:426" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="478:497" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="556:564" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="640:665" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="768:776" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="877:885" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -768,16 +780,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1501728679000" expanded="true" signature="76:84" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="228:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="235:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="300:308" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="418:426" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="479:498" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="558:566" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="643:668" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="772:780" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="882:890" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="76:84" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="228:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="235:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="300:308" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="418:426" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="478:497" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="556:564" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="640:665" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="768:776" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="877:885" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1107,19 +1119,19 @@
     <entry file="file://$PROJECT_DIR$/js/array/07-traversal.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="693">
-            <caret line="75" column="3" lean-forward="true" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+          <first_editor relative-caret-position="341">
+            <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
             <folding>
-              <marker date="1501728679000" expanded="true" signature="76:84" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="228:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="235:236" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="300:308" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="418:426" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="479:498" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="558:566" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="643:668" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="772:780" ph="{...}" />
-              <marker date="1501728679000" expanded="true" signature="882:890" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="76:84" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="228:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="235:236" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="300:308" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="418:426" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="478:497" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="556:564" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="640:665" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="768:776" ph="{...}" />
+              <marker date="1501730116000" expanded="true" signature="877:885" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

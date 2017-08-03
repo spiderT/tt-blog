@@ -35,7 +35,7 @@ Array.prototype.forEach.call(arr,(el) => {
 })
 ```
 
-5) for in 循环———效率是最低的
+5) for in 循环——效率是最低的
 
 ```js
 for(let k in arr){
@@ -43,7 +43,7 @@ for(let k in arr){
 }
 ```
 
-6) map循环———效率比不上foreach
+6) map循环——效率比不上foreach
 
 ```js
 arr.map((val,index) => {
@@ -51,7 +51,7 @@ arr.map((val,index) => {
 })
 ```
 
-7) for of循环———ES6，性能要好于for in，但仍然比不上普通for循环
+7) for of循环——ES6，性能要好于for in，但仍然比不上普通for循环
 
 ```js
 for(let val of arr){
@@ -59,7 +59,7 @@ for(let val of arr){
 }
 ```
 
-8) every———对数组中的每一项运行指定函数，如果该函数对每一项返回true,则返回true，否则false
+8) every——对数组中的每一项运行指定函数，如果该函数对每一项返回true,则返回true，否则false
 
 ```js
 arr.every((val, index, array) => {
@@ -67,7 +67,7 @@ arr.every((val, index, array) => {
 })
 ```
 
-9) some———对数组中每一项运行指定函数，如果该函数对任一项返回true，则返回true，否则false
+9) some——对数组中每一项运行指定函数，如果该函数对任一项返回true，则返回true，否则false
 
 ```js
 arr.some((val, index, array) => {
