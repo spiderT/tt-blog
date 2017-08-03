@@ -1,4 +1,6 @@
-## TT'note
+# TT'note
+
+## 1. js
 
 ### 1. javascript最佳实践
 
@@ -12,3 +14,18 @@
 ##### 1.1.6. [数组的排序](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/06-sort.md)
 ##### 1.1.7. [数组的遍历](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/07-traversal.md)
 ##### 1.1.8. [数组的属性和方法总结](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/properties&methods.md)
+
+#### 1.2. 函数
+#### 1.3. 对象
+#### 1.4. 字符串
+#### 1.5. 数值
+
+### 2. js设计模式
+
+### 3. js函数式编程
+
+## 2. node.js
+
+### 2.1. file system 文件系统
+
+#### 2.1.1 [fs.watch](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/01-fs.watch.md)
