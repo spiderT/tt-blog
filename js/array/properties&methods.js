@@ -52,9 +52,37 @@
 
 //every
 //检测数组中的所有元素是否都大于 10。
-const arr = [22, 44, 44, 12, 66, 34, 54];
+// const arr = [22, 44, 44, 12, 66, 34, 54];
+//
+// const isBig = arr.every(el => el > 10);
+//
+// console.log(isBig);//true
 
-const isBig = arr.every(el => el > 10);
 
-console.log(isBig);//true
+//fill
+// const arr= [22, 44, 44, 12, 66, 34, 54];
+//
+// arr.fill(0)//[ 0, 0, 0, 0, 0, 0, 0 ]
+// arr.fill(0, 1)//[ 22, 0, 0, 0, 0, 0, 0 ]
+// arr.fill(0, 1, 2)//[ 22, 0, 44, 12, 66, 34, 54 ]
 
+//filter
+// const arr= [2, 44, 4, 12, 66, 3, 54];
+// arr.filter(val => val>10 );//[44,12,66,54]
+
+//find
+// const score = [
+//     {name: 'apples', quantity: 2},
+//     {name: 'bananas', quantity: 0},
+//     {name: 'cherries', quantity: 5}
+// ];
+//
+// function findCherries(fruit) {
+//     return fruit.name === 'cherries';
+// }
+//
+// console.log(score.find(findCherries)); // { name: 'cherries', quantity: 5 }
+
+//findIndex
+// const arr= [22, 44, 44, 12, 66, 34, 54];
+// console.log(arr.findIndex(val => val > 50));//5

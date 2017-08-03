@@ -371,7 +371,6 @@ console.log(iterator.next().value);// [2, "c"]
 //使用for…of 循环
 var arr = ["a", "b", "c"];
 var iterator = arr.entries();
-// undefined
 
 for (let e of iterator) {
     console.log(e);
@@ -436,7 +435,221 @@ if (!Array.prototype.every)
 }
 ```
 
-2.8. **forEach() 方法对数组的每个元素执行一次提供的函数**
+2.8. **fill()——用一个固定值填充一个数组中从起始索引到终止索引内的全部元素，返回修改后的数组**
+
+> Syntax
+
+```js
+//value 用于填充数组元素的值；start起始索引，默认为0；end终止索引，默认值为 this.length
+arr.fill(value) 
+arr.fill(value, start) 
+arr.fill(value, start, end)
+```
+
+> Examples
+
+```js
+const arr= [22, 44, 44, 12, 66, 34, 54];
+
+arr.fill(0)//[ 0, 0, 0, 0, 0, 0, 0 ]
+arr.fill(0, 1)//[ 22, 0, 0, 0, 0, 0, 0 ]
+arr.fill(0, 1, 2)//[ 22, 0, 44, 12, 66, 34, 54 ]
+```
+> Polyfill
+
+```js
+if (!Array.prototype.fill) {
+  Object.defineProperty(Array.prototype, 'fill', {
+    value: function(value) {
+
+      // Steps 1-2.
+      if (this == null) {
+        throw new TypeError('this is null or not defined');
+      }
+
+      var O = Object(this);
+
+      // Steps 3-5.
+      var len = O.length >>> 0;
+
+      // Steps 6-7.
+      var start = arguments[1];
+      var relativeStart = start >> 0;
+
+      // Step 8.
+      var k = relativeStart < 0 ?
+        Math.max(len + relativeStart, 0) :
+        Math.min(relativeStart, len);
+
+      // Steps 9-10.
+      var end = arguments[2];
+      var relativeEnd = end === undefined ?
+        len : end >> 0;
+
+      // Step 11.
+      var final = relativeEnd < 0 ?
+        Math.max(len + relativeEnd, 0) :
+        Math.min(relativeEnd, len);
+
+      // Step 12.
+      while (k < final) {
+        O[k] = value;
+        k++;
+      }
+
+      // Step 13.
+      return O;
+    }
+  });
+}
+```
+
+2.9. **filter() 创建一个新数组, 其包含通过所提供函数实现的测试的所有元素**
+
+> Syntax
+
+```js
+//callback用来测试数组的每个元素的函数。调用时使用参数 (element, index, array)。返回true表示保留该元素（通过测试），false则不保留。
+//thisArg可选。执行 callback 时的用于 this 的值。
+var new_array = arr.filter(callback[, thisArg])
+```
+
+> Examples
+
+```js
+const arr= [2, 44, 4, 12, 66, 3, 54];
+arr.filter(val => val>10 );//[44,12,66,54]
+```
+> Polyfill
+
+```js
+if (!Array.prototype.filter)
+{
+  Array.prototype.filter = function(fun , thisArg)
+  {
+    "use strict";
+
+    if (this === void 0 || this === null)
+      throw new TypeError();
+
+    var t = Object(this);
+    var len = t.length >>> 0;
+    if (typeof fun !== "function")
+      throw new TypeError();
+
+    var res = [];
+    var thisArg = arguments.length >= 2 ? arguments[1] : void 0;
+    for (var i = 0; i < len; i++)
+    {
+      if (i in t)
+      {
+        var val = t[i];
+
+        if (fun.call(thisArg, val, i, t))
+          res.push(val);
+      }
+    }
+
+    return res;
+  };
+}
+```
+
+2.10. **find()返回数组中满足提供的测试函数的第一个元素的值。否则返回 undefined**
+
+> Syntax
+
+```js
+arr.find(callback[, thisArg])
+```
+
+> Examples
+
+```js
+const score = [
+    {name: 'apples', quantity: 2},
+    {name: 'bananas', quantity: 0},
+    {name: 'cherries', quantity: 5}
+];
+
+function findCherries(fruit) {
+    return fruit.name === 'cherries';
+}
+
+console.log(score.find(findCherries)); // { name: 'cherries', quantity: 5 }
+```
+> Polyfill
+
+```js
+if (!Array.prototype.find) {
+  Array.prototype.find = function(predicate) {
+    'use strict';
+    if (this == null) {
+      throw new TypeError('Array.prototype.find called on null or undefined');
+    }
+    if (typeof predicate !== 'function') {
+      throw new TypeError('predicate must be a function');
+    }
+    var list = Object(this);
+    //>>> 0所有非数值转换成0,所有大于等于 0 等数取整数部分
+    var length = list.length >>> 0;
+    
+    var thisArg = arguments[1];
+    var value;
+
+    for (var i = 0; i < length; i++) {
+      value = list[i];
+      if (predicate.call(thisArg, value, i, list)) {
+        return value;
+      }
+    }
+    return undefined;
+  };
+}
+```
+
+2.11. **findIndex()方法返回数组中满足提供的测试函数的第一个元素的索引,否则返回-1**
+
+> Syntax
+
+```js
+arr.findIndex(callback[, thisArg])
+```
+
+> Examples
+
+```js
+const arr= [22, 44, 44, 12, 66, 34, 54];
+console.log(arr.findIndex(val => val > 50));//5
+```
+> Polyfill
+
+```js
+if (!Array.prototype.findIndex) {
+  Array.prototype.findIndex = function(predicate) {
+    if (this === null) {
+      throw new TypeError('Array.prototype.findIndex called on null or undefined');
+    }
+    if (typeof predicate !== 'function') {
+      throw new TypeError('predicate must be a function');
+    }
+    var list = Object(this);
+    var length = list.length >>> 0;
+    var thisArg = arguments[1];
+    var value;
+
+    for (var i = 0; i < length; i++) {
+      value = list[i];
+      if (predicate.call(thisArg, value, i, list)) {
+        return i;
+      }
+    }
+    return -1;
+  };
+}
+```
+
+2.12. **forEach**
 
 > Syntax
 
@@ -454,27 +667,8 @@ if (!Array.prototype.every)
 ```js
 
 ```
-
-2.9. **map() 方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果**
-
-> Syntax
-
-```js
-
-```
-
-> Examples
-
-```js
-
-```
-> Polyfill
-
-```js
-
-```
-
-2.10. **some() 方法测试数组中的某些元素是否通过由提供的函数实现的测试**
+     
+2.13. **includes**
 
 > Syntax
 
@@ -491,5 +685,137 @@ if (!Array.prototype.every)
 
 ```js
 
+```   
+     
+2.14. **indexOf**
+
+> Syntax
+
+```js
+
 ```
-        
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.15. **join**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.16. **keys**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.17. **lastIndexOf**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.18. **map**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.19. **pop**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
+
+2.20. **push**
+
+> Syntax
+
+```js
+
+```
+
+> Examples
+
+```js
+
+```
+> Polyfill
+
+```js
+
+```  
