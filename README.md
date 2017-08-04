@@ -31,3 +31,8 @@
 #### 2.1.1. [fs.watch](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/01-fs.watch.md)
 #### 2.1.2. [fs.readStream](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/02-fs.readStream.md)
 #### 2.1.3. [fs.stat](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/03-fs.stat.md)
+#### 2.1.4. [fs.writeStream](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/04-fs.writeStream.md)
+#### 2.1.5. [fs.access](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/05-fs.access.md)
+#### 2.1.6. [fs.accessSync](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/06-fs.accessSync.md)
+#### 2.1.7. [fs.appendFile](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/07-fs.appendFile.md)
+#### 2.1.8. [fs.appendFileSync](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/fileSystem/08-fs.appendFileSync.md)
