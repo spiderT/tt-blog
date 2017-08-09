@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/30-fs.futimes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/31-fs.futimesSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/32-fs.flchmod.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/33-fs.lchmodSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/34-fs.lchown.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/35-fs.lchownSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/36-fs.link.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/37-fs.linkSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/38-fs.lstat.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/39-fs.lstatSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/40-fs.mkdir.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/41-fs.mkdirSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/43-fs.mkdtempSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/44-fs.open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/44-fs.open.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/45-fs.openSync.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/46-fs.read.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/fileSystem/46-fs.read.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/fileSystem/a.txt" afterPath="$PROJECT_DIR$/node/fileSystem/a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" afterPath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,12 +51,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="46-fs.read.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="46-fs.read.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/fileSystem/46-fs.read.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="42-fs.mkdtemp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="42-fs.mkdtemp.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="399">
+                <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+                <folding>
+                  <marker date="1502271033000" expanded="true" signature="218:265" ph="//..." />
+                  <marker date="1502271033000" expanded="true" signature="218:297" ph="//..." />
+                  <marker date="1502271033000" expanded="true" signature="218:319" ph="//..." />
+                  <marker date="1502271033000" expanded="true" signature="451:522" ph="{...}" />
+                  <marker date="1502271033000" expanded="true" signature="520:522" ph="{...}" />
+                  <marker date="1502271033000" expanded="true" signature="792:863" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -156,7 +164,6 @@
         <option value="$PROJECT_DIR$/node/fileSystem/40-fs.mkdir.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/41-fs.mkdirSync.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js" />
-        <option value="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/43-fs.mkdtempSync.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/44-fs.open.js" />
         <option value="$PROJECT_DIR$/node/fileSystem/44-fs.open.md" />
@@ -165,6 +172,7 @@
         <option value="$PROJECT_DIR$/node/fileSystem/a.txt" />
         <option value="$PROJECT_DIR$/node/fileSystem/46-fs.read.js" />
         <option value="$PROJECT_DIR$/node/fileSystem/46-fs.read.md" />
+        <option value="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" />
       </list>
     </option>
   </component>
@@ -703,7 +711,7 @@
       <workItem from="1501723122642" duration="17593000" />
       <workItem from="1501807444379" duration="8247000" />
       <workItem from="1502170917147" duration="6504000" />
-      <workItem from="1502256461433" duration="13233000" />
+      <workItem from="1502256461433" duration="13320000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -716,10 +724,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80449000" />
+    <option name="totallyTimeSpent" value="80536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-305" y="-1057" width="1920" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -741,7 +750,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2601713" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1237,24 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="421">
-            <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-            <folding>
-              <marker date="1502265801000" expanded="true" signature="218:265" ph="//..." />
-              <marker date="1502265801000" expanded="true" signature="218:297" ph="//..." />
-              <marker date="1502265801000" expanded="true" signature="218:319" ph="//..." />
-              <marker date="1502265801000" expanded="true" signature="411:482" ph="{...}" />
-              <marker date="1502265801000" expanded="true" signature="480:482" ph="{...}" />
-              <marker date="1502265801000" expanded="true" signature="752:823" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/fileSystem/43-fs.mkdtempSync.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1282,14 +1273,6 @@
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,6 +1371,32 @@
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <folding>
+              <marker date="1502271033000" expanded="true" signature="218:265" ph="//..." />
+              <marker date="1502271033000" expanded="true" signature="218:297" ph="//..." />
+              <marker date="1502271033000" expanded="true" signature="218:319" ph="//..." />
+              <marker date="1502271033000" expanded="true" signature="451:522" ph="{...}" />
+              <marker date="1502271033000" expanded="true" signature="520:522" ph="{...}" />
+              <marker date="1502271033000" expanded="true" signature="792:863" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
