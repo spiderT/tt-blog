@@ -7,3 +7,4 @@
 #### 2.0.03. [调试](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/00-introduction/03-调试.md)
 #### 2.0.04. [对象](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/00-introduction/04-对象.md)
 #### 2.0.05. [常用工具util](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/00-introduction/05-常用工具util.md)
+#### 2.0.06. [事件驱动events](https://github.com/ivyTa/ivyTa.github.io/blob/master/node/00-introduction/06-事件驱动events.md)
