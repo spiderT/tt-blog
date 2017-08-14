@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="77" lean-forward="false" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+              <first_editor relative-caret-position="380">
+                <caret line="20" column="110" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-异步式与事件驱动.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01-异步式与事件驱动.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -203,10 +203,10 @@
         <option value="$PROJECT_DIR$/node/http/http.md" />
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.md" />
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/node/00-introduction/introduction.md" />
         <option value="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" />
         <option value="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -754,7 +754,7 @@
       <workItem from="1502256461433" duration="13380000" />
       <workItem from="1502325096478" duration="3778000" />
       <workItem from="1502426100497" duration="13634000" />
-      <workItem from="1502670046765" duration="4782000" />
+      <workItem from="1502670046765" duration="4898000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -767,7 +767,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102790000" />
+    <option name="totallyTimeSpent" value="102906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -1211,17 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="77" lean-forward="false" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式I/O与事件驱动.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1305,6 +1294,17 @@
             <folding>
               <marker date="1502676905000" expanded="true" signature="1192:1309" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="110" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
