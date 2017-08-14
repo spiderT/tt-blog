@@ -2,127 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/images/时间循环.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/introduction.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/01-fileSystem/13-fs.close.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/01-fileSystem/14-fs.closeSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/01-fs.watch.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/01-fs.watch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/01-fs.watch.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/01-fs.watch.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/02-fs.readStream.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/02-fs.readStream.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/02-fs.readStream.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/02-fs.readStream.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/03-fs.stat.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/03-fs.stat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/03-fs.stat.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/03-fs.stat.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/04-fs.writeStream.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/04-fs.writeStream.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/04-fs.writeStream.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/04-fs.writeStream.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/05-fs.access.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/05-fs.access.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/05-fs.access.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/05-fs.access.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/06-fs.accessSync.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/06-fs.accessSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/06-fs.accessSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/06-fs.accessSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/07-fs.appendFile.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/07-fs.appendFile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/07-fs.appendFile.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/07-fs.appendFile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/08-fs.appendFileSync.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/08-fs.appendFileSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/08-fs.appendFileSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/08-fs.appendFileSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/09-fs.chmod.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/09-fs.chmod.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/09-fs.chmod.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/09-fs.chmod.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/10-fs.chmodSync.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/10-fs.chmodSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/10-fs.chmodSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/10-fs.chmodSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/11-fs.chown.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/11-fs.chown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/11-fs.chown.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/11-fs.chown.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/12-fs.chownSync.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/12-fs.chownSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/12-fs.chownSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/12-fs.chownSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/13-fs.close.js" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/13-fs.close.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/13-fs.close.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/14-fs.closeSync.js" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/14-fs.closeSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/14-fs.closeSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/15-fs.constants.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/15-fs.constants.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/16-fs.createReadStream.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/16-fs.createReadStream.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/16-fs.createReadStream.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/16-fs.createReadStream.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/17-fs.createWriteStream.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/17-fs.createWriteStream.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/18-fs.fchmod.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/18-fs.fchmod.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/19-fs.fchmodSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/19-fs.fchmodSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/20-fs.fchown.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/20-fs.fchown.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/21-fs.fchownSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/21-fs.fchownSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/22-fs.fdatasync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/22-fs.fdatasync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/23-fs.fdatasyncSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/23-fs.fdatasyncSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/24-fs.fstat.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/24-fs.fstat.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/25-fs.fstatSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/25-fs.fstatSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/26-fs.fsync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/26-fs.fsync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/27-fs.fsyncSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/27-fs.fsyncSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/28-fs.ftruncate.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/28-fs.ftruncate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/28-fs.ftruncate.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/28-fs.ftruncate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/29-fs.ftruncateSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/29-fs.ftruncateSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/30-fs.futimes.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/30-fs.futimes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/31-fs.futimesSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/31-fs.futimesSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/32-fs.flchmod.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/32-fs.flchmod.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/33-fs.lchmodSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/33-fs.lchmodSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/34-fs.lchown.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/34-fs.lchown.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/35-fs.lchownSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/35-fs.lchownSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/36-fs.link.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/36-fs.link.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/37-fs.linkSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/37-fs.linkSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/38-fs.lstat.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/38-fs.lstat.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/39-fs.lstatSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/39-fs.lstatSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/40-fs.mkdir.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/40-fs.mkdir.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/41-fs.mkdirSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/41-fs.mkdirSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/42-fs.mkdtemp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/42-fs.mkdtemp.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/42-fs.mkdtemp.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/43-fs.mkdtempSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/43-fs.mkdtempSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/44-fs.open.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/44-fs.open.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/44-fs.open.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/44-fs.open.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/45-fs.openSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/45-fs.openSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/46-fs.read.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/46-fs.read.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/46-fs.read.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/46-fs.read.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/47-fs.readdir.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/47-fs.readdir.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/47-fs.readdir.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/47-fs.readdir.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/48-fs.readdirSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/48-fs.readdirSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/49-fs.readFile.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/49-fs.readFile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/49-fs.readFile.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/49-fs.readFile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/50-fs.readFileSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/50-fs.readFileSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/51-fs.readlink.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/51-fs.readlink.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/52-fs.readlinkSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/52-fs.readlinkSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/53-fs.readSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/53-fs.readSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/54-fs.realpath.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/54-fs.realpath.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/55-fs.realpathSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/55-fs.realpathSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/56-fs.rename.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/56-fs.rename.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/57-fs.renameSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/57-fs.renameSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/58-fs.rmdir.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/58-fs.rmdir.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/59-fs.rmdirSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/59-fs.rmdirSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/60-fs.stat.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/60-fs.stat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/60-fs.stat.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/60-fs.stat.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/61-fs.statSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/61-fs.statSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/62-fs.symlink.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/62-fs.symlink.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/62-fs.symlink.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/62-fs.symlink.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/63-fs.symlinkSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/63-fs.symlinkSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/64-fs.truncate.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/64-fs.truncate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/64-fs.truncate.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/64-fs.truncate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/65-fs.truncateSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/65-fs.truncateSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/66-fs.unlink.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/66-fs.unlink.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/66-fs.unlink.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/66-fs.unlink.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/67-fs.unlinkSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/67-fs.unlinkSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/68-fs.unwatchFile.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/68-fs.unwatchFile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/69-fs.utimes.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/69-fs.utimes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/69-fs.utimes.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/69-fs.utimes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/70-fs.utimesSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/70-fs.utimesSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/71-fs.watch.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/71-fs.watch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/71-fs.watch.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/71-fs.watch.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/72-fs.watchFile.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/72-fs.watchFile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/72-fs.watchFile.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/72-fs.watchFile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/73-fs.write.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/73-fs.write.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/74-fs.writeFile.js" afterPath="$PROJECT_DIR$/node/01-fileSystem/74-fs.writeFile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/74-fs.writeFile.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/74-fs.writeFile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/75-fs.writeFileSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/75-fs.writeFileSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/76-fs.writeSync.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/76-fs.writeSync.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/77-fs.constants.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/77-fs.constants.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/a.txt" afterPath="$PROJECT_DIR$/node/01-fileSystem/a.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/dir/1.txt" afterPath="$PROJECT_DIR$/node/01-fileSystem/dir/1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/dir/2.txt" afterPath="$PROJECT_DIR$/node/01-fileSystem/dir/2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/dir/a.txt" afterPath="$PROJECT_DIR$/node/01-fileSystem/dir/a.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/fileSystem/fileSystem.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/fileSystem.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/http/01-http.Agent.js" afterPath="$PROJECT_DIR$/node/02-http/01-http.Agent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/http/01-http.Agent.md" afterPath="$PROJECT_DIR$/node/02-http/01-http.Agent.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node/http/http.md" afterPath="$PROJECT_DIR$/node/02-http/http.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" afterPath="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,20 +54,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-异步式与事件驱动.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="01-异步式与事件驱动.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="260">
-                <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-                <folding />
+              <first_editor relative-caret-position="279">
+                <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+                <folding>
+                  <marker date="1502676905000" expanded="true" signature="1192:1309" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="introduction.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="introduction.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/00-introduction/introduction.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -220,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -273,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/fileSystem/47-fs.readdir.js" />
         <option value="$PROJECT_DIR$/node/fileSystem/48-fs.readdirSync.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/47-fs.readdir.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/49-fs.readFile.md" />
@@ -322,8 +204,9 @@
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.md" />
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
         <option value="$PROJECT_DIR$/node/00-introduction/introduction.md" />
+        <option value="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js" />
+        <option value="$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md" />
       </list>
     </option>
   </component>
@@ -871,7 +754,7 @@
       <workItem from="1502256461433" duration="13380000" />
       <workItem from="1502325096478" duration="3778000" />
       <workItem from="1502426100497" duration="13634000" />
-      <workItem from="1502670046765" duration="4256000" />
+      <workItem from="1502670046765" duration="4782000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -884,7 +767,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102264000" />
+    <option name="totallyTimeSpent" value="102790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -911,7 +794,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28073993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26980728" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1407923" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1350,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/01-fileSystem/01-fs.watch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1368,17 +1243,6 @@
               <marker date="1501809075000" expanded="true" signature="636:694" ph="{...}" />
               <marker date="1501809075000" expanded="true" signature="654:692" ph="{...}" />
             </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
-            <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1414,12 +1278,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node/00-introduction/introduction.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="76">
             <caret line="4" column="97" lean-forward="false" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="97" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="279">
+            <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <folding>
+              <marker date="1502676905000" expanded="true" signature="1192:1309" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
