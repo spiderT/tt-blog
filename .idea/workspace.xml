@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/images/调试命令.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/03-调试.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/03-调试.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/04-对象.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/04-对象.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/05-常用工具util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/00-introduction/05-常用工具util.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/00-introduction/introduction.md" afterPath="$PROJECT_DIR$/node/00-introduction/introduction.md" />
     </list>
@@ -19,18 +26,104 @@
         <entry file="file://$PROJECT_DIR$/node/00-introduction/02-模块和包.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="139" column="2" lean-forward="false" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+              <first_editor relative-caret-position="-2092">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
                 <folding>
-                  <marker date="1502681206000" expanded="true" signature="338:357" ph="{...}" />
-                  <marker date="1502681206000" expanded="true" signature="389:422" ph="{...}" />
-                  <marker date="1502681206000" expanded="true" signature="677:844" ph="{...}" />
-                  <marker date="1502681206000" expanded="true" signature="731:762" ph="{...}" />
-                  <marker date="1502681206000" expanded="true" signature="795:840" ph="{...}" />
-                  <marker date="1502681206000" expanded="true" signature="1783:1818" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="338:357" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="389:422" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="677:844" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="731:762" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="795:840" ph="{...}" />
+                  <marker date="1502681406000" expanded="true" signature="1783:1818" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-异步式与事件驱动.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="319">
+                <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                <folding>
+                  <marker date="1502677772000" expanded="true" signature="2227:2344" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-调试.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/03-调试.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-对象.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-常用工具util.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/05-常用工具util.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="393">
+                <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+                <folding>
+                  <marker date="1502695980000" expanded="true" signature="193:308" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="261:306" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="346:377" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="394:418" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="534:599" ph="//..." />
+                  <marker date="1502695980000" expanded="true" signature="694:717" ph="//..." />
+                  <marker date="1502695980000" expanded="true" signature="1282:1373" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="1338:1371" ph="{...}" />
+                  <marker date="1502695980000" expanded="true" signature="1519:1735" ph="/*...*/" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-常用工具util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/05-常用工具util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="56" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-对象.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +132,8 @@
         <entry file="file://$PROJECT_DIR$/node/00-introduction/introduction.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="113" lean-forward="true" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -48,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/00-introduction/02-module.js">
+      <file leaf-file-name="03-调试.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/00-introduction/03-调试.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -85,6 +178,7 @@
       <replace>var</replace>
       <replace>let</replace>
       <replace>+</replace>
+      <replace>+</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,12 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/fileSystem/50-fs.readFileSync.md" />
-        <option value="$PROJECT_DIR$/node/fileSystem/51-fs.readlink.md" />
-        <option value="$PROJECT_DIR$/node/fileSystem/49-fs.readFile.js" />
-        <option value="$PROJECT_DIR$/node/fileSystem/52-fs.readlinkSync.md" />
-        <option value="$PROJECT_DIR$/node/fileSystem/53-fs.readSync.md" />
-        <option value="$PROJECT_DIR$/node/fileSystem/54-fs.realpath.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/55-fs.realpathSync.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/56-fs.rename.md" />
         <option value="$PROJECT_DIR$/node/fileSystem/57-fs.renameSync.md" />
@@ -154,6 +242,12 @@
         <option value="$PROJECT_DIR$/node/00-introduction/module.js" />
         <option value="$PROJECT_DIR$/node/00-introduction/02-getModule.js" />
         <option value="$PROJECT_DIR$/node/00-introduction/02-模块和包.md" />
+        <option value="$PROJECT_DIR$/node/00-introduction/03-调试.js" />
+        <option value="$PROJECT_DIR$/node/00-introduction/03-调试.md" />
+        <option value="$PROJECT_DIR$/node/00-introduction/04-对象.js" />
+        <option value="$PROJECT_DIR$/node/00-introduction/04-对象.md" />
+        <option value="$PROJECT_DIR$/node/00-introduction/05-常用工具util.js" />
+        <option value="$PROJECT_DIR$/node/00-introduction/05-常用工具util.md" />
         <option value="$PROJECT_DIR$/node/00-introduction/introduction.md" />
       </list>
     </option>
@@ -702,7 +796,7 @@
       <workItem from="1502256461433" duration="13380000" />
       <workItem from="1502325096478" duration="3778000" />
       <workItem from="1502426100497" duration="13634000" />
-      <workItem from="1502670046765" duration="8903000" />
+      <workItem from="1502670046765" duration="16634000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -715,7 +809,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106911000" />
+    <option name="totallyTimeSpent" value="114642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -769,81 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/56-fs.rename.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            <folding>
-              <marker date="1502431173000" expanded="true" signature="98:173" ph="//..." />
-              <marker date="1502431173000" expanded="true" signature="98:195" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/57-fs.renameSync.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            <folding>
-              <marker date="1502431267000" expanded="true" signature="98:173" ph="//..." />
-              <marker date="1502431267000" expanded="true" signature="98:174" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/58-fs.rmdir.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            <folding>
-              <marker date="1502431406000" expanded="true" signature="96:152" ph="//..." />
-              <marker date="1502431406000" expanded="true" signature="98:152" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/59-fs.rmdirSync.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            <folding>
-              <marker date="1502431599000" expanded="true" signature="96:97" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/61-fs.statSync.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            <folding>
-              <marker date="1502431876000" expanded="true" signature="99:134" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/62-fs.symlink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/01-fileSystem/63-fs.symlinkSync.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1320,19 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
-            <folding>
-              <marker date="1502677772000" expanded="true" signature="2227:2344" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/00-introduction/02-module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1352,15 +1358,97 @@
     <entry file="file://$PROJECT_DIR$/node/00-introduction/02-模块和包.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="139" column="2" lean-forward="false" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+          <first_editor relative-caret-position="-2092">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
             <folding>
-              <marker date="1502681206000" expanded="true" signature="338:357" ph="{...}" />
-              <marker date="1502681206000" expanded="true" signature="389:422" ph="{...}" />
-              <marker date="1502681206000" expanded="true" signature="677:844" ph="{...}" />
-              <marker date="1502681206000" expanded="true" signature="731:762" ph="{...}" />
-              <marker date="1502681206000" expanded="true" signature="795:840" ph="{...}" />
-              <marker date="1502681206000" expanded="true" signature="1783:1818" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="338:357" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="389:422" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="677:844" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="731:762" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="795:840" ph="{...}" />
+              <marker date="1502681406000" expanded="true" signature="1783:1818" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="319">
+            <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <folding>
+              <marker date="1502677772000" expanded="true" signature="2227:2344" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/03-调试.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/03-调试.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/05-常用工具util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="56" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/05-常用工具util.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="393">
+            <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <folding>
+              <marker date="1502695980000" expanded="true" signature="193:308" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="261:306" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="346:377" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="394:418" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="534:599" ph="//..." />
+              <marker date="1502695980000" expanded="true" signature="694:717" ph="//..." />
+              <marker date="1502695980000" expanded="true" signature="1282:1373" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="1338:1371" ph="{...}" />
+              <marker date="1502695980000" expanded="true" signature="1519:1735" ph="/*...*/" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1370,8 +1458,8 @@
     <entry file="file://$PROJECT_DIR$/node/00-introduction/introduction.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="113" lean-forward="true" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
             <folding />
           </first_editor>
           <second_editor />
