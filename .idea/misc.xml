@@ -9,6 +9,9 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/node/00-introduction/01-异步式I/O与事件驱动.md" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" />
   <component name="masterDetails">
     <states>
