@@ -2,489 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/images/express网站的架构.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/images/http请求的绑定函数.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/bin/www" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/error.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/index.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/accepts/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/accepts/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/accepts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/accepts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/accepts/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/implementation.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/implementation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/optional.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/bluebird.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/bluebird.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/es6-promise.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/es6-promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/lie.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/lie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/native-promise-only.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/native-promise-only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/pinkie.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/pinkie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/promise.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/q.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/q.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/rsvp.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/rsvp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/vow.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/vow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/when.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/any-promise/register/when.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/bytes/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/bytes/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/bytes/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/bytes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/bytes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/lib/any.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/lib/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/lib/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/lib/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co-body/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/co/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-disposition/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-disposition/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-disposition/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-disposition/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-disposition/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-type/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-type/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-type/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-type/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/content-type/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/cookies/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/cookies/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/cookies/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/cookies/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/cookies/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/example/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/lib/is_arguments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/lib/keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/deep-equal/test/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/delegates/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/lib/browser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/lib/compat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/depd/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/destroy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/destroy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/destroy/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/destroy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ee-first/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ee-first/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ee-first/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ee-first/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/error-inject/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/error-inject/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/error-inject/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/escape-html/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/escape-html/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/escape-html/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/escape-html/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/incoming_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/json_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/multipart_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/octet_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/lib/querystring_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/formidable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fresh/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fresh/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fresh/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fresh/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fresh/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fs.promised/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fs.promised/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fs.promised/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fs.promised/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/fs.promised/promisify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-assert/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-assert/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-assert/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-assert/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-assert/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-errors/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-errors/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-errors/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/http-errors/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/Changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/encodings/utf7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/lib/extend-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/lib/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/lib/streams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/iconv-lite/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inflation/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inflation/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inflation/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inflation/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inflation/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inherits/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inherits/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inherits/inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inherits/inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/inherits/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/.jscs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/.nvmrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/test/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/test/corejs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/is-generator-function/testling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/isarray/build/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/isarray/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/isarray/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/keygrip/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-body/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-compose/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-compose/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-compose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-compose/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/node_modules/koa-compose/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/node_modules/koa-compose/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/node_modules/koa-compose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/node_modules/koa-compose/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-convert/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-is-json/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-is-json/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-is-json/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-is-json/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-is-json/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-route/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-route/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-route/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-route/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-send/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa-static/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/lib/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/lib/context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/lib/request.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/lib/response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/koa/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/media-typer/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/media-typer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/media-typer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/media-typer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/media-typer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/methods/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/methods/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/methods/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/methods/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/methods/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/db.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-db/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-types/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-types/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-types/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-types/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mime-types/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ms/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ms/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ms/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/ms/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/child_process.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/crypto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/dns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/fs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/readline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/mz/zlib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/lib/charset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/lib/encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/lib/language.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/lib/mediaType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/negotiator/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/object-assign/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/object-assign/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/object-assign/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/object-assign/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/on-finished/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/on-finished/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/on-finished/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/on-finished/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/on-finished/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/only/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/parseurl/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/parseurl/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/parseurl/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/parseurl/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/parseurl/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-is-absolute/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-is-absolute/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-is-absolute/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-is-absolute/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/path-to-regexp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/dist/qs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/lib/formats.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/lib/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/test/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/test/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/qs/test/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/lib/compat/buffer-concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/lib/compat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/depd/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/http-errors/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/http-errors/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/http-errors/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/node_modules/http-errors/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/raw-body/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/http-errors/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/http-errors/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/http-errors/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/http-errors/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/setprototypeof/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/setprototypeof/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/setprototypeof/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/node_modules/setprototypeof/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/resolve-path/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/setprototypeof/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/setprototypeof/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/setprototypeof/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/setprototypeof/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/codes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/statuses/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify-all/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify-all/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify-all/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify-all/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify-all/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/thenify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/type-is/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/type-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/type-is/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/type-is/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/type-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/unpipe/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/unpipe/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/unpipe/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/unpipe/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/unpipe/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/vary/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/vary/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/vary/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/vary/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/node_modules/vary/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node/expressDemo/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/expressDemo/readme.md" afterPath="$PROJECT_DIR$/node/expressDemo/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/01-fileSystem/fileSystem.md" afterPath="$PROJECT_DIR$/node/01-fileSystem/fileSystem.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/02-http/http.md" afterPath="$PROJECT_DIR$/node/02-http/http.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -508,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/expressDemo/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -524,6 +44,32 @@
                   <marker date="1502875379000" expanded="true" signature="2842:2876" ph="..." />
                   <marker date="1502875379000" expanded="true" signature="3073:3095" ph="{...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileSystem.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/01-fileSystem/fileSystem.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1408">
+                <caret line="76" column="99" lean-forward="false" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/02-http/http.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -568,16 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -608,16 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/error.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
@@ -638,15 +164,15 @@
       <find>createWriteStream</find>
       <find>realpathSync</find>
       <find>t</find>
-      <find>fileSystem</find>
       <find></find>
+      <find>fileSystem</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
       <replace>let</replace>
       <replace>+</replace>
-      <replace>+</replace>
       <replace>-</replace>
+      <replace>01-fileSystem</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -666,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/array/array.md" />
-        <option value="$PROJECT_DIR$/node/fileSystem/fileSystem.md" />
         <option value="$PROJECT_DIR$/node/http/http.md" />
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.md" />
         <option value="$PROJECT_DIR$/node/http/01-http.Agent.js" />
@@ -717,6 +241,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/node/expressDemo/package.json" />
         <option value="$PROJECT_DIR$/node/expressDemo/readme.md" />
+        <option value="$PROJECT_DIR$/node/01-fileSystem/fileSystem.md" />
+        <option value="$PROJECT_DIR$/node/02-http/http.md" />
       </list>
     </option>
   </component>
@@ -801,7 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="expressDemo" />
+              <option name="myItemId" value="02-http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -819,15 +345,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="expressDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microblog" />
+              <option name="myItemId" value="01-fileSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1286,7 +804,7 @@
       <workItem from="1502426100497" duration="13634000" />
       <workItem from="1502670046765" duration="20090000" />
       <workItem from="1502756927365" duration="18006000" />
-      <workItem from="1502843075088" duration="20441000" />
+      <workItem from="1502843075088" duration="20615000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -1299,7 +817,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156545000" />
+    <option name="totallyTimeSpent" value="156719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1312,6 +830,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1333,7 +852,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28073993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28073993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16862956" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1365,23 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/03-调试.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/00-introduction/04-对象.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1845,6 +1347,28 @@
               <marker date="1502875379000" expanded="true" signature="2842:2876" ph="..." />
               <marker date="1502875379000" expanded="true" signature="3073:3095" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/fileSystem.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1408">
+            <caret line="76" column="99" lean-forward="false" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/02-http/http.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
