@@ -440,6 +440,102 @@ app.listen(3000);
 
 ### 1.5.1 Cookies
 
+- ctx.cookies用来读写 Cookie
+
+```js
+const Koa = require('koa');
+const app = new Koa();
+
+const main = ctx => {
+    const n = Number(ctx.cookies.get('view')||0)+1;
+    ctx.cookies.set('view',n)
+    ctx.response.body = n +'views'
+}
+
+app.use(main)
+app.listen(3000)
+```
+
+- 访问 http://127.0.0.1:3000 ，你会看到1 views。刷新一次页面，就变成了2 views。再刷新，每次都会计数增加1。
+
+### 1.5.2 表单
+
+- 表单就是 POST 方法发送到服务器的键值对。koa-body模块可以用来从 POST 请求的数据体里面提取键值对.
+
+```js
+const Koa = require('koa');
+const koaBody = require('koa-body');
+const app = new Koa();
+
+const main = async (ctx) => {
+    const body = ctx.request.body;
+    if (!body.name) ctx.throw(400, '.name required')
+    ctx.body = {name: body.name}
+
+}
+
+app.use(koaBody())
+app.use(main)
+app.listen(3000)
+```
+
+- 打开另一个命令行窗口，运行下面的命令。
+
+```js
+
+$ curl -X POST --data "name=Jack" 127.0.0.1:3000
+//{"name":"Jack"}
+
+$ curl -X POST --data "name" 127.0.0.1:3000
+//name required
+```
+## 1.5.3 文件上传
+
+- koa-body模块还可以用来处理文件上传
+
+```js
+const os = require('os');
+const path = require('path');
+const koaBody = require('koa-body');
+const fs = require('fs');
+const Koa = require('koa');
+const app = new Koa();
+
+const main = async ctx => {
+    const tmpdir = os.tmpdir();
+    const filePaths = [];
+    const files = ctx.request.body.files || 0;
+
+    for(let key in files){
+        const file = files[key];
+        const filePath = path.join(tmpdir,file.name);
+        const render = fs.createReadStream(file.path);
+        const writer = fs.createWriteStream(filePath);
+        render.pipe(writer);
+        filePaths.push(filePath);
+    }
+    ctx.body = filePaths;
+}
+
+app.use(koaBody({multipart:true}))
+app.use(main)
+app.listen(3000)
+```
+
+- 打开另一个命令行窗口，运行下面的命令，上传一个文件。注意，/path/to/file要更换为真实的文件路径。
+
+```js
+$ curl --form upload=@/path/to/file http://127.0.0.1:3000
+//["/tmp/file"]
+```
+
+
+
+
+
+
+
+
 
 
 
