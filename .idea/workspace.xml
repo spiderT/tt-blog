@@ -2,41 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/API.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/01-express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/02-app.set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/listitem.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/access.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/cluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/error.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/microblog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/models/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/models/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/models/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/javascripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/javascripts/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/stylesheets/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/public/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/posts.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/reg.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/say.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressDemo/sources/microblog/views/user.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js" afterPath="$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/expressDemo/readme.md" afterPath="$PROJECT_DIR$/node/expressDemo/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/expressAPI/API.md" afterPath="$PROJECT_DIR$/node/expressAPI/API.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/expressAPI/package.json" afterPath="$PROJECT_DIR$/node/expressAPI/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,30 +38,36 @@
         <entry file="file://$PROJECT_DIR$/node/expressAPI/API.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="447">
-                <caret line="225" column="3" lean-forward="false" selection-start-line="225" selection-start-column="3" selection-end-line="225" selection-end-column="3" />
+              <first_editor relative-caret-position="536">
+                <caret line="499" column="30" lean-forward="false" selection-start-line="499" selection-start-column="30" selection-end-line="499" selection-end-column="30" />
                 <folding>
-                  <marker date="1502962983000" expanded="true" signature="120:152" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="655:669" ph="//..." />
-                  <marker date="1502962983000" expanded="true" signature="1361:1402" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="1452:1493" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="1545:1585" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="1704:1745" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="1794:1834" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="2005:2067" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="2096:2128" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3259:3462" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3296:3458" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3311:3335" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3351:3395" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3401:3454" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3551:3800" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3581:3798" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3623:3794" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3688:3750" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3756:3788" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="3915:3955" ph="{...}" />
-                  <marker date="1502962983000" expanded="true" signature="4044:4131" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="120:152" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="655:669" ph="//..." />
+                  <marker date="1503033009000" expanded="true" signature="1361:1402" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="1452:1493" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="1545:1585" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="1704:1745" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="1794:1834" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="2005:2067" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="2096:2128" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3259:3462" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3296:3458" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3311:3335" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3351:3395" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3401:3454" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3551:3800" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3581:3798" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3623:3794" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3688:3750" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3756:3788" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="3915:3955" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="4044:4131" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="4898:4910" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="5556:5608" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="5629:5685" ph="//..." />
+                  <marker date="1503033009000" expanded="true" signature="6084:6125" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="6390:6420" ph="{...}" />
+                  <marker date="1503033009000" expanded="true" signature="6442:6719" ph="/*...*/" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -95,21 +75,128 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-app.use.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js">
+      <file leaf-file-name="08-req.route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-app.set.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/02-app.set.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09-req.files.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-req.query.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koaDemo/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="7742">
+                <caret line="521" column="16" lean-forward="false" selection-start-line="521" selection-start-column="16" selection-end-line="521" selection-end-column="16" />
+                <folding>
+                  <marker date="1502863373000" expanded="true" signature="553:593" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1045:1496" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1080:1170" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1206:1291" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1327:1412" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1416:1494" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="1763:1861" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="2038:2228" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="2072:2172" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="2176:2226" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="2443:2527" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="2546:2585" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="3209:3298" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="3320:3362" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="3605:3720" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4041:4129" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4152:4194" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4567:4636" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4664:4733" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4763:4836" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="4897:4951" ph="/*...*/" />
+                  <marker date="1502863373000" expanded="true" signature="5177:5280" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="5492:5582" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="5604:5646" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="5924:5946" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="6204:6278" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="6514:6696" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="6522:6548" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="6559:6694" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="6651:6689" ph="{&quot;message&quot;: err.message...}" />
+                  <marker date="1502863373000" expanded="true" signature="6718:6739" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7022:7045" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7077:7119" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7412:7698" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7421:7449" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7460:7696" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7720:7743" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="7765:7838" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="8123:8243" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="8555:8680" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="9142:9570" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="9275:9542" ph="{...}" />
+                  <marker date="1502863373000" expanded="true" signature="9748:9780" ph="//..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06-req.params.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-app.routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-app.locals.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -152,7 +239,6 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -168,14 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/00-introduction/07-文件系统fs.md" />
-        <option value="$PROJECT_DIR$/node/00-introduction/introduction.md" />
-        <option value="$PROJECT_DIR$/node/00-introduction/08-HTTP服务器与客户端.js" />
-        <option value="$PROJECT_DIR$/node/00-introduction/08-HTTP服务器与客户端.md" />
-        <option value="$PROJECT_DIR$/node/DEMO/readme.md" />
-        <option value="$PROJECT_DIR$/node/package.json" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/demo1.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/01.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/02.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/03.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/template.html" />
@@ -218,6 +296,14 @@
         <option value="$PROJECT_DIR$/node/expressAPI/demos/01-express.js" />
         <option value="$PROJECT_DIR$/node/expressAPI/demos/02-app.set.js" />
         <option value="$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/07-req.body.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/08-req.files.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js" />
+        <option value="$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js" />
         <option value="$PROJECT_DIR$/node/expressAPI/API.md" />
       </list>
     </option>
@@ -264,6 +350,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,7 +419,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,13 +435,6 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lianjia/tt/project/项目总结/ivyTa.github.io/README.md" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos" />
-      <recent name="$PROJECT_DIR$/node/images" />
-      <recent name="$PROJECT_DIR$/node/koaDemo/demos" />
-      <recent name="$PROJECT_DIR$/node" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/node/expressDemo" />
       <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
@@ -363,6 +442,123 @@
       <recent name="$PROJECT_DIR$/node/DEMO" />
       <recent name="$PROJECT_DIR$/node/fileSystem" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node/expressAPI/demos" />
+      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
+      <recent name="$PROJECT_DIR$/node/expressDemo/demos" />
+      <recent name="$PROJECT_DIR$/node/images" />
+      <recent name="$PROJECT_DIR$/node/koaDemo/demos" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/_config.yml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -787,7 +983,8 @@
       <workItem from="1502670046765" duration="20090000" />
       <workItem from="1502756927365" duration="18006000" />
       <workItem from="1502843075088" duration="20849000" />
-      <workItem from="1502931377234" duration="17781000" />
+      <workItem from="1502931377234" duration="18288000" />
+      <workItem from="1503015479322" duration="10965000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -800,7 +997,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174734000" />
+    <option name="totallyTimeSpent" value="186206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,8 +1032,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40327868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17077088" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16612022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16059957" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -859,7 +1056,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="js array traversal" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js</url>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -867,55 +1072,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/13.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/14.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/15.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/16.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/17.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/18.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/19.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -934,16 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="106">
-            <caret line="521" column="16" lean-forward="false" selection-start-line="521" selection-start-column="16" selection-end-line="521" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -979,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,9 +1133,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="798">
             <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-            <folding>
-              <marker date="1502677772000" expanded="true" signature="2227:2344" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1022,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,19 +1222,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/sources/chap3/sec1/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/sources/chap3/sec1/app.js" />
     <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/views/reg.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,58 +1297,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-app.locals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/02-app.mountpath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-app.locals.js" />
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/02-app.mountpath.js" />
     <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.on.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.on.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1238,14 +1319,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1333,134 @@
     <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
+          <caret line="12" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koaDemo/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="7742">
+            <caret line="521" column="16" lean-forward="false" selection-start-line="521" selection-start-column="16" selection-end-line="521" selection-end-column="16" />
+            <folding>
+              <marker date="1502863373000" expanded="true" signature="553:593" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1045:1496" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1080:1170" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1206:1291" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1327:1412" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1416:1494" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="1763:1861" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="2038:2228" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="2072:2172" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="2176:2226" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="2443:2527" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="2546:2585" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="3209:3298" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="3320:3362" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="3605:3720" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4041:4129" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4152:4194" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4567:4636" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4664:4733" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4763:4836" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="4897:4951" ph="/*...*/" />
+              <marker date="1502863373000" expanded="true" signature="5177:5280" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="5492:5582" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="5604:5646" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="5924:5946" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="6204:6278" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="6514:6696" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="6522:6548" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="6559:6694" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="6651:6689" ph="{&quot;message&quot;: err.message...}" />
+              <marker date="1502863373000" expanded="true" signature="6718:6739" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7022:7045" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7077:7119" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7412:7698" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7421:7449" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7460:7696" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7720:7743" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="7765:7838" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="8123:8243" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="8555:8680" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="9142:9570" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="9275:9542" ph="{...}" />
+              <marker date="1502863373000" expanded="true" signature="9748:9780" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/08-req.files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1268,30 +1468,36 @@
     <entry file="file://$PROJECT_DIR$/node/expressAPI/API.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="447">
-            <caret line="225" column="3" lean-forward="false" selection-start-line="225" selection-start-column="3" selection-end-line="225" selection-end-column="3" />
+          <first_editor relative-caret-position="536">
+            <caret line="499" column="30" lean-forward="false" selection-start-line="499" selection-start-column="30" selection-end-line="499" selection-end-column="30" />
             <folding>
-              <marker date="1502962983000" expanded="true" signature="120:152" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="655:669" ph="//..." />
-              <marker date="1502962983000" expanded="true" signature="1361:1402" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="1452:1493" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="1545:1585" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="1704:1745" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="1794:1834" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="2005:2067" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="2096:2128" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3259:3462" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3296:3458" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3311:3335" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3351:3395" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3401:3454" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3551:3800" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3581:3798" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3623:3794" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3688:3750" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3756:3788" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="3915:3955" ph="{...}" />
-              <marker date="1502962983000" expanded="true" signature="4044:4131" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="120:152" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="655:669" ph="//..." />
+              <marker date="1503033009000" expanded="true" signature="1361:1402" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="1452:1493" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="1545:1585" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="1704:1745" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="1794:1834" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="2005:2067" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="2096:2128" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3259:3462" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3296:3458" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3311:3335" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3351:3395" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3401:3454" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3551:3800" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3581:3798" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3623:3794" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3688:3750" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3756:3788" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="3915:3955" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="4044:4131" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="4898:4910" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="5556:5608" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="5629:5685" ph="//..." />
+              <marker date="1503033009000" expanded="true" signature="6084:6125" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="6390:6420" ph="{...}" />
+              <marker date="1503033009000" expanded="true" signature="6442:6719" ph="/*...*/" />
             </folding>
           </first_editor>
           <second_editor />

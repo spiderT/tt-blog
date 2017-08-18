@@ -226,6 +226,291 @@ app.get('/range/:range', function(req, res){
 });
 ```
 
+#### 1.2.11 app.VERB(path, [callback...], callback)
+
+
+#### 1.2.12 app.all(path, [callback...], callback)
+
+```js
+app.all('*', requireAuthentication, loadUser);
+```
+
+或者
+
+```js
+app.all('*', requireAuthentication);
+app.all('*', loadUser);
+```
+
+”全局“白名单函数。例如限制前缀为 “/api”:
+
+```js
+app.all('/api/*', requireAuthentication);
+```
+
+#### 1.2.13 app.locals
+
+应用程序本地变量会附加给所有的在这个应用程序内渲染的模板。
+
+```js
+const express = require('express');
+const app = express();
+
+app.locals.title = 'My App';
+app.locals.strftime = require('strftime');
+
+console.log(app.locals);
+```
+app.locals 对象是一个 JavaScript Function，执行的时候它会把属性合并到它自身，提供了一种简单展示已有对象作为本地变量的方法。
+
+#### 1.2.14 app.render(view, [options], callback)
+
+渲染 view ， 回调函数 callback 用来处理返回的渲染后的字符串。
+
+```js
+app.render('email', function(err, html){
+  // ...
+});
+```
+
+#### 1.2.15 app.routes
+
+app.routes 对象存储了所有的被 HTTP 定义路由
+
+#### 1.2.16 app.listen()
+
+在给定的主机和端口上监听请求
+
+```js
+var express = require('express');
+var app = express();
+app.listen(3000);
+```
+
+因为 app 不是从 HTTP 或者 HTTPS 继承来的，它只是一个简单的回调函数，你可以以同一份代码同时处理 HTTP 和 HTTPS 版本的服务。
+
+```js
+var express = require('express');
+var https = require('https');
+var http = require('http');
+var app = express();
+
+http.createServer(app).listen(80);
+https.createServer(options, app).listen(443);
+```
+
+### 1.3 Request
+
+#### 1.3.1 req.params
+
+#### 1.3.2 req.query
+
+解析的查询字符串
+
+```js
+const express = require('express')
+const app = express();
+
+
+app.get('/user/:id?',(req,res) => {
+    console.log(req.query)
+    res.end('lalla');
+})
+
+app.listen(3000)
+
+//访问http://localhost:3000/user?q=anv
+//控制台打印{ q: 'anv' }
+
+```
+
+#### 1.3.3 req.body
+
+被解析的请求体,该功能由bodyParser（）中间件提供
+
+#### 1.3.4 req.files
+
+上传文件
+
+```js
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+
+const multipart = require('connect-multiparty')//中间件 文件上传
+const multipartMiddleware = multipart();
+
+//https://www.npmjs.com/package/connect-multiparty
+
+app.post('/upload',multipartMiddleware,(req,resp)=>{
+    console.log(req.body, req.files);
+})
+```
+
+#### 1.3.5 req.param(name)
+
+当存在时返回参数名称的值
+
+```js
+// ?name=tobi
+req.param('name')
+// => "tobi"
+```
+
+#### 1.3.6 req.route
+
+当前匹配的路由包含多个属性，如路由的原始路径字符串，正则表达式生成等
+
+```js
+const express = require('express');
+const app = express();
+
+app.get('/user/:id?', (req, res) => {
+    console.log(req.route)
+});
+
+app.listen(3000);
+/*Route {
+    path: '/user/:id?',
+        stack:
+    [ Layer {
+        handle: [Function],
+        name: '<anonymous>',
+        params: undefined,
+        path: undefined,
+        keys: [],
+        regexp: /^\/?$/i,
+        method: 'get' } ],
+        methods: { get: true } }*/
+```
+
+#### 1.3.7 req.cookies
+
+需要使用cookieParser（）中间件。它包含用户代理发送的cookie。如果没有发送cookie，则默认为{}。
+
+```js
+// Cookie: name=tt
+req.cookies.name
+// => "tt"
+```
+
+#### 1.3.8 req.signedCookies
+
+签名的Cookie留在不同的对象中以显示开发人员的意图;
+
+```js
+// Cookie: user=tobi.CP7AWaXDfAKIRfH49dQzKJx7sKzzSoPq7/AcBBRVwlI3
+req.signedCookies.user
+// => "tobi"
+```
+
+#### 1.3.9 req.get(field)
+
+获取不区分大小写的请求头域. “Referrer” 和 “Referer” 字段是可互换的。
+
+```js
+req.get('Content-Type');
+// => "text/plain"
+
+req.get('content-type');
+// => "text/plain"
+```
+
+#### 1.3.10 req.accepts(types)
+
+检查给定的类型是否可以接受。
+
+```js
+// Accept: text/*, application/json
+req.accepts('html');
+// => "html"
+req.accepts('text/html');
+// => "text/html"
+req.accepts('json, text');
+// => "json"
+req.accepts('application/json');
+// => "application/json"
+```
+
+#### 1.3.11 req.accepted
+
+返回一系列接受的media类型，从最高质量排序到最低。
+
+
+#### 1.3.12 req.is(type)
+
+检查传入请求是否包含“Content-Type”头域，并且与给定的类型匹配
+
+```js
+// With Content-Type: text/html; charset=utf-8
+req.is('html');
+req.is('text/html');
+req.is('text/*');
+// => true
+```
+
+#### 1.3.13 req.ip
+
+返回远程地址，或启用“信任代理”时 - 上游地址。
+
+```js
+req.ip
+// => "127.0.0.1"
+```
+
+#### 1.3.14 req.ips
+
+当“信任代理”为真时，解析“X-Forwarded-For”ip地址列表并返回一个数组，否则返回一个空数组。
+
+
+#### 1.3.15 req.path
+
+返回请求URL路径名。
+
+```js
+// example.com/users?sort=desc
+req.path
+// => "/users"
+```
+
+#### 1.3.16 req.host
+
+从“主机”头域返回主机名（不含portno）
+
+```js
+// Host: "example.com:3000"
+req.host
+// => "example.com"
+```
+
+#### 1.3.17 req.fresh
+
+检查请求是否是最新的 - 也就是上次修改和/或ETag仍然匹配，表示资源是“最新的”。
+
+#### 1.3.18 req.stale
+
+检查请求是否过时 - 还有“Last-Modified”和/或“ETag”不匹配，表示资源为“过时”。
+
+#### 1.3.19 req.xhr
+
+检查请求是否已发出“X-Requested-With”标题字段设置为“XMLHttpRequest”（jQuery等）。
+
+#### 1.3.20 req.protocol
+
+请求时使用TLS返回协议字符串“http”或“https”。
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
