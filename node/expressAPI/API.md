@@ -499,9 +499,13 @@ req.host
 
 请求时使用TLS返回协议字符串“http”或“https”。
 
+#### 1.3.21 req.secure
 
+检查TLS连接是否建立。
 
-
+```js
+'https' == req.protocol;
+```
 
 
 
