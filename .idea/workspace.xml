@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/01.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/koa2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/react.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/浏览器及http/cookie和session.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/浏览器及http/http协议.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/浏览器及http/浏览器工作原理.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/static/image/dog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/02-post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/03-bodyparser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/util/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/dir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/mimes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/walk.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,25 +39,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="01.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/01.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="573">
+              <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="react.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react/react.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/upload/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4e44da761351f.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/upload/upload-files/album/4e44da761351f.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/koa2/upload/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <marker date="1503303471000" expanded="true" signature="366:576" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/upload/util/upload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/util/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mimes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/util/mimes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="walk.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/koa2/util/walk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +154,9 @@
       <find>1.5</find>
       <find>list</find>
       <find>crypto</find>
+      <find>parsePostData</find>
+      <find>bodyParser</find>
+      <find>parseQueryStr</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -97,18 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/04.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/05.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/06.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/07.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/08.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/09.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/10.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/11.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/12.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/13.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/14.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/15.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/16.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/17.js" />
         <option value="$PROJECT_DIR$/node/koaDemo/demos/18.js" />
@@ -148,6 +222,18 @@
         <option value="$PROJECT_DIR$/浏览器及http/浏览器工作原理.md" />
         <option value="$PROJECT_DIR$/浏览器及http/http协议.md" />
         <option value="$PROJECT_DIR$/node/koa2/01.js" />
+        <option value="$PROJECT_DIR$/node/koa2/02.js" />
+        <option value="$PROJECT_DIR$/node/koa2/03-bodyparser.js" />
+        <option value="$PROJECT_DIR$/node/koa2/index.js" />
+        <option value="$PROJECT_DIR$/node/koa2/util/content.js" />
+        <option value="$PROJECT_DIR$/node/koa2/util/dir.js" />
+        <option value="$PROJECT_DIR$/node/koa2/util/walk.js" />
+        <option value="$PROJECT_DIR$/node/koa2/util/file.js" />
+        <option value="$PROJECT_DIR$/node/koa2/util/mimes.js" />
+        <option value="$PROJECT_DIR$/node/koa2/static/index.html" />
+        <option value="$PROJECT_DIR$/node/koa2/upload/index.js" />
+        <option value="$PROJECT_DIR$/node/koa2/upload/util/upload.js" />
+        <option value="$PROJECT_DIR$/node/koa2/upload/package.json" />
       </list>
     </option>
   </component>
@@ -167,6 +253,8 @@
     <handled-path value="$PROJECT_DIR$/node/expressAPI/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/expressDemo/demos/microblog/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/expressDemo/sources/microblog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/koa2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/koa2/upload/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/koaDemo/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -191,7 +279,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,10 +293,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="浏览器及http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koa2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koa2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koa2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,19 +406,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lianjia/tt/project/项目总结/ivyTa.github.io/README.md" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node/koa2/static/image" />
+      <recent name="$PROJECT_DIR$/node/expressAPI/demos" />
+      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
+      <recent name="$PROJECT_DIR$/node/expressDemo/demos" />
+      <recent name="$PROJECT_DIR$/node/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/node/expressDemo" />
       <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
       <recent name="$PROJECT_DIR$/node/expressDemo/demos/microblog/views" />
       <recent name="$PROJECT_DIR$/node/DEMO" />
       <recent name="$PROJECT_DIR$/node/fileSystem" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node/expressAPI/demos" />
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos" />
-      <recent name="$PROJECT_DIR$/node/images" />
-      <recent name="$PROJECT_DIR$/node/koaDemo/demos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -664,7 +846,9 @@
       <workItem from="1502843075088" duration="20849000" />
       <workItem from="1502931377234" duration="18288000" />
       <workItem from="1503015479322" duration="11514000" />
-      <workItem from="1503037790955" duration="2882000" />
+      <workItem from="1503037790955" duration="4114000" />
+      <workItem from="1503276611147" duration="302000" />
+      <workItem from="1503284893013" duration="5132000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -677,7 +861,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189637000" />
+    <option name="totallyTimeSpent" value="196303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,7 +873,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-305" y="-1057" width="1920" height="1053" extended-state="0" />
+    <frame x="-305" y="-1057" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -712,8 +896,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3486339" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20021413" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22185792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20556745" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -751,124 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/images/fs _ Node.js API 文档_files/hm.js" />
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="118" lean-forward="false" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="118" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="798">
-            <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/01-fileSystem/fileSystem.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1444">
-            <caret line="76" column="99" lean-forward="false" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/02-http/http.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/error.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/listitem.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/views/list.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="528">
-            <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-            <folding>
-              <marker date="1502939735000" expanded="true" signature="1502:1544" ph="{...}" />
-              <marker date="1502939735000" expanded="true" signature="1593:1640" ph="{...}" />
-              <marker date="1502939735000" expanded="true" signature="1881:1938" ph="{...}" />
-              <marker date="1502939735000" expanded="true" signature="1987:2038" ph="{...}" />
-              <marker date="1502939735000" expanded="true" signature="2708:2890" ph="..." />
-              <marker date="1502939735000" expanded="true" signature="2721:2835" ph="..." />
-              <marker date="1502939735000" expanded="true" signature="2848:2882" ph="..." />
-              <marker date="1502939735000" expanded="true" signature="3079:3101" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/sources/chap3/sec1/app.js" />
     <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/views/reg.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,35 +1110,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="437">
             <caret line="506" column="24" lean-forward="false" selection-start-line="506" selection-start-column="24" selection-end-line="506" selection-end-column="24" />
-            <folding>
-              <marker date="1503034104000" expanded="true" signature="120:152" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="655:669" ph="//..." />
-              <marker date="1503034104000" expanded="true" signature="1361:1402" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="1452:1493" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="1545:1585" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="1704:1745" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="1794:1834" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="2005:2067" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="2096:2128" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3259:3462" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3296:3458" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3311:3335" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3351:3395" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3401:3454" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3551:3800" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3581:3798" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3623:3794" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3688:3750" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3756:3788" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="3915:3955" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="4044:4131" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="4898:4910" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="5556:5608" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="5629:5685" ph="//..." />
-              <marker date="1503034104000" expanded="true" signature="6084:6125" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="6390:6420" ph="{...}" />
-              <marker date="1503034104000" expanded="true" signature="6442:6719" ph="/*...*/" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1090,7 +1120,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
             <caret line="2" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1101,7 +1130,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
             <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1112,7 +1140,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1123,53 +1150,34 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="628">
             <caret line="521" column="16" lean-forward="false" selection-start-line="521" selection-start-column="16" selection-end-line="521" selection-end-column="16" />
-            <folding>
-              <marker date="1502863373000" expanded="true" signature="553:593" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1045:1496" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1080:1170" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1206:1291" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1327:1412" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1416:1494" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="1763:1861" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="2038:2228" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="2072:2172" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="2176:2226" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="2443:2527" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="2546:2585" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="3209:3298" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="3320:3362" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="3605:3720" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4041:4129" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4152:4194" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4567:4636" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4664:4733" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4763:4836" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="4897:4951" ph="/*...*/" />
-              <marker date="1502863373000" expanded="true" signature="5177:5280" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="5492:5582" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="5604:5646" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="5924:5946" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="6204:6278" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="6514:6696" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="6522:6548" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="6559:6694" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="6651:6689" ph="{&quot;message&quot;: err.message...}" />
-              <marker date="1502863373000" expanded="true" signature="6718:6739" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7022:7045" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7077:7119" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7412:7698" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7421:7449" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7460:7696" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7720:7743" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="7765:7838" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="8123:8243" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="8555:8680" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="9142:9570" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="9275:9542" ph="{...}" />
-              <marker date="1502863373000" expanded="true" signature="9748:9780" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koaDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,22 +1192,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/01.js">
+    <entry file="file://$PROJECT_DIR$/node/koa2/03-bodyparser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="38">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1503296218000" expanded="true" signature="340:583" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/02-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <marker date="1503295047000" expanded="true" signature="248:491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/util/dir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/react.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/node/koa2/util/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/util/mimes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/util/walk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/util/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/upload/upload-files/album/4e44da761351f.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/upload/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/upload/util/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/upload/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1503303471000" expanded="true" signature="366:576" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
