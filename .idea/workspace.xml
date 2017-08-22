@@ -2,19 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/static/image/dog.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/02-post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/03-bodyparser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/upload/util/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/dir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/mimes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/koa2/util/walk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/output/asset/image/dog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/sql/user_info.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/util/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/util/get-sql-content-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/util/get-sql-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/init/util/walk-file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/codes/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/controllers/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/controllers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/controllers/user-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/controllers/work.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/models/user-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/routers/work.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/services/user-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/utils/datetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/utils/db-util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/utils/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/utils/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/views/admin.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/views/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/views/index.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/server/views/work.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/build/webpack.base.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/build/webpack.dev.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/build/webpack.prod.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/api/sign-in.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/api/sign-up.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/apps/admin.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/apps/error.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/apps/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/apps/work.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/components/footer-common.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/components/form-group.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/components/header-nav.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/components/sign-in-form.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/components/sign-up-form.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/pages/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/pages/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/pages/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/pages/work.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/texts/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/texts/user-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/utils/datetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/utils/tool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/react+koa2/static/src/utils/upload.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,100 +85,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_info.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/init/sql/user_info.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/index.js">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/init/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            <state relative-caret-position="361">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/upload/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4e44da761351f.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/upload/upload-files/album/4e44da761351f.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/koa2/upload/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <marker date="1503303471000" expanded="true" signature="366:576" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/package.json">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/init/util/db.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/upload/util/upload.js">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/react+koa2/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/util/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mimes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/util/mimes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="walk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/koa2/util/walk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -157,6 +167,9 @@
       <find>parsePostData</find>
       <find>bodyParser</find>
       <find>parseQueryStr</find>
+      <find>getFieldDecorator</find>
+      <find>formItemLayout</find>
+      <find>require('mysql')</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -166,6 +179,9 @@
       <replace>01-fileSystem</replace>
       <replace>1.3</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node/react+koa2/server</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,57 +199,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/16.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/17.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/18.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/19.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/20.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/demos/21.js" />
-        <option value="$PROJECT_DIR$/node/koaDemo/readme.md" />
-        <option value="$PROJECT_DIR$/node/expressDemo/package.json" />
-        <option value="$PROJECT_DIR$/node/01-fileSystem/fileSystem.md" />
-        <option value="$PROJECT_DIR$/node/02-http/http.md" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/list.ejs" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/views/listitem.ejs" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/users.js" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/index.js" />
-        <option value="$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/list.js" />
-        <option value="$PROJECT_DIR$/node/expressDemo/readme.md" />
-        <option value="$PROJECT_DIR$/node/expressDemo/sources/microblog/routes/index.js" />
-        <option value="$PROJECT_DIR$/node/expressDemo/sources/microblog/app.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/node/expressAPI/package.json" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/01-app.locals.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/02-app.mountpath.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/03-app.on.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/01-express.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/02-app.set.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/07-req.body.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/08-req.files.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js" />
-        <option value="$PROJECT_DIR$/node/expressAPI/API.md" />
-        <option value="$PROJECT_DIR$/浏览器及http/浏览器工作原理.md" />
-        <option value="$PROJECT_DIR$/浏览器及http/http协议.md" />
-        <option value="$PROJECT_DIR$/node/koa2/01.js" />
-        <option value="$PROJECT_DIR$/node/koa2/02.js" />
-        <option value="$PROJECT_DIR$/node/koa2/03-bodyparser.js" />
-        <option value="$PROJECT_DIR$/node/koa2/index.js" />
-        <option value="$PROJECT_DIR$/node/koa2/util/content.js" />
-        <option value="$PROJECT_DIR$/node/koa2/util/dir.js" />
-        <option value="$PROJECT_DIR$/node/koa2/util/walk.js" />
-        <option value="$PROJECT_DIR$/node/koa2/util/file.js" />
-        <option value="$PROJECT_DIR$/node/koa2/util/mimes.js" />
-        <option value="$PROJECT_DIR$/node/koa2/static/index.html" />
-        <option value="$PROJECT_DIR$/node/koa2/upload/index.js" />
-        <option value="$PROJECT_DIR$/node/koa2/upload/util/upload.js" />
-        <option value="$PROJECT_DIR$/node/koa2/upload/package.json" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/texts/user-text.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/pages/admin.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/apps/admin.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/apps/error.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/apps/index.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/apps/work.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/components/footer-common.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/components/form-group.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/components/header-nav.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/components/sign-in-form.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/components/sign-up-form.jsx" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/api/sign-in.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/api/sign-up.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/pages/error.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/src/pages/work.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/config.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/.gitignore" />
+        <option value="$PROJECT_DIR$/node/react+koa2/.editorconfig" />
+        <option value="$PROJECT_DIR$/node/react+koa2/.babelrc" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/codes/user.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/controllers/admin.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/controllers/user-info.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/controllers/work.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/models/user-info.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/admin.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/api.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/error.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/home.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/index.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/work.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/services/user-info.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/datetime.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/db-util.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/type.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/upload.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/views/admin.ejs" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/views/error.ejs" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/views/index.ejs" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/views/work.ejs" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/app.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/sql/user_info.sql" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/sql/util/db.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/sql/util/get-sql-content-map.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/sql/util/get-sql-map.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/sql/util/walk-file.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/init/index.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/static/output/dist/css/admin.css" />
+        <option value="$PROJECT_DIR$/node/react+koa2/server/controllers/index.js" />
+        <option value="$PROJECT_DIR$/node/react+koa2/package.json" />
+        <option value="$PROJECT_DIR$/node/react+koa2/README.md" />
       </list>
     </option>
   </component>
@@ -261,7 +277,7 @@
     <option name="x" value="-305" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,22 +334,8 @@
               <option name="myItemId" value="node" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ivyTa.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ivyTa.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koa2" />
+              <option name="myItemId" value="react+koa2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,50 +350,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koa2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ivyTa.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ivyTa.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koa2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -404,21 +372,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lianjia/tt/project/项目总结/ivyTa.github.io/README.md" />
+    <property name="editorconfig.notification" value="*]&#10;" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node/koa2/static/image" />
-      <recent name="$PROJECT_DIR$/node/expressAPI/demos" />
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
-      <recent name="$PROJECT_DIR$/node/expressDemo/demos" />
-      <recent name="$PROJECT_DIR$/node/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node/react+koa2/init" />
+      <recent name="$PROJECT_DIR$/node/react+koa2/static" />
       <recent name="$PROJECT_DIR$/node/expressDemo" />
       <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
       <recent name="$PROJECT_DIR$/node/expressDemo/demos/microblog/views" />
-      <recent name="$PROJECT_DIR$/node/DEMO" />
-      <recent name="$PROJECT_DIR$/node/fileSystem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node/react+koa2/server" />
+      <recent name="$PROJECT_DIR$/node/react+koa2/static/output/asset/image" />
+      <recent name="$PROJECT_DIR$/node/koa2/static/image" />
+      <recent name="$PROJECT_DIR$/node/expressAPI/demos" />
+      <recent name="$PROJECT_DIR$/node/expressDemo/demos/sources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -848,7 +817,9 @@
       <workItem from="1503015479322" duration="11514000" />
       <workItem from="1503037790955" duration="4114000" />
       <workItem from="1503276611147" duration="302000" />
-      <workItem from="1503284893013" duration="5132000" />
+      <workItem from="1503284893013" duration="5654000" />
+      <workItem from="1503365514614" duration="16785000" />
+      <workItem from="1503394173603" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -861,7 +832,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196303000" />
+    <option name="totallyTimeSpent" value="215888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,8 +844,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-305" y="-1057" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -894,10 +864,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22185792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20556745" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4744287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21092077" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -935,375 +905,363 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/views/reg.ejs">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/apps/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/models/db.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/apps/work.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="535">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/models/post.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/components/footer-common.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/models/user.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/components/form-group.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/components/header-nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="532">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/package.json">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/components/sign-in-form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="748">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/app.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/api/sign-in.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/api/sign-up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/pages/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/pages/work.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/codes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/controllers/user-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/models/user-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/components/sign-up-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/controllers/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/demos/microblog/package.json">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="133">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/cluster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-app.locals.js" />
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/02-app.mountpath.js" />
-    <entry file="file://$PROJECT_DIR$/node/expressDemo/sources/microblog/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.on.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="418">
-            <caret line="24" column="95" lean-forward="true" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/02-app.set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/03-app.use.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/04-app.locals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/05-app.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/06-req.params.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/07-req.query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/09-req.files.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/08-req.files.js" />
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/package.json">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/01-express.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/demos/08-req.route.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/services/user-info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="1843">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/expressAPI/API.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="437">
-            <caret line="506" column="24" lean-forward="false" selection-start-line="506" selection-start-column="24" selection-end-line="506" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/utils/tool.js" />
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/utils/datetime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器及http/浏览器工作原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/utils/db-util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器及http/http协议.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/浏览器及http/cookie和session.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="628">
-            <caret line="521" column="16" lean-forward="false" selection-start-line="521" selection-start-column="16" selection-end-line="521" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/01.js">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/utils/type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/koaDemo/package.json">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/utils/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/views/admin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/views/work.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/output/dist/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/output/dist/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/work.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/controllers/work.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/routers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/server/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/util/get-sql-content-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/util/get-sql-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/util/walk-file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/src/pages/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/sql/user_info.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/koa2.md">
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/init/util/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/react+koa2/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/03-bodyparser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <marker date="1503296218000" expanded="true" signature="340:583" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/02-post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <marker date="1503295047000" expanded="true" signature="248:491" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/util/dir.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/util/file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/util/mimes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/util/walk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/util/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/upload/upload-files/album/4e44da761351f.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/upload/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/upload/util/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/upload/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1503303471000" expanded="true" signature="366:576" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
