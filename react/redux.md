@@ -50,6 +50,8 @@ store 里能直接通过 store.dispatch() 调用 dispatch() 方法，但是多�
 
 ### 1.2.2 Reducer
 
+### 1.2.2 combineReducers
+
 
 
 
