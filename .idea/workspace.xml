@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e267a7-8e36-4a3c-8c4b-010a5b0c073a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha/01-expect/add.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha/01-expect/add.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha/mocha.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/Footer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoTextInput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/ActionTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/TodoFilters.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/actions/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/api/products.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/api/shop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/components/Cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/components/Product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/components/ProductItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/components/ProductsList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/constants/ActionTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/containers/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/containers/CartContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/containers/ProductsContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/reducers/cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/reducers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react/shopping-cart/src/reducers/products.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mocha/mocha-demos" afterPath="$PROJECT_DIR$/test/mocha/mocha-demos" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/redux.md" afterPath="$PROJECT_DIR$/react/redux.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mocha/package.json" afterPath="$PROJECT_DIR$/test/mocha/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,38 +54,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mocha.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/mocha/mocha.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="479">
-                <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-                <folding>
-                  <marker date="1503750027000" expanded="true" signature="222:243" ph="{...}" />
-                  <marker date="1503750027000" expanded="true" signature="460:542" ph="{...}" />
-                  <marker date="1503750027000" expanded="true" signature="492:539" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mocha/01-expect/add.js">
+      <file leaf-file-name="TodoTextInput.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoTextInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="38">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mocha/mocha-demos/demo01/add.js">
+      <file leaf-file-name="TodoItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="62" column="55" lean-forward="false" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/ActionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoFilters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/TodoFilters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -73,8 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>let</find>
-      <find>var</find>
       <find>some</find>
       <find>createWriteStream</find>
       <find>realpathSync</find>
@@ -101,6 +136,10 @@
       <find>addTo</find>
       <find>onCheckoutClicked</find>
       <find>checkout</find>
+      <find>mapStateToProps</find>
+      <find>classnames</find>
+      <find>classname</find>
+      <find>className</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -130,13 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node/react+koa2/server/routers/work.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/services/user-info.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/datetime.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/db-util.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/type.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/utils/upload.js" />
-        <option value="$PROJECT_DIR$/node/react+koa2/server/views/admin.ejs" />
         <option value="$PROJECT_DIR$/node/react+koa2/server/views/error.ejs" />
         <option value="$PROJECT_DIR$/node/react+koa2/server/views/index.ejs" />
         <option value="$PROJECT_DIR$/node/react+koa2/server/views/work.ejs" />
@@ -154,7 +186,6 @@
         <option value="$PROJECT_DIR$/node/koa2/01-app.js" />
         <option value="$PROJECT_DIR$/node/koa2/01-app.listen.js" />
         <option value="$PROJECT_DIR$/node/koa2/02-ctx.js" />
-        <option value="$PROJECT_DIR$/node/koa2/koa2.md" />
         <option value="$PROJECT_DIR$/react/shopping-cart/public/index.html" />
         <option value="$PROJECT_DIR$/react/shopping-cart/src/api/shop.js" />
         <option value="$PROJECT_DIR$/react/shopping-cart/src/constants/ActionTypes.js" />
@@ -172,15 +203,23 @@
         <option value="$PROJECT_DIR$/react/shopping-cart/src/reducers/products.js" />
         <option value="$PROJECT_DIR$/react/shopping-cart/src/components/Cart.js" />
         <option value="$PROJECT_DIR$/react/shopping-cart/src/components/Product.js" />
-        <option value="$PROJECT_DIR$/react/redux.md" />
         <option value="$PROJECT_DIR$/react/react.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/mocha/mocha-demos/demo01/add.test.js" />
-        <option value="$PROJECT_DIR$/test/mocha/package.json" />
         <option value="$PROJECT_DIR$/test/mocha/02-assert/array.js" />
         <option value="$PROJECT_DIR$/test/mocha/01-expect/add.js" />
         <option value="$PROJECT_DIR$/test/mocha/01-expect/add.spec.js" />
         <option value="$PROJECT_DIR$/test/mocha/mocha.md" />
+        <option value="$PROJECT_DIR$/test/mocha/package.json" />
+        <option value="$PROJECT_DIR$/node/koa2/koa2.md" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/package.json" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/index.html" />
+        <option value="$PROJECT_DIR$/react/redux.md" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/ActionTypes.js" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/TodoFilters.js" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoItem.js" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoTextInput.js" />
+        <option value="$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/Footer.js" />
       </list>
     </option>
   </component>
@@ -204,14 +243,15 @@
     <handled-path value="$PROJECT_DIR$/node/koa2/upload/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/koaDemo/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/project/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react/shopping-cart/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react/reduxDemo/todomvc/node_modules" />
     <handled-path value="$PROJECT_DIR$/test/mocha/mocha-demos/node_modules" />
     <handled-path value="$PROJECT_DIR$/test/mocha/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="x" value="-305" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,7 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,18 +292,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mocha" />
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reduxDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todomvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reduxDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todomvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reduxDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todomvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivyTa.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reduxDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todomvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -634,9 +778,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -695,19 +836,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -754,7 +882,16 @@
       <workItem from="1503639682300" duration="7456000" />
       <workItem from="1503712751321" duration="1236000" />
       <workItem from="1503714660778" duration="2103000" />
-      <workItem from="1503740031020" duration="2487000" />
+      <workItem from="1503740031020" duration="2749000" />
+      <workItem from="1503872582317" duration="37000" />
+      <workItem from="1503878345698" duration="1801000" />
+      <workItem from="1506647809687" duration="483000" />
+      <workItem from="1506731695272" duration="114000" />
+      <workItem from="1507872009660" duration="3346000" />
+      <workItem from="1508224431212" duration="5725000" />
+      <workItem from="1508293707984" duration="2095000" />
+      <workItem from="1508375713212" duration="10749000" />
+      <workItem from="1508461990115" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="js array traversal">
       <created>1501729711086</created>
@@ -767,7 +904,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252190000" />
+    <option name="totallyTimeSpent" value="279428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,7 +916,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-305" y="-1057" width="1920" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -800,10 +938,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2488189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2679153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29291338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19700214" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -875,60 +1013,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/react+koa2/package.json" />
-    <entry file="file://$PROJECT_DIR$/node/react+koa2/config.js" />
-    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/build/webpack.base.config.js" />
-    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/build/webpack.dev.config.js" />
-    <entry file="file://$PROJECT_DIR$/node/react+koa2/static/build/webpack.prod.config.js" />
-    <entry file="file://$PROJECT_DIR$/node/project/init/sql/user_info.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/server/codes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/server/controllers/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/server/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/server/controllers/user-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/server/services/user-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/project/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/project/static/src/api/sign-in.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -938,132 +1022,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node/koa2/01.js" />
     <entry file="file://$PROJECT_DIR$/node/koa2/01-app.js" />
-    <entry file="file://$PROJECT_DIR$/node/koa2/01-app.listen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/koa2/index.js" />
-    <entry file="file://$PROJECT_DIR$/node/koa2/02-ctx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/koa2/koa2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/constants/ActionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/api/products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/redux.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/Product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/ProductsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/ProductItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/ProductsContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/constants/ActionTypes.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/api/products.json" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/cart.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/package.json" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/products.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/reducers/index.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/Product.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/ProductsList.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/ProductItem.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/ProductsContainer.js" />
     <entry file="file://$PROJECT_DIR$/react/react.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1074,34 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/CartContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/api/shop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/App.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/containers/CartContainer.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/api/shop.js" />
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/actions/index.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1120,13 +1068,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/Cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react/shopping-cart/src/components/Cart.js" />
     <entry file="file://$PROJECT_DIR$/test/mocha/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1134,43 +1076,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocha/mocha-demos/demo01/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mocha/mocha-demos/demo01/add.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mocha/02-assert/array.spec.js" />
+    <entry file="file://$PROJECT_DIR$/test/mocha/02-assert/array.js" />
+    <entry file="file://$PROJECT_DIR$/test/mocha/mocha.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="307">
+            <caret line="98" column="3" lean-forward="false" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/mocha/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocha/02-assert/array.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocha/02-assert/array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1178,30 +1106,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/mocha/01-expect/add.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mocha/mocha-demos/demo01/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koaDemo/demos/01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/01-app.listen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/02-ctx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/upload/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/00-introduction/01-异步式与事件驱动.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-15">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/koa2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="665">
+            <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/koa2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/redux.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1481">
+            <caret line="320" column="20" lean-forward="false" selection-start-line="320" selection-start-column="20" selection-end-line="320" selection-end-column="20" />
+            <folding>
+              <marker date="1508233639000" expanded="true" signature="2108:2174" ph="[...]" />
+              <marker date="1508233639000" expanded="true" signature="2112:2172" ph="{&quot;id&quot;: 0...}" />
+              <marker date="1508233639000" expanded="true" signature="2236:2529" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="2261:2527" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="2281:2477" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="2281:2486" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="2295:2477" ph="[...]" />
+              <marker date="1508233639000" expanded="true" signature="2323:2469" ph="{&quot;text&quot;: action.text...}" />
+              <marker date="1508233639000" expanded="true" signature="2504:2523" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="3003:3034" ph="{&quot;visibilityFilter&quot;: visibilityFilter...}" />
+              <marker date="1508233639000" expanded="true" signature="3167:3478" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="3199:3275" ph="{&quot;a&quot;: doSomethingWithA...}" />
+              <marker date="1508233639000" expanded="true" signature="3321:3478" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="3339:3474" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="3633:3704" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="4039:4100" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="5446:5642" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="5907:6177" ph="..." />
+              <marker date="1508233639000" expanded="true" signature="6344:6423" ph="{&quot;todos&quot;: PropTypes.array.isRequired...}" />
+              <marker date="1508233639000" expanded="true" signature="6459:6483" ph="{&quot;todos&quot;: state.todos...}" />
+              <marker date="1508233639000" expanded="true" signature="6526:6584" ph="{...}" />
+              <marker date="1508233639000" expanded="true" signature="7010:7034" ph="{&quot;todos&quot;: state.todos...}" />
+              <marker date="1508233639000" expanded="true" signature="7546:7604" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocha/mocha.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="479">
-            <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-            <folding>
-              <marker date="1503750027000" expanded="true" signature="222:243" ph="{...}" />
-              <marker date="1503750027000" expanded="true" signature="460:542" ph="{...}" />
-              <marker date="1503750027000" expanded="true" signature="492:539" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/ActionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/constants/TodoFilters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/TodoTextInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/reduxDemo/todomvc/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="62" column="55" lean-forward="false" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

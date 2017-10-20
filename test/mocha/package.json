@@ -10,7 +10,6 @@
     "testing",
     "Mocha"
   ],
-  "author": "Ruan Yifeng",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "~6.2.1",
