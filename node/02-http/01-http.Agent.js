@@ -1,4 +1,4 @@
-const http = require('http');
+const http = require('http')
 
 http.get({
     hostname: 'localhost',
@@ -6,7 +6,7 @@ http.get({
     path: '/',
     agent: false  // 创建一个新的代理，只用于本次请求
 }, (res) => {
-    console.log(res);
+    console.log(res)
 }).on('socket', (socket) => {
-    socket.emit('agentRemove');
-});
+    socket.emit('agentRemove')
+})
