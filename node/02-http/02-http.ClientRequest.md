@@ -100,7 +100,15 @@ request.setHeader('Content-Type', 'application/json')
 request.setHeader('Set-Cookie', ['type=ninja', 'language=javascript'])
 ```
 
+#### 2.2.14 request.setNoDelay([noDelay])
 
+- 一旦 socket 被分配给请求且已连接，socket.setNoDelay() 会被调用。
+
+#### 2.2.15 request.setSocketKeepAlive([enable][, initialDelay])
+
+- 一旦 socket 被分配给请求且已连接，socket.setKeepAlive() 会被调用。
+
+#### 2.2.16 request.setSocketKeepAlive([enable][, initialDelay])
 
 
 
