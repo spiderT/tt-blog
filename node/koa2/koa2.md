@@ -82,4 +82,4 @@ app.use(function *(){
 - 为了使用方便，许多上下文属性和方法都被委托代理到他们的 ctx.request 或 ctx.response，比如访问 ctx.type 和 ctx.length 将被代理到 response 对象，ctx.path 和 ctx.method 将被代理到 request 对象。
 
 
-### 
+### 1.1.4 
