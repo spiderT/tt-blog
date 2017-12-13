@@ -12,6 +12,8 @@
 #### 1.4. 字符串
 #### 1.5. 数值
 
+#### 1.6. [ES6](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/ES6/ES6.md)
+
 ### 2. js设计模式
 
 ### 3. js函数式编程
