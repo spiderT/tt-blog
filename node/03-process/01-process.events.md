@@ -1,76 +1,34 @@
 # node
 
-## 2. http
+## 3. process
 
-- Node.js 中的 HTTP 接口被设计成支持协议的许多特性。 比如，大块编码的消息。 这些接口不缓冲完整的请求或响应，用户能够以流的形式处理数据。
+- process 对象是一个 global （全局变量），提供有关信息，控制当前 Node.js 进程。作为一个对象，它对于 Node.js 应用程序始终是可用的，故无需使用 require()。
 
-- HTTP 消息头由一个对象表示，例如：
+### 3.1. Process Events
 
-```json
-{ 'content-length': '123',
-  'content-type': 'text/plain',
-  'connection': 'keep-alive',
-  'host': 'mysite.com',
-  'accept': '*/*' }
-```
-- 键名是小写的，键值不能修改。
+- process 对象是EventEmitter的实例  
 
-- 为了支持各种可能的 HTTP 应用，Node.js 的 HTTP API 是非常底层的。 它只涉及流处理与消息解析。 它把一个消息解析成消息头和消息主体，但不解析具体的消息头或消息主体。
+#### 3.1.1. Event: 'beforeExit'
 
-- 接收到的原始消息头保存在 rawHeaders 属性中，它是一个 [key, value, key2, value2, ...] 数组。 例如，上面的消息头对象有一个类似以下的 rawHeaders 列表：
+- 当Node.js的事件循环数组已经为空，并且没有额外的工作被添加进来，事件'beforeExit'会被触发。 正常情况下，如果没有额外的工作被添加到事件循环数组，Node.js进程会结束。但是如果'beforeExit'事件绑定的监听器的回调函数中，含有一个可以进行异步调用的操作，那么Node.js进程会继续运行。
 
-```js
-[ 'ConTent-Length', '123456',
-  'content-LENGTH', '123',
-  'content-type', 'text/plain',
-  'CONNECTION', 'keep-alive',
-  'Host', 'mysite.com',
-  'accepT', '*/*' ]
-```
+- process.exitCode 作为唯一的参数值传递给'beforeExit'事件监听器的回调函数。
 
-### 2.1. http.Agent 类
+#### 3.1.2. Event: 'disconnect'
 
-- Agent 负责为 HTTP 客户端管理连接的持续与复用。 它为一个给定的主机与端口维护着一个等待请求的队列，且为每个请求重复使用一个单一的 socket 连接直到队列为空，此时 socket 会被销毁或被放入一个连接池中，在连接池中等待被有着相同主机与端口的请求再次使用。 是否被销毁或被放入连接池取决于 keepAlive 选项。
+- 如果Node.js进程是由IPC channel的方式创建的(see the Child Process and Cluster documentation)，当IPC channel关闭时，会触发'disconnect'事件。
+
+#### 3.1.3. Event: 'exit'
+
+- 两种情况下'exit'事件会被触发：
   
-- 连接池中的连接的 TCP Keep-Alive 是开启的，但服务器仍然可能关闭闲置的连接，在这种情况下，这些连接会被移出连接池，且当一个新的 HTTP 请求被创建时再为指定的主机与端口创建一个新的连接。 服务器也可能拒绝允许同一连接上有多个请求，在这种情况下，连接会为每个请求重新创建，且不能被放入连接池。 Agent 仍然会创建请求到服务器，但每个请求会出现在一个新的连接。
-  
-- 但一个连接被客户端或服务器关闭时，它会被移出连接池。 连接池中任何未被使用的 socket 会被释放，从而使 Node.js 进程在没有请求时不用保持运行。 （查看 socket.unref()）。
-  
-- 当 Agent 实例不再被使用时，建议 destroy() 它，因为未被使用的 socket 也会消耗操作系统资源。
-  
-- 当 socket 触发 'close' 事件或 'agentRemove' 事件时，它会被移出代理。 当打算长时间保持打开一个 HTTP 请求且不想它留在代理中，则可以如下处理：
+    + 显式调用process.exit()方法，使得Node.js进程即将结束；
+    + Node.js事件循环数组中不再有额外的工作，使得Node.js进程即将结束。
+    
+- 在上述两种情况下，没有任何方法可以阻止事件循环的结束,一旦所有与'exit'事件绑定的监听器执行完成，Node.js的进程会终止。
+    
+    
 
-> Syntax
-
-```js
-http.get(options, (res) => {
-  // 处理事情
-}).on('socket', (socket) => {
-  socket.emit('agentRemove');
-})
-```
-
-> Examples
-
-```js
-const http = require('http')
-
-http.get({
-    hostname: 'localhost',
-    port: 80,
-    path: '/',
-    agent: false  // 创建一个新的代理，只用于本次请求
-}, (res) => {
-    console.log(res)
-}).on('socket', (socket) => {
-    socket.emit('agentRemove')
-})
-```
-
-- 代理也可被用于单独的请求。 使用 {agent: false} 作为 http.get() 函数或 http.request() 函数的选项，则会为客户端连接创建一个默认配置的一次性使用的 Agent。
-  
-
-#### 2.1.1. new Agent
 
 > Syntax
 
