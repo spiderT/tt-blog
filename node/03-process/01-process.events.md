@@ -27,134 +27,76 @@
     
 - 在上述两种情况下，没有任何方法可以阻止事件循环的结束,一旦所有与'exit'事件绑定的监听器执行完成，Node.js的进程会终止。
     
-    
-
-
-> Syntax
-
-```js
-new Agent([options])
-```
-
-- options <Object> 代理的配置选项。有以下字段：
-    + keepAlive <boolean> 保持 socket 可用即使没有请求，以便它们可被将来的请求使用而无需重新建立一个 TCP 连接。默认为 false。
-    + keepAliveMsecs <number> 当使用了 keepAlive 选项时，该选项指定 TCP Keep-Alive 数据包的 初始延迟。 当 keepAlive 选项为 false 或 undefined 时，该选项无效。 默认为 1000。
-    + maxSockets <number> 每个主机允许的最大 socket 数量。 默认为 Infinity。
-    + maxFreeSockets <number> 在空闲状态下允许打开的最大 socket 数量。 仅当 keepAlive 为 true 时才有效。 默认为 256。
+- 'exit'事件监听器的回调函数，只有一个入参，这个参数的值可以是process.exitCode的属性值，或者是调用process.exit()方法时传入的exitCode值。   
 
 > Examples
 
 ```js
-const http = require('http')
-const options = {}
-const keepAliveAgent = new http.Agent({ keepAlive: true })
-options.agent = keepAliveAgent
-
-function onResponseCallback() {
-    console.log('1')
-}
-http.request(options, onResponseCallback)
+process.on('exit', (code) => {
+  console.log(`About to exit with code: ${code}`);
+});
 ```
-
-#### 2.1.2. agent.createConnection
-
-> Syntax
+- 'exit'事件监听器的回调函数，只允许包含同步操作。所有监听器的回调函数被调用后，任何在事件循环数组中排队的工作都会被强制丢弃，然后Nodje.js进程会立即结束。 例如在下例中，timeout操作永远不会被执行(因为不是同步操作)。
 
 ```js
-agent.createConnection(options[, callback])
-
-// options <Object> 包含连接详情的选项。查看 net.createConnection() 了解选项的格式。
-
-// callback <Function> 接收被创建的 socket 的回调函数。
-
-// 返回: <net.Socket>
+process.on('exit', (code) => {
+  setTimeout(() => {
+    console.log('This will not run');
+  }, 0);
+});
 ```
 
-- 创建一个用于 HTTP 请求的 socket 或流。
-  
-- 默认情况下，该函数类似于 net.createConnection()。 但是如果期望更大的灵活性，自定义的代理可以重写该方法。
-  
-- socket 或流可以通过以下两种方式获取：从该函数返回，或传入 callback。
-  
-- callback 有 (err, stream) 参数。
+#### 3.1.4. Event: 'message'
 
-#### 2.1.3. agent.keepSocketAlive
+- 如果Node.js进程是由IPC channel的方式创建的(see the Child Process， and Cluster documentation)，当子进程收到父进程的的消息时(消息通过childprocess.send()发送）， 会触发'message'事件。
 
-> Syntax
+- 'message'事件监听器的回调函数中被传递的参数如下：
+
+ 	+ message <Object> 解析的JSON对象，或primitive值。
+	+ sendHandle <Handle object> 一个net.Socket 或 net.Server对象，或undefined。
+
+
+#### 3.1.5. Event: 'rejectionHandled'
+
+- 如果有Promise被rejected，并且此Promise在Nodje.js事件循环的下次轮询及之后期间，被绑定了一个错误处理器[例如使用promise.catch()][])， 会触发'rejectionHandled'事件。
+
+- 此事件监听器的回调函数使用Rejected的Promise引用，作为唯一入参。
+
+- Promise对象应该已经在'unhandledRejection'事件触发时被处理，但是在被处理过程中获得了一个rejection处理器。
+
+- 对于Promise chain，没有概念表明在 Promise chain的哪个地方，所有的rejections总是会被处理。 由于本来就是异步的，一个Promise rejection可以在将来的某个时间点被处理-可能要远远晚于'unhandledRejection'事件被触发及处理的时间。
+
+- 另一种表述的方式就是，与使用同步代码时会出现不断增长的未处理异常列表不同，使用Promises时，未处理异常列表可能会出现增长然后收缩的情况。
+
+- 在同步代码情况下，当未处理异常列表增长时，会触发'uncaughtException'事件。
+
+- 在异步代码情况下，当未处理异常列表增长时，会触发'uncaughtException'事件，当未处理列表收缩时，会触发'rejectionHandled'事件。
+
+
+> Examples
 
 ```js
-agent.keepSocketAlive(socket)
-//socket <net.Socket>
+const unhandledRejections = new Map();
+process.on('unhandledRejection', (reason, p) => {
+  unhandledRejections.set(p, reason);
+});
+process.on('rejectionHandled', (p) => {
+  unhandledRejections.delete(p);
+});
+
 ```
 
-- 在 socket 被请求分离的时候调用, 可能被代理持续使用. 默认行为:
-
-```js
-socket.setKeepAlive(true, this.keepAliveMsecs)
-socket.unref()
-return true
-```
-
-- 这个方法可以被一个特定的 Agent 子类重写. 如果这个方法返回假值, socket 会被销毁而不是 在下一次请求时持续使用.
 
 
-#### 2.1.4. agent.reuseSocket
-
-> Syntax
-
-```js
-agent.reuseSocket(socket, request)
-//socket <net.Socket>
-//request <http.ClientRequest>
-```
-
-- 由于 keep-alive 选项被保持持久化, 在 socket 附加到 request 时调用. 默认行为是:
-
-```js
-socket.ref()
-```
-
-- 这个方法可以被一个特定的 Agent 子类重写.
-
-#### 2.1.5. agent.destroy
-
-- 销毁当前正被代理使用的任何 socket。
-  
-- 通常不需要这么做。 但是如果使用的代理启用了 keepAlive，则当确定它不再被使用时，最好显式地关闭代理。 否则，在服务器终止它们之前，socket 可能还会长时间保持打开。
 
 
-#### 2.1.6. agent.freeSockets
 
-- 返回一个对象，包含当前正在等待被启用了 keepAlive 的代理使用的 socket 数组。 不要修改该属性。
 
-#### 2.1.7. agent.getName
 
-- 为请求选项的集合获取一个唯一的名称，用来判断一个连接是否可以被复用。 对于 HTTP 代理，返回 host:port:localAddress 或 host:port:localAddress:family。 对于 HTTPS 代理，名称会包含 CA、证书、密码、以及其他 HTTPS/TLS 特有的用于判断 socket 复用性的选项。
 
-> 
 
-```js
-agent.getName(options)
 
-//options <Object> 为名称生成程序提供信息的选项。
-//host <string> 请求发送至的服务器的域名或 IP 地址。
-//port <number> 远程服务器的端口。
-//localAddress <string> 当发送请求时，为网络连接绑定的本地接口。
-//返回: <string>
-```
 
-#### 2.1.8. agent.maxFreeSockets
 
-- 默认为 256。 对于已启用 keepAlive 的代理，该属性可设置要保留的空闲 socket 的最大数量。
 
-#### 2.1.9. agent.maxSockets
 
-- 默认为不限制。 该属性可设置代理为每个来源打开的并发 socket 的最大数量。 来源是 agent.getName() 的返回值。
-
-#### 2.1.10. agent.requests
-
-- 返回一个对象，包含还未被分配到 socket 的请求队列。 不要修改。
-
-#### 2.1.11. agent.sockets
-
-- 返回一个对象，包含当前正被代理使用的 socket 数组。 不要修改。
