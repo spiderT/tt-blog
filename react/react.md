@@ -277,3 +277,33 @@ src
 
 
 
+
+### react 和 antd 的版本升级
+
+[antd的升级方案](https://github.com/ant-design/ant-design/issues/3759)
+
+1. [antd-migration-helper](https://github.com/ant-design/antd-migration-helper)
+
+扫描项目代码，找出使用了废弃/移除 API 的地方，类似 ESLint
+
+2. [antd-codemod](https://github.com/ant-design/antd-codemod)
+
+自动修改代码
+
+```shell
+jscodeshift -t getFieldProps-to-getFieldDecorator.js /Users/lianjia/tt/project/ljfe-ehr-estuary/src/client
+jscodeshift -t time-related-value-to-moment.js /Users/lianjia/tt/project/ljfe-ehr-estuary/src/client
+jscodeshift -t GregorianCalendar-to-moment.js /Users/lianjia/tt/project/ljfe-ehr-estuary/src/client
+jscodeshift -t Popover-overlay-to-content.js /Users/lianjia/tt/project/ljfe-ehr-estuary/src/client
+
+```
+
+3. 自测，处理antd 内置的 warning
+
+
+
+
+
+
+
+

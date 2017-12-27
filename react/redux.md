@@ -270,6 +270,25 @@ render(
   rootElement
 )
 ```
+- 原理是React组件的context属性
+
+```js
+class Provider extends Component {
+  getChildContext() {
+    return {
+      store: this.props.store
+    };
+  }
+  render() {
+    return this.props.children;
+  }
+}
+
+Provider.childContextTypes = {
+  store: React.PropTypes.object
+}
+```
+
 
 - 接着，我们想要通过 react-redux 提供的 connect() 方法将包装好的组件连接到Redux。尽量只做一个顶层的组件，或者 route 处理。
 
@@ -340,6 +359,27 @@ const mapDispatchToProps = dispatch => ({
     actions: bindActionCreators(TodoActions, dispatch)
 })
 ```
+
+#### 1.2.5 React-Router 路由库
+
+- 可以使用Provider在Router外面包一层。
+
+```js
+const Root = ({ store }) => (
+  <Provider store={store}>
+    <Router>
+      <Route path="/" component={App} />
+    </Router>
+  </Provider>
+);
+```
+  
+
+
+
+
+
+
 
 
 
