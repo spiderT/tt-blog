@@ -1,14 +1,314 @@
 # 1. react
 
-## 1.1. react
+## 1.1. [高级指南](https://reactjs.org/docs/jsx-in-depth.html)
 
-### 1.1.1. 
+### 1.1.1 [JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html)
 
-### 1.1.2. 
+1. JSX 只是给React.createElement(component, props, ...children) 提供了语法糖
 
-### 1.1.3. react-css-modules
+```js
+<MyButton color="blue" shadowSize={2}>
+  Click Me
+</MyButton>
+```
+与下面的是相等的
 
-#### 1.1.3.1. **样式默认局部**
+```js
+React.createElement(
+  MyButton,
+  {color: 'blue', shadowSize: 2},
+  'Click Me'
+)
+```
+
+没有子元素的时候，可以这样写
+
+```js
+<div className="sidebar" />
+```
+
+等同于
+
+```js
+React.createElement(
+  'div',
+  {className: 'sidebar'},
+  null
+)
+```
+
+2.  点语法
+
+```js
+import React from 'react';
+
+const MyComponents = {
+  DatePicker: function DatePicker(props) {
+    return <div>Imagine a {props.color} datepicker here.</div>;
+  }
+}
+
+function BlueDatePicker() {
+  return <MyComponents.DatePicker color="blue" />;
+}
+```
+
+3. 自定义的组件必须大写
+
+```js
+import React from 'react';
+
+// Correct! This is a component and should be capitalized:
+function Hello(props) {
+  // Correct! This use of <div> is legitimate because div is a valid HTML tag:
+  return <div>Hello {props.toWhat}</div>;
+}
+
+function HelloWorld() {
+  // Correct! React knows <Hello /> is a component because it's capitalized.
+  return <Hello toWhat="World" />;
+}
+```
+
+
+4. JSX 的类型不能是一个表达式
+
+    + 错误方式
+    
+```js
+import React from 'react';
+import { PhotoStory, VideoStory } from './stories';
+
+const components = {
+  photo: PhotoStory,
+  video: VideoStory
+};
+
+function Story(props) {
+  // Wrong! JSX type can't be an expression.
+  return <components[props.storyType] story={props.story} />;
+}
+
+```
+    + 正确方式
+    
+```js
+import React from 'react';
+import { PhotoStory, VideoStory } from './stories';
+
+const components = {
+  photo: PhotoStory,
+  video: VideoStory
+};
+
+function Story(props) {
+  // Correct! JSX type can be a capitalized variable.
+  const SpecificStory = components[props.storyType];
+  return <SpecificStory story={props.story} />;
+}
+
+
+```
+    
+5. Props in JSX
+    
+5.1. 字符串props, 下面两种写法一样的
+    
+```js
+<MyComponent message="hello world" />
+
+<MyComponent message={'hello world'} />
+
+
+<MyComponent message="&lt;3" />
+
+<MyComponent message={'<3'} />
+``` 
+       
+5.2. Props 默认是 “True” 
+     
+- 如果没有给prop赋值，默认是'true'
+
+```js
+// 同等
+<MyTextBox autocomplete />
+
+<MyTextBox autocomplete={true} />
+```
+
+- 一般来说，我们不建议使用它，因为它可能与{foo：foo}而不是{foo：true}的ES6对象速记{foo}混淆。这种行为就是为了匹配HTML的行为
+
+5.3. 扩展运算符
+
+- 以下两种是等价的
+
+```js
+function App1() {
+  return <Greeting firstName="Ben" lastName="Hector" />;
+}
+
+function App2() {
+  const props = {firstName: 'Ben', lastName: 'Hector'};
+  return <Greeting {...props} />;
+}
+```
+
+5.4 Booleans, Null, and Undefined 是被忽略的
+
+```js
+//以下是同等的
+<div />
+
+<div></div>
+
+<div>{false}</div>
+
+<div>{null}</div>
+
+<div>{undefined}</div>
+
+<div>{true}</div>
+
+```
+
+- 一些应用场景
+
+```js
+//showHeader为true的时候，展示header组件
+<div>
+  {showHeader && <Header />}
+  <Content />
+</div>
+```
+> 0 还是会被渲染的，所以要值的注意
+
+```js
+<div>
+{props.messages.length > 0 &&
+ <MessageList messages={props.messages} />
+}
+</div>
+```
+
+
+- 如果你想展示false, true, null, or undefined ，首先得把他们转换成字符串
+
+```js
+<div>
+  My JavaScript variable is {String(myVariable)}.
+</div>
+```
+
+### 1.1.2 [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+> React.PropTypes 已经在 v15.5被移除了. 请使用 prop-types 库.
+
+
+```js
+import PropTypes from 'prop-types';
+
+class Greeting extends React.Component {
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+    );
+  }
+}
+
+Greeting.propTypes = {
+  name: PropTypes.string
+};
+```
+
+- PropTypes 提供了一种验证，可以保证传入的数据格式是正确的，如果是一个无效数据，控制台会有一个警告。propTypes只有在开发环境才会检查。
+
+1. 通过设置defaultProps 来设定默认值
+
+```js
+class Greeting extends React.Component {
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+    );
+  }
+}
+
+// Specifies the default values for props:
+Greeting.defaultProps = {
+  name: 'Stranger'
+};
+
+// Renders "Hello, Stranger":
+ReactDOM.render(
+  <Greeting />,
+  document.getElementById('example')
+);
+```
+typechecking 也适用于defaultProps
+
+
+
+
+### 1.1.3 [Static Type Checking](https://reactjs.org/docs/static-type-checking.html)
+
+
+### 1.1.4 [Refs and the DOM
+](https://reactjs.org/docs/refs-and-the-dom.html)
+
+
+#### 1.1.4.1 什么时候用Refs
+
+1. Managing focus, text selection, or media playback.
+2. Triggering imperative animations.
+3. Integrating with third-party DOM libraries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 1.2. 
+
+## 1.3. react-css-modules
+
+### 1.3.1. **样式默认局部**
 
 - 使用了 CSS Modules 后，就相当于给每个 class 名外加加了一个 :local，以此来实现样式的局部化，如果你想切换到全局模式，使用对应的 :global。
 
@@ -37,7 +337,7 @@
   }
 }
 ```
-#### 1.1.3.2. **Compose 来组合样式**
+### 1.3.2. **Compose 来组合样式**
 
 - 对于样式复用，CSS Modules 只提供了唯一的方式来处理：composes 组合
 
@@ -90,7 +390,7 @@ buttonElem.outerHTML = `<button class=${styles.normal}>Submit</button>`
 
 - 对于大多数项目，有了 composes 后已经不再需要 Sass/Less/PostCSS。但如果你想用的话，由于 composes 不是标准的 CSS 语法，编译时会报错。就只能使用预处理器自己的语法来做样式复用了。
   
-#### 1.1.3.3. **class 命名技巧**
+### 1.3.3. **class 命名技巧**
 
 CSS Modules 的命名规范是从 BEM 扩展而来。BEM 把样式名分为 3 个级别，分别是：
 
@@ -118,7 +418,7 @@ CSS Modules 的命名规范是从 BEM 扩展而来。BEM 把样式名分为 3 �
 }
 ```
 
-#### 1.1.3.4. **如何实现CSS，JS变量共享**
+### 1.3.4. **如何实现CSS，JS变量共享**
 
 >注：CSS Modules 中没有变量的概念，这里的 CSS 变量指的是 Sass 中的变量
 
@@ -140,7 +440,7 @@ import style from 'config.scss';
 // 会输出 #F40
 console.log(style.primaryColor);
 ```
-#### 1.1.3.5. CSS Modules 使用技巧
+### 1.3.5. CSS Modules 使用技巧
 
 - CSS Modules 是对现有的 CSS 做减法。为了追求简单可控，作者建议遵循如下原则：
 
@@ -151,7 +451,7 @@ console.log(style.primaryColor);
     
 - 上面之所以称为建议，是因为 CSS Modules 并不强制你一定要这么做.
   
-#### 1.1.3.6. CSS Modules 结合 React 实践
+### 1.3.6. CSS Modules 结合 React 实践
 
 - 在 className 处直接使用 css 中 class 名即可。
 
@@ -184,7 +484,7 @@ export default class Dialog extends React.Component {
   如果你不想频繁的输入 styles.**，可以试一下 react-css-modules，它通过高阶函数的形式来避免重复输入 styles.**。
   
   
-#### 1.1.3.7. 外部如何覆盖局部样式
+### 1.3.7. 外部如何覆盖局部样式
 
 当生成混淆的 class 名后，可以解决命名冲突，但因为无法预知最终 class 名，不能通过一般选择器覆盖。我们现在项目中的实践是可以给组件关键节点加上 data-role 属性，然后通过属性选择器来覆盖样式。
 
@@ -205,7 +505,7 @@ export default class Dialog extends React.Component {
 
 因为 CSS Modules 只会转变类选择器，所以这里的属性选择器不需要添加 :global。
 
-#### 1.1.3.8. 如何与全局样式共存
+#### 1.3.8. 如何与全局样式共存
 
 前端项目不可避免会引入 normalize.css 或其它一类全局 css 文件。使用 Webpack 可以让全局样式和 CSS Modules 的局部样式和谐共存。下面是我们项目中使用的 webpack 部分配置代码：
 
@@ -259,9 +559,9 @@ src
 
 
 
-### 1.1.4. router
+## 1.4. router
 
-### 1.1.5. immutable.js
+## 1.5. immutable.js
 
 -api:[fromJS](http://facebook.github.io/immutable-js/docs/#/fromJS)
 -github:[fromJS](https://github.com/facebook/immutable-js)
@@ -278,7 +578,7 @@ src
 
 
 
-### react 和 antd 的版本升级
+## react 和 antd 的版本升级
 
 [antd的升级方案](https://github.com/ant-design/ant-design/issues/3759)
 
