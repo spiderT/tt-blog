@@ -258,9 +258,14 @@ typechecking 也适用于defaultProps
 
 #### 1.1.4.1 什么时候用Refs
 
-1. Managing focus, text selection, or media playback.
-2. Triggering imperative animations.
-3. Integrating with third-party DOM libraries.
+1. 管理焦点、文本选择或媒体回放。Managing focus, text selection, or media playback.
+2. 触发必要的动画。Triggering imperative animations.
+3. 与第三方DOM库集成。Integrating with third-party DOM libraries.
+
+
+#### 1.1.4.2 不要过度使用Refs
+
+1. 
 
 
 

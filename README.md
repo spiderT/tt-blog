@@ -16,7 +16,9 @@
 
 ### 2. js设计模式
 
-### 3. js函数式编程
+### 3. [js函数式编程](https://github.com/ivyTa/ivyTa.github.io/blob/master/functionalProgramming/functionalProgramming.md)
+
+### 4. [js数据结构与算法](https://github.com/ivyTa/ivyTa.github.io/blob/master/js数据结构与算法/readme.md)
 
 ## 2. node.js
 
@@ -36,3 +38,7 @@
 ## 4. test
 
 ### 4.1 [mocha](https://github.com/ivyTa/ivyTa.github.io/blob/master/test/mocha/mocha.md)
+
+## x. 读书笔记
+
+### x.1 [图解Http]()
