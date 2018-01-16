@@ -2,23 +2,23 @@
 
 ## 1. js
 
-### 1. javascript最佳实践
+### 1.1. javascript最佳实践
 
-#### 1.1. [数组](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/array.md)
+#### 1.1.1. [数组](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/array.md)
 
 
-#### 1.2. 函数
-#### 1.3. 对象
-#### 1.4. 字符串
-#### 1.5. 数值
+#### 1.1.2. 函数
+#### 1.1.3. 对象
+#### 1.1.4. 字符串
+#### 1.1.5. 数值
 
-#### 1.6. [ES6](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/ES6/ES6.md)
+#### 1.1.6. [ES6](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/ES6/ES6.md)
 
-### 2. js设计模式
+### 1.2. js设计模式
 
-### 3. [js函数式编程](https://github.com/ivyTa/ivyTa.github.io/blob/master/functionalProgramming/functionalProgramming.md)
+### 1.3. [js函数式编程](https://github.com/ivyTa/ivyTa.github.io/blob/master/functionalProgramming/functionalProgramming.md)
 
-### 4. [js数据结构与算法](https://github.com/ivyTa/ivyTa.github.io/blob/master/js数据结构与算法/readme.md)
+### 1.4. [js数据结构与算法](https://github.com/ivyTa/ivyTa.github.io/blob/master/js数据结构与算法/readme.md)
 
 ## 2. node.js
 
@@ -38,6 +38,10 @@
 ## 4. test
 
 ### 4.1 [mocha](https://github.com/ivyTa/ivyTa.github.io/blob/master/test/mocha/mocha.md)
+
+## 5. html
+
+### 5.1 [html5.2]()
 
 ## x. 读书笔记
 
