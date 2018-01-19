@@ -150,6 +150,8 @@ app.use(function *(){
  
 - co 函数库是著名程序员 TJ Holowaychuk 于2013年6月发布的一个小工具，用于 Generator 函数的自动执行。
 
+- 需要一个middleware数组，用来存储中间件.
+
 ```js
 const co = require('co');
  function SimpleKoa(){
