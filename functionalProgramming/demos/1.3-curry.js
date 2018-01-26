@@ -1,3 +1,21 @@
+
+// 你可以一次性地调用 curry 函数，也可以每次只传一个参数分多次调用。
+// 它接受一个参数并返回一个新的函数。调用 add 之后，返回的函数就通过闭包的方式记住了 add 的第一个参数
+
+/*
+const add = function (x) {
+  return function (y) {
+    return x + y
+  }
+}
+
+const increment  = add(1)
+
+console.log(increment(2)); //3
+console.log(add(1)(2)); //3
+*/
+
+
 const curry = require('lodash').curry
 
 let match = curry((what, str) => str.match(what))

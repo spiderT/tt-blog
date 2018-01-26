@@ -146,7 +146,7 @@ app.use(function *(){
 
 ### 2.1 Koa 中间件机制实现原理
 
-通过实现简单的 Koa 框架（剥离除中间件外所有的逻辑）来实现
+通过实现简单的 Koa 框架（剥离除中间件外所有的逻辑）来实现，参见[koa中间件机制详解](https://cnodejs.org/topic/58fd8ec7523b9d0956dad945)
  
 - co 函数库是著名程序员 TJ Holowaychuk 于2013年6月发布的一个小工具，用于 Generator 函数的自动执行。
 
