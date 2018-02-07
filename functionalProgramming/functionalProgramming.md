@@ -215,9 +215,51 @@ console.log('makes2', makes2);  // makes2 ['America', 'Japan']
 ## 3.1 类型
 
 
+
+
 ## 4. 容器
 
 ### 4.1 容器container
+
+容器必须能够装载任意类型的值
+
+```js
+var Container = function(x) {
+  this.__value = x;
+}
+
+Container.of = function(x) { return new Container(x); };
+```
+
+使用 Container.of 作为构造器（constructor），这样就不用到处去写糟糕的 new 关键字
+
+```js
+Container.of = function(x) { return new Container(x); };
+```
+
+第一个 functor
+
+- 一旦容器里有了值，不管这个值是什么，我们就需要一种方法来让别的函数能够操作它。
+
+
+```js
+// (a -> b) -> Container a -> Container b
+Container.prototype.map = function(f){
+  return Container.of(f(this.__value))
+}
+```
+
+## 5. monad
+
+### 5.1. chain 函数
+
+
+## 6. applicative functor
+
+### 6.1.
+
+ap 就是这样一种函数，能够把一个 functor 的函数值应用到另一个 functor 的值上
+
 
 
 
