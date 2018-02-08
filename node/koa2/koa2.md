@@ -196,6 +196,37 @@ router.put()
 router.del()
 router.patch()
 ```
+基本用法
+
+```js
+const Koa = require('koa')
+const fs = require('fs')
+const Router = require('koa-router')
+
+const app = new Koa()
+
+const router = new Router()
+
+router.get('/', async ctx => {
+  let html = `
+  <ul>
+      <li><a href="/hello">/hello</a></li>
+      <li><a href="/404">/404</a></li>
+    </ul>
+  `
+  ctx.body = html
+}).get('/404',async ctx =>{
+  ctx.body = `<p>404 notFound</p>`
+}).get('/hello',async ctx =>{
+  ctx.body = `<p>hello world</p>`
+})
+
+app.use(router.routes())
+
+app.listen(3000,()=>{
+  console.log('app is start at port 3000')
+})
+```
 
 原生koa2 实现路由
 
@@ -248,6 +279,255 @@ app.use( async ( ctx ) => {
 app.listen(3000)
 console.log('[demo] route-simple is starting at port 3000')
 ```
+
+## 4. 请求数据获取
+
+### 4.1. GET
+
+GET请求数据有两个途径
+
+- 是从上下文中直接获取
+    + 请求对象ctx.query，返回如 { a:1, b:2 
+    + 请求字符串 ctx.querystring，返回如 a=1&b=2
+
+- 是从上下文的request对象中获取
+    + 请求对象ctx.request.query，返回如 { a:1, b:2 }
+    + 请求字符串 ctx.request.querystring，返回如 a=1&b=2
+    
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+
+app.use(async ctx => {
+  let url = ctx.url
+
+  let request = ctx.request
+  let req_query = request.query
+  let req_querystring = request.querystring
+
+  let ctx_query = ctx.query
+  let ctx_querystring = ctx.querystring
+
+  ctx.body = {
+    url,
+    req_query,
+    req_querystring,
+    ctx_query,
+    ctx_querystring
+  }
+
+})
+
+app.listen(3000, ()=>{
+  console.log(`app is start at port 3000`)
+})
+```
+
+### 4.2. POST
+
+对于POST请求的处理，koa2没有封装获取参数的方法，需要通过解析上下文context中的原生node.js请求对象req，将POST表单数据解析成query string（例如：a=1&b=2&c=3），再将query string 解析成JSON格式（例如：{"a":"1", "b":"2", "c":"3"}）
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+
+// 将POST请求参数字符串解析成JSON
+function parseQueryStr(queryStr) {
+  let queryData = {}
+  let queryStrList = queryStr.split('&')
+
+  for(let [index, queryStr] of queryStrList.entries()){
+    let itemLsit  = queryStr.split('=')
+    queryData[[itemLsit[0]]] = decodeURIComponent(itemLsit[1])
+  }
+  return queryData
+}
+
+
+function parsePostData(ctx) {
+  return new Promise((resolve, reject) =>{
+    try{
+      let postdata = ''
+      ctx.req.addListener('data',data=>{
+        postdata += data
+      })
+
+      ctx.req.addListener('end',data =>{
+        let parseData = parseQueryStr(postdata)
+        resolve (parseData)
+      })
+    }catch(err){
+      reject(err)
+    }
+  })
+}
+
+
+app.use(async ctx=>{
+  if(ctx.url === '/' && ctx.method === 'GET'){
+    let html = `
+     <h1>koa2 request post demo</h1>
+      <form method="POST" action="/">
+        <p>userName</p>
+        <input name="userName" /><br/>
+        <p>nickName</p>
+        <input name="nickName" /><br/>
+        <p>email</p>
+        <input name="email" /><br/>
+        <button type="submit">submit</button>
+      </form>
+    `
+
+    ctx.body = html
+
+  }else if(ctx.url === '/'&& ctx.method === 'POST'){
+    let postData = await parsePostData(ctx)
+    ctx.body = postData
+  }else {
+    ctx.body = '<h1>404</h1>'
+  }
+
+})
+
+app.listen(3000,()=>{
+  console.log('app is starting at port 3000');
+})
+```
+
+
+### 4.3. koa-bodyparser中间件
+
+对于POST请求的处理，koa-bodyparser中间件可以把koa2上下文的formData数据解析到ctx.request.body中
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+
+const bodyParser = require('koa-bodyparser')
+
+
+app.use(bodyParser())
+
+app.use(async ctx => {
+  if (ctx.url === '/' && ctx.method === 'GET') {
+    // 当GET请求时候返回表单页面
+    let html = `
+      <h1>koa2 request post demo</h1>
+      <form method="POST" action="/">
+        <p>userName</p>
+        <input name="userName" /><br/>
+        <p>nickName</p>
+        <input name="nickName" /><br/>
+        <p>email</p>
+        <input name="email" /><br/>
+        <button type="submit">submit</button>
+      </form>
+    `
+    ctx.body = html
+  } else if (ctx.url === '/' && ctx.method === 'POST') {
+    let postData = ctx.request.body
+    ctx.body = postData
+  }
+})
+
+app.listen(3000,()=>{
+  console.log('app is starting at port 3000');
+})
+
+```
+
+## 5. 实现静态资源服务器
+
+### 5.1 原生koa2实现静态资源服务器
+
+一个http请求访问web服务静态资源，一般响应结果有三种情况
+
+- 访问文本，例如js，css，png，jpg，gif
+- 访问静态目录
+- 找不到资源，抛出404错误
+
+
+> 具体demo见 08-原生koa2实现静态资源服务器
+
+### 5.2 koa-static中间件使用
+
+```js
+const Koa = require('koa')
+const path = require('path')
+const static = require('koa-static')
+
+const app = new Koa()
+
+
+const staticPath = './08-原生koa2实现静态资源服务器/static'
+
+app.use(static(path.join(__dirname, staticPath)))
+
+
+app.use(async ctx => {
+  ctx.body = 'hello world'
+})
+
+
+app.listen(3000, () => {
+  console.log('app is starting at port 3000');
+})
+
+```
+
+## 6. cookie/session
+
+### 6.1. cookie
+
+koa提供了从上下文直接读取、写入cookie的方法
+
+- ctx.cookies.get(name, [options]) 读取上下文请求中的cookie
+- ctx.cookies.set(name, value, [options]) 在上下文中写入cookie
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+
+app.use(async ctx => {
+  if (ctx.url === '/index') {
+    ctx.cookies.set(
+      'cid',
+      'hello world',
+      {
+        domain: 'localhost',
+        path: '/index',
+        maxAge: 10 * 60 * 1000,
+        expires: new Date('2017-02-12'),
+        httpOnly: false,
+        overwrite: false
+      }
+    )
+    ctx.body = 'cookie is ok'
+  } else {
+    ctx.body = 'hello world'
+  }
+})
+
+
+app.listen(3000,()=>{
+  console.log('app is starting at port 3000');
+})
+```
+
+### 6.2. session
+
+koa2原生功能只提供了cookie的操作，但是没有提供session操作。session就只用自己实现或者通过第三方中间件实现。在koa2中实现session的方案有一下几种
+
+- 如果session数据量很小，可以直接存在内存中
+- 如果session数据量很大，则需要存储介质存放session数据
+
+
+## 7. 文件上传
+
+### 7.1. busboy模块
+
+busboy 模块是用来解析POST请求，node原生req中的文件流
 
 
 
