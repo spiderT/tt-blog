@@ -13,6 +13,7 @@
     "busboy": "^0.2.14",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
+    "koa-jsonp": "^2.0.2",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2"
   }

@@ -530,5 +530,87 @@ koa2原生功能只提供了cookie的操作，但是没有提供session操作。
 busboy 模块是用来解析POST请求，node原生req中的文件流
 
 
+## 8. 实现jsonp
+
+
+### 8.1 原生实现jsonp
+
+- JSONP跨域输出的数据是可执行的JavaScript代码
+    + ctx输出的类型应该是'text/javascript'
+    + ctx输出的内容为可执行的返回数据JavaScript代码字符串
+    
+- 需要有回调函数名callbackName，前端获取后会通过动态执行JavaScript代码字符，获取里面的数据
+
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+
+app.use(async ctx => {
+
+  if (ctx.method === 'GET' && ctx.url.split('?')[0] === '/getDate.jsonp') {
+    // 获取jsonp的callback
+    let callbackName = ctx.query.callback || 'callback'
+
+    let returnData = {
+      success: true,
+      data: {
+        text: 'this is a jsonp api',
+        time: new Date().getTime()
+      }
+    }
+
+    let jsonpStr = `;${callbackName}(${JSON.stringify(returnData)})`
+
+    ctx.type = 'text/javascript'
+    ctx.body = jsonpStr
+
+  } else {
+    ctx.body = 'hello jsonp'
+  }
+
+})
+
+app.listen(3000, () => {
+  console.log('app is starting at port 3000');
+})
+```
+
+### 8.2 koa-jsonp中间件
+
+```js
+const Koa = require('koa')
+const jsonp = require('koa-jsonp')
+const app = new Koa()
+
+app.use(jsonp())
+
+
+app.use( async ( ctx ) => {
+
+  let returnData = {
+    success: true,
+    data: {
+      text: 'this is a jsonp api',
+      time: new Date().getTime(),
+    }
+  }
+
+  // 直接输出JSON
+  ctx.body = returnData
+})
+
+app.listen(3000, () => {
+  console.log('koa-jsonp is starting at port 3000')
+})
+```
+
+## 9. 单元测试
+
+- 相关测试框架
+
+    + mocha 模块是测试框架
+    + chai 模块是用来进行测试结果断言库，比如一个判断 1 + 1 是否等于 2
+    + supertest 模块是http请求测试库，用来请求API接口
 
 
