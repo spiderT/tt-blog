@@ -47,6 +47,38 @@ app.keys = new KeyGrip(['im a newer secret', 'i like turtle'], 'sha256');
 this.cookies.set('name', 'tobi', { signed: true });
 ```
 
+#### 1.1.5 async/await 的使用
+
+- koa2 异步读取文件的方法
+
+```js
+const Koa = require('koa')
+const app = new Koa()
+const fs = require('fs')
+
+function render( file ) {
+  return new Promise(( resolve, reject ) => {
+    let viewUrl = `${file}`
+    fs.readFile(viewUrl, "binary", ( err, data ) => {
+      if ( err ) {
+        reject( err )
+      } else {
+        resolve( data )
+      }
+    })
+  })
+}
+
+
+app.use( async ( ctx ) => {
+  let html = await render('./file.html')
+  ctx.body = html
+})
+
+app.listen(3000)
+console.log('[demo] start-async is starting at port 3000')
+```
+
 ### 1.2. Error Handling (错误处理)
 
 - 除非 NODE_ENV 被配置为 "test"，Koa 都将会将所有错误信息输出到 stderr，也可以自定义「错误事件」来监听 Koa app 中发生的错误，比如记录错误日志：

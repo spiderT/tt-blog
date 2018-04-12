@@ -8,6 +8,14 @@ const Busboy = require('busboy')
  * @param  {string} dirname 目录绝对地址
  * @return {boolean}        创建目录结果
  */
+
+  /**
+   *
+   * @param dirname
+   * @returns {boolean}
+   */
+
+
 function mkdirsSync( dirname ) {
     if (fs.existsSync( dirname )) {
         return true
