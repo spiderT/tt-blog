@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
 import Son from './son'
-export default class Father extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -11,12 +11,14 @@ export default class Father extends Component {
   }
 
   render() {
+    const {data} = this.state
+
     return(
       <div>
-          <Son list={this.state.data} />
+          <Son list={data} />
       </div>
     )
   }
 }
 
-ReactDOM.render(<Father />, document.getElementById('main'))
+ReactDOM.render(<App />, document.getElementById('main'))

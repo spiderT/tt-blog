@@ -10,7 +10,7 @@ module.exports = {
         'webpack-dev-server/client?http://localhost:3000',
         'webpack/hot/only-dev-server',
         'react-hot-loader/patch',
-        path.join(__dirname, '1-props/father.js')
+        path.join(__dirname, '/3-callback/src/index.js')
     ],
     output: {
         path: path.join(__dirname, './dist/'),
@@ -19,7 +19,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-          template: './1-props/index.tpl.html',
+          template: './3-callback/src/index.tpl.html',
           inject: 'body',
           filename: './index.html'
         }),

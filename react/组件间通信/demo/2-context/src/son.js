@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Grandson from './grandson'
 
 export default class Son extends Component {
   constructor(props) {
@@ -9,12 +10,12 @@ export default class Son extends Component {
   render() {
     const {list} = this.props
 
+    const option = list.map(item => <li key={item}>{item}</li>)
+
     return (
       <div>
-        <ul>list.map(item=>
-          <li>item</li>
-          )
-        </ul>
+        <Grandson />
+        <ul>{option}</ul>
       </div>
     )
   }
