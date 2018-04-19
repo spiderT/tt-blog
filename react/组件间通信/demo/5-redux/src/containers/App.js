@@ -9,6 +9,10 @@ class App  extends Component{
 
   render() {
     const props = this.props
+    const state = this.state
+
+    console.log('props', props);
+    console.log('state', state);// state:null
 
     return (
       <div>

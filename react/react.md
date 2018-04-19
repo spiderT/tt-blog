@@ -581,6 +581,485 @@ src
 
 
 
+## 1.6  react组件间通信
+
+### 1.6.1 父组件 向 子组件 传递信息
+
+1. 主要是通过 prop进行传值
+
+// 子组件
+```js
+import React, {Component} from 'react'
+
+export default class Son extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  render() {
+    const {list} = this.props
+
+    const option = list.map(item=><li key={item}>{item}</li>)
+
+    return (
+      <div>
+        <ul>{option}</ul>
+      </div>
+    )
+  }
+}
+```
+
+// 父组件
+
+```js
+import React, {Component} from 'react'
+import ReactDOM from 'react-dom'
+
+import Son from './son'
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      data:['haha','aaaa','bbbb','ccccc']
+    }
+  }
+
+  render() {
+    const {data} = this.state
+
+    return(
+      <div>
+          <Son list={data} />
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('main'))
+```
+
+
+2. 父组件 向更深层的 子组件 进行传递信息————利用（context）
+
+- 首先在顶层组件中：定义了顶层组件所拥有的子类context对象——该顶层组件所拥有的的子类context对象为title，且必须为字符串。然后通过getChildText方法，来给子context对象的属性赋值；
+
+- 越级传递：因为title属性，在一级子组件Son中并没有直接用到，因此我们可以直接传递到最底层（越级），在Grandson组件中使用；
+
+- 最底层：声明了所接受到的context的子组件title的类型，声明必须为字符串。
+
+// 孙子组件
+```js
+import React, {Component} from 'react'
+
+export default class GrandSon extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  render() {
+
+    return (
+      <div>
+        <h1>{this.context.title}</h1>
+      </div>
+    )
+  }
+}
+
+GrandSon.contextTypes = {
+  title: React.PropTypes.string
+}
+```
+
+// 子组件
+```js
+import React, {Component} from 'react'
+import Grandson from './grandson'
+
+export default class Son extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  render() {
+    const {list} = this.props
+
+    const option = list.map(item => <li key={item}>{item}</li>)
+
+    return (
+      <div>
+        <Grandson />
+        <ul>{option}</ul>
+      </div>
+    )
+  }
+}
+```
+
+// 父组件
+```js
+import React, {Component} from 'react'
+import ReactDOM from 'react-dom'
+
+import Son from './son'
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      data:['haha','aaaa','bbbb','ccccc']
+    }
+  }
+
+  getChildContext() {
+    return {title: "列表"};
+  }
+
+  render() {
+    const {data} = this.state
+
+    return(
+      <div>
+          <Son list={data} />
+      </div>
+    )
+  }
+}
+App.childContextTypes = {
+  title: React.PropTypes.string
+};
+
+ReactDOM.render(<App />, document.getElementById('main'))
+```
+
+
+### 1.6.2 子组件 向 父组件 传递信息
+
+- 依赖 props 来传递事件的引用，并通过回调的方式来实现的;
+
+// 子组件
+
+```js
+import React, {Component} from 'react'
+
+export default class Son extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      checked: false
+    }
+  }
+
+  handleChange() {
+    var newState = !this.state.checked
+    this.setState({
+      checked: newState
+    })
+    this.props.changeParent(newState)
+  }
+
+  render() {
+
+    return (
+      <div>
+        <label>
+          选择：
+          <input type='checkbox' checked={this.state.checked} onChange={this.handleChange.bind(this)}/>
+        </label>
+      </div>
+    )
+  }
+}
+```
+// 父组件
+
+```js
+import React, {Component} from 'react'
+import ReactDOM from 'react-dom'
+
+import Son from './son'
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      value: false
+    }
+  }
+
+  handleChange(value) {
+    console.log('value', value);
+    this.setState({
+      value: value
+    })
+  }
+
+  render() {
+
+    const {value} = this.state
+
+    return (
+      <div>
+        <h1>是否选中: {value > 0 ? '是' : '否'}</h1>
+        <Son changeParent={this.handleChange.bind(this)}/>
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('main'))
+```
+
+- 在子组件利用 this.props.changeParent(newState) 触发父组件的方法，在父组件绑定changeParent={this.handleChange.bind(this)}，进而将子组件的数据（newState）传递到了父组件。
+
+
+### 1.6.3 兄弟组件之间传值
+
+- 使用PubSub监听机制传参
+
+    + 发送消息：PubSub.publish(名称,参数)
+    + 订阅消息：PubSub.subscrib(名称,函数)
+    + 取消订阅：PubSub.unsubscrib(名称)
+    
+// check组件
+ 
+```js
+import React, {Component} from 'react'
+import PubSub from 'pubsub-js'
+
+export default class Check extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      checked: false
+    }
+  }
+
+  handleChange() {
+    var newState = !this.state.checked
+    this.setState({
+      checked: newState
+    })
+    PubSub.publish('checkmessage',newState)
+  }
+
+  render() {
+
+    return (
+      <div>
+        <label>
+          选择：
+          <input type='checkbox' checked={this.state.checked} onChange={this.handleChange.bind(this)}/>
+        </label>
+      </div>
+    )
+  }
+}
+``` 
+// result组件
+```js
+import React, {Component} from 'react'
+import PubSub from 'pubsub-js'
+
+export default class Result extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      checked: false
+    }
+  }
+
+  componentDidMount() {
+    this.pubsub_check = PubSub.subscribe('checkmessage',function (topic, message) {
+      this.setState({
+        checked:message
+      })
+    }.bind(this))
+  }
+
+  componentWillUnmount(){
+    PubSub.unsubscribe(this.pubsub_check)
+  }
+
+  render() {
+
+    return (
+      <div>
+        <h1>选中了吗: {this.state.checked > 0 ? '是' : '否'}</h1>
+      </div>
+    )
+  }
+}
+```
+
+- 在check组件中发布一个消息checkmessage，在result组件中订阅这个消息，使得两个组件又产生了联系，进行传递的信息。
+
+
+### 1.6.4 利用react-redux进行组件之间的状态信息共享
+
+- Redux 的基本做法：用户发出 Action，Reducer 函数算出新的 State，View 重新渲染。
+
+// actions
+
+- 在里面定义actionType，也可以单独文件定义，然后引入进来
+- action：存放数据的对象，即消息的载体。
+
+```js
+export const actionType = {
+  CHECK_MESSAGE: 'CHECK_MESSAGE',
+}
+
+export const actions = {
+  check (value){
+    console.log('value', value);
+    return dispatch => {
+      dispatch({
+        type: actionType.CHECK_MESSAGE,
+        payload: {
+          checked: !value
+        }
+      })
+    }
+  }
+}
+```
+
+- 以下是两个组件，共享checked这个属性 
+
+// components/check
+
+```js
+import React, {Component} from 'react'
+
+export default class Check extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  handleChange() {
+    var newState = this.props.checked
+    this.props.check(newState)
+  }
+
+  render() {
+
+    return (
+      <div>
+        <label>
+          选择：
+          <input type='checkbox' checked={this.props.checked} onChange={this.handleChange.bind(this)}/>
+        </label>
+      </div>
+    )
+  }
+}
+```
+
+// components/result
+```js
+import React, {Component} from 'react'
+
+export default class Result extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+
+  render() {
+
+    return (
+      <div>
+        <h1>选中了吗: {this.props.checked > 0 ? '是' : '否'}</h1>
+      </div>
+    )
+  }
+}
+```
+
+- connect来向component中注入state。
+
+// containers/App
+```js
+import React,{Component}  from 'react'
+import {connect} from 'react-redux'
+import Check from '../components/check'
+import Result from '../components/result'
+import {actions} from '../actions'
+
+class App  extends Component{
+
+
+  render() {
+    const props = this.props
+
+    return (
+      <div>
+        <Result {...props} />
+        <Check {...props} />
+      </div>
+    )
+  }
+}
+export default connect(state => state, actions)(App)
+
+```
+
+- State 的计算过程就叫做 Reducer
+
+// reducers
+
+```js
+import {actionType} from '../actions'
+
+export const initState = {
+  checked: false
+}
+
+export function reducer(state = initState, action) {
+  const {type, payload} = action
+  switch (type) {
+    case actionType.CHECK_MESSAGE:
+      return Object.assign({}, state, payload)
+    default:
+      return state
+  }
+}
+```
+
+-  React Redux 组件 <Provider> 让所有容器组件都可以访问 store，而不必显示地传递它。只需要在渲染根组件时使用即可。
+
+// index
+```js
+import React from 'react'
+import {compose, createStore, applyMiddleware} from 'redux'
+import {Provider} from 'react-redux'
+import thunk from 'redux-thunk'
+import ReactDOM from 'react-dom'
+import App from './containers/App'
+import { reducer, initState } from './reducers'
+
+
+let buildStore = compose(applyMiddleware(thunk))(createStore)
+let store = buildStore(reducer, initState)
+
+export default class Page extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <App/>
+      </Provider>
+    )
+  }
+}
+
+ReactDOM.render(<Page/>, document.getElementById('main'))
+
+```
+
 
 
 ## react 和 antd 的版本升级
@@ -604,6 +1083,10 @@ jscodeshift -t Popover-overlay-to-content.js /Users/lianjia/tt/project/ljfe-ehr-
 ```
 
 3. 自测，处理antd 内置的 warning
+
+
+
+
 
 
 
