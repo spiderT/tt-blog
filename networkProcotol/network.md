@@ -10,4 +10,4 @@
 
 
 ## 2. 网络协议
-![理解网络分层](/images/network1.jpg)
+![理解网络分层](./images/network1.jpg)
