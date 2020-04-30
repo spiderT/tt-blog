@@ -148,7 +148,7 @@ generateTheme(options).then(less => {
 }
 ```
 
-3. 项目启动处修改  
+3. 在body里引入color.less, 同时项目启动处修改  
 
 修改项目运行配置 package.json ，项目运行的同时完成页面color文件的配置  
 
