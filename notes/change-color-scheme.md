@@ -23,7 +23,54 @@ if (
 }
 ```
 
-## 2. 使用 less 提供的 modifyVars 的方式进行覆盖变量
+## 2. 动态添加或卸载HTMLLinkElement
+
+根据当前设置的主题判读是否引入dark.css文件
+
+```js
+function updateAntTheme(theme) {
+  const hide = message.loading('正在加载主题');
+  const href = theme === 'dark' ? 'dark' : '';
+  const dom = document.getElementById('theme-style') as HTMLLinkElement;
+
+  if (!href) {
+    if (dom) {
+      dom.remove();
+    }
+    return;
+  }
+
+  const url = `${href}.css`;
+  if (dom) {
+    dom.onload = () => {
+      window.setTimeout(() => {
+        hide();
+      });
+    };
+    dom.href = url;
+  } else {
+    const style = document.createElement('link');
+    style.type = 'text/css';
+    style.rel = 'stylesheet';
+    style.id = 'theme-style';
+    style.onload = () => {
+      window.setTimeout(() => {
+        hide();
+      });
+    };
+    style.href = url;
+    if (document.body.append) {
+      document.body.append(style);
+    } else {
+      document.body.appendChild(style);
+    }
+  }
+}
+```
+
+## 3. 使用 less 提供的 modifyVars 的方式进行覆盖变量
+
+在引入dark.css的基础下，再用less修改变量，主要是因为一些场景或样式还需要再修改。  
 
 配合使用了一个库 antd-theme-generator
 
@@ -158,49 +205,4 @@ if (theme === 'dark') {
           console.log(error);
         });
     }
-```
-
-## 3. 动态添加或卸载HTMLLinkElement
-
-根据当前设置的主题判读是否引入dark.css文件
-
-```js
-function updateAntTheme(theme) {
-  const hide = message.loading('正在加载主题');
-  const href = theme === 'dark' ? 'dark' : '';
-  const dom = document.getElementById('theme-style') as HTMLLinkElement;
-
-  if (!href) {
-    if (dom) {
-      dom.remove();
-    }
-    return;
-  }
-
-  const url = `${href}.css`;
-  if (dom) {
-    dom.onload = () => {
-      window.setTimeout(() => {
-        hide();
-      });
-    };
-    dom.href = url;
-  } else {
-    const style = document.createElement('link');
-    style.type = 'text/css';
-    style.rel = 'stylesheet';
-    style.id = 'theme-style';
-    style.onload = () => {
-      window.setTimeout(() => {
-        hide();
-      });
-    };
-    style.href = url;
-    if (document.body.append) {
-      document.body.append(style);
-    } else {
-      document.body.appendChild(style);
-    }
-  }
-}
 ```
