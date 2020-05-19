@@ -12,6 +12,8 @@
 
 ## 3. [react/redux/test](https://github.com/ivyTa/react-learn)
 
+### 3.1 [react recoil](https://recoiljs.org/)
+
 ## 4. html
 ### 4.1 [html5新增常用属性](https://github.com/ivyTa/ivyTa.github.io/blob/master/html/01-html5.2.md)
 
