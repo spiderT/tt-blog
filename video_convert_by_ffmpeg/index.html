@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  video{
+    width: 400px;
+    height: auto;
+  }
+</style>
+<body>
+  <div class="video-wrap">
+    <h1>第一个视频只有声音，没有画面，第二、三个视频播放正常</h1>
+    <video controls autoplay src="./input/h265-test-640.mp4"></video>
+    <video controls autoplay src="./output/splitVideo.mp4"></video>
+    <video controls autoplay src="./output/convertVideo.mp4"></video>
+  </div>
+</body>
+</html>
