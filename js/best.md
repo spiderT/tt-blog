@@ -1,7 +1,17 @@
 # javascript最佳实践
-## 1.1. [数组](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/array/array.md)
-## 1.2. 函数
-## 1.3. 对象
-## 1.4. 字符串
-## 1.5. 数值
-## 1.1.6. [ES6](https://github.com/ivyTa/ivyTa.github.io/blob/master/js/ES6/ES6.md)
+
+## 1.1. [array](https://github.com/spiderT/tt-blog/tree/master/js/array/array.md)
+
+## 1.2. [function](https://github.com/spiderT/tt-blog/tree/master/js/function/function.md)
+
+## 1.3. object
+
+## 1.4. string
+
+## 1.5. number
+
+## 1.6. [set&map](https://github.com/spiderT/tt-blog/tree/master/js/set&map/set&map.md)
+
+## 1.7. [symbol](https://github.com/spiderT/tt-blog/tree/master/js/symbol/symbol.md)
+
+## 1.8.  [proxy](https://github.com/spiderT/tt-blog/tree/master/js/proxy/proxy.md)
