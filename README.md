@@ -36,11 +36,17 @@
 
 ## 11. [nginx学习](https://github.com/spiderT/nginx-learn)
 
-## 12. [备考笔记](https://github.com/spiderT/booknotes)
+## 12. [Webgl学习](https://github.com/spiderT/webgl-learn)
 
-## 13. 其他
+## 13. [java学习](https://github.com/spiderT/java-learn)
 
-1. [根据设备主题网页换肤](https://github.com/ivyTa/ivyTa.github.io/blob/master/notes/change-color-scheme.md)
+## 14. [mongodb学习](https://github.com/spiderT/koa-mongodb-learn)
+
+## 15. [备考笔记](https://github.com/spiderT/booknotes)
+
+## 16. 其他
+
+1. [根据设备主题网页换肤](https://github.com/spiderT/tt-blog/blob/master/notes/change-color-scheme.md)
 
 2. [webworker学习](https://github.com/spiderT/webworker-learn)
 
@@ -48,4 +54,6 @@
 
 4. [制作vscode插件](https://github.com/spiderT/vscode-running-theme)
 
-5. [使用FFmpeg和WebAssembly实现前端视频转码](https://github.com/ivyTa/ivyTa.github.io/blob/master/video_convert_by_ffmpeg/README.md)
+5. [使用FFmpeg和WebAssembly实现前端视频转码](https://github.com/spiderT/tt-blog/blob/master/video_convert_by_ffmpeg/README.md)
+
+6. [chrome 消息队列和事件循环](https://github.com/spiderT/tt-blog/blob/master/notes/chrome-thread.md)
