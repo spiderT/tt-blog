@@ -57,3 +57,5 @@
 5. [使用FFmpeg和WebAssembly实现前端视频转码](https://github.com/spiderT/tt-blog/blob/master/video_convert_by_ffmpeg)
 
 6. [chrome 消息队列和事件循环](https://github.com/spiderT/tt-blog/blob/master/notes/chrome-thread.md)
+
+7. [http3](https://github.com/spiderT/tt-blog/blob/master/notes/http3.md)
