@@ -8,10 +8,6 @@
 
 3. [js函数式编程](https://github.com/ivyTa/ivyTa.github.io/blob/master/functionalProgramming/functionalProgramming.md)
 
-4. [js数据结构与算法](https://github.com/ivyTa/datastructures-algorithms)
-
-5. [leetcode练习](https://github.com/spiderT/leetcode-practice)
-
 ## 2. html
 
 1. [html5新增常用属性](https://github.com/ivyTa/ivyTa.github.io/blob/master/html/01-html5.2.md)
@@ -42,9 +38,13 @@
 
 ## 14. [mongodb学习](https://github.com/spiderT/koa-mongodb-learn)
 
-## 15. [备考笔记](https://github.com/spiderT/booknotes)
+## 15. [数据结构与算法](https://github.com/ivyTa/datastructures-algorithms)
 
-## 16. 其他
+## 16. [leetcode练习](https://github.com/spiderT/leetcode-practice)
+
+## 17. [备考笔记](https://github.com/spiderT/booknotes)
+
+## 18. 其他
 
 1. [根据设备主题网页换肤](https://github.com/spiderT/tt-blog/blob/master/notes/change-color-scheme.md)
 
@@ -59,3 +59,5 @@
 6. [chrome 消息队列和事件循环](https://github.com/spiderT/tt-blog/blob/master/notes/chrome-thread.md)
 
 7. [http3](https://github.com/spiderT/tt-blog/blob/master/notes/http3.md)
+
+8. [react fiber](https://github.com/spiderT/tt-blog/blob/master/notes/react-fiber-reconciler.md)
