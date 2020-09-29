@@ -40,7 +40,7 @@ document.getElementById("close").addEventListener("click", () => {
 
 > 浏览器兼容性：Chrome浏览器中已经有了<dialog>元素的支持，并且在Firefox中有一个标志
 
-![浏览器兼容性t](images/dialog.png)
+![浏览器兼容性](/dialog.png)
 
 
 ### 1.2 iFrames中可以使用支付请求API（Payment Request API)

@@ -1,8 +1,9 @@
 # HTTP/3
 
 参考：  
-http/3: https://netsecurity.51cto.com/art/202005/616624.html
-QUIC: https://zhuanlan.zhihu.com/p/32553477
+http/3: https://netsecurity.51cto.com/art/202005/616624.html  
+QUIC: https://zhuanlan.zhihu.com/p/32553477  
+Nginx配置: https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/
 
 ## HTTP/3
 
@@ -52,9 +53,7 @@ HTTP/3 中的 QUIC 协议集合了以下几点功能。
 
 3. 中间设备僵化的问题。这些设备对 UDP 的优化程度远远低于 TCP，据统计使用 QUIC 协议时，大约有 3%～7% 的丢包率。
 
-## Nginx配置
-
-参考：https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/
+## [Nginx配置](https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/)
 
 项目quiche，用于为Nginx添加QUIC支持，并支持HTTP3。  
 
