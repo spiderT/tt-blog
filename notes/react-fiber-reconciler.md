@@ -163,7 +163,7 @@ export const ShouldCapture = /*         */ 0b100000000000;
 
 这是 React 团队作者 Dan Abramov 画的一张生命周期阶段图，他把 React 的生命周期主要分为两个阶段：render 阶段和 commit 阶段。其中 commit 阶段又可以细分为 pre-commit 阶段和 commit 阶段，如下图所示：
 
-![fiber1](images/fiber1.png)
+![fiber1](images/fiber1.jpeg)
 
 从 v16.3 版本开始，在 render 阶段，以下几个生命周期被认为是不安全的，它们将在未来的版本中被移除，可以看到这些生命周期在上图中未被包括进去，如下所示：  
 
@@ -180,8 +180,6 @@ export const ShouldCapture = /*         */ 0b100000000000;
 首次渲染之后，React 会生成一个对应于 UI 渲染的 fiber 树，称之为 current 树。实际上，React 在调用生命周期钩子函数时就是通过判断是否存在 current 来区分何时执行 componentDidMount 和 componentDidUpdate。当 React 遍历 current 树时，它会为每一个存在的 fiber 节点创建了一个替代节点，这些节点构成一个 workInProgress 树。后续所有发生 work 的地方都是在 workInProgress 树中执行，如果该树还未创建，则会创建一个 current 树的副本，作为 workInProgress 树。当 workInProgress 树被提交后将会在 commit 阶段的某一子阶段被替换成为 current 树。
 
 增加两个树的主要原因是为了避免更新的丢失。比如，如果我们只增加更新到 workInProgress 树，当 workInProgress 树通过从 current 树中克隆而重新开始时，一些更新可能会丢失。同样的，如果我们只增加更新到 current 树，当 workInProgress 树被提交后会被替换为 current 树，更新也会被丢失。通过在两个队列都保持更新，可以确保更新始终是下一个 workInProgress 树的一部分。并且，因为 workInProgress 树被提交成为 current 树，并不会出现相同的更新而被重复应用两次的情况。  
-
-![fiber1](images/fiber1.png)
 
 effect list 可以理解为是一个存储 effectTag 副作用列表容器。它是由 fiber 节点和指针 nextEffect 构成的单链表结构，这其中还包括第一个节点 firstEffect，和最后一个节点 lastEffect。如下图所示：
 
@@ -299,4 +297,4 @@ function commitBeforeMutationLifecycles() {
 
 fiber 调用链路  
 
-![fiber4](images/fiber4.png)
+![fiber4](images/fiber4.jpeg)
