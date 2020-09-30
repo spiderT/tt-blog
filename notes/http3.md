@@ -1,11 +1,6 @@
 # HTTP/3
 
-参考：  
-http/3: https://netsecurity.51cto.com/art/202005/616624.html  
-QUIC: https://zhuanlan.zhihu.com/p/32553477  
-Nginx配置: https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/
-
-## HTTP/3
+## http/3
 
 HTTP/2 的一个核心特性是使用了多路复用技术，因此它可以通过一个 TCP 连接来发送多个 URL 请求。多路复用技术能充分利用带宽，最大限度规避了 TCP 的慢启动所带来的问题，同时还实现了头部压缩、服务器推送等功能，使得页面资源的传输速度得到了大幅提升。在 HTTP/1.1 时代，为了提升并行下载效率，浏览器为每个域名维护了 6 个 TCP 连接；而采用 HTTP/2 之后，浏览器只需要为每个域名维护 1 个 TCP 持久连接，同时还解决了 HTTP/1.1 队头阻塞的问题。  
 
@@ -112,3 +107,8 @@ server {
     add_header alt-svc 'h3-23=":443"; ma=86400';
 }
 ```
+
+参考：  
+http/3: https://netsecurity.51cto.com/art/202005/616624.html  
+QUIC: https://zhuanlan.zhihu.com/p/32553477  
+Nginx配置: https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/
