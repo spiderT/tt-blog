@@ -61,3 +61,5 @@
 7. [http3](https://github.com/spiderT/tt-blog/blob/master/notes/http3.md)
 
 8. [react fiber](https://github.com/spiderT/tt-blog/blob/master/notes/react-fiber-reconciler.md)
+
+9. [js 宏任务 微任务](https://github.com/spiderT/tt-blog/blob/master/notes/js-macrotask&microtask.md)
