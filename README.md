@@ -8,6 +8,8 @@
 
 3. [js函数式编程](https://github.com/ivyTa/ivyTa.github.io/blob/master/functionalProgramming/functionalProgramming.md)
 
+4. [ts](https://github.com/spiderT/tt-blog/blob/master/ts/ts.md)
+
 ## 2. html
 
 1. [html5新增常用属性](https://github.com/ivyTa/ivyTa.github.io/blob/master/html/01-html5.2.md)

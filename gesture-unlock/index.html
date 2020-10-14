@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      #canvas {
+        width: 100%;
+        height: 100%;
+        /*! 要想让元素铺满全屏，要么用absolute的100%，要么用100vh */
+        position: absolute;
+      }
+    </style>
+    <script>
+      class GestureUnlock {
+        constructor(canvas) {
+          //圆圈直径/画布比例
+          this.circleSizeRatio = 0.1;
+          //圆圈内部镂空直径/圆圈半径
+          this.circleHollowRatio = 0.5;
+          //圆圈边框线宽/圆圈半径
+          this.circleLineWidthRatio = 0.1;
+          //画笔线宽/圆圈内部镂空半径
+          this.lineWidthRatio = 1;
+          //线条颜色
+          this.color = "RoyalBlue";
+          //行数
+          this.numRow = 3;
+          //列数
+          this.numColumn = 5;
+          //圆圈的坐标数组(x,y)
+          this.pointPos = [];
+          //已经选中的圈编号(i)，规则：先横后竖。保存手势的时候只要保存该变量即可
+          this.points = [];
+          //起始按下是否在某个圆圈的范围
+          this.isDownOnPoint = false;
+
+          this.doublePI = 2 * Math.PI;
+          this.canvas = canvas;
+
+          this.initListener();
+          this.setData();
+          this.draw();
+        }
+
+        setData() {
+          //必须要设置canvas的宽高，而不能用style的宽高，否则默认会按300×150缩放
+          //注意：当canvas的大小改变时，ctx就会重置，包括之前设置的样式会全部被重置
+          this.canvas.width = this.canvas.clientWidth;
+          this.canvas.height = this.canvas.clientHeight;
+          const size = Math.min(
+            this.canvas.clientWidth,
+            this.canvas.clientHeight
+          );
+          //圆圈的直径
+          const circleWidth = size * this.circleSizeRatio;
+          this.circleR = circleWidth / 2;
+          //连接线可填充的孔洞半径
+          this.circleHollowR = this.circleR * this.circleHollowRatio;
+          //圆圈外径和中间可填充的孔洞中间的半径
+          this.circleMiddleR = (this.circleR + this.circleHollowR) / 2;
+          //圆圈的边框线条宽度
+          this.circleLineWidth = this.circleR * this.circleLineWidthRatio;
+          //圆圈填充白色的宽度
+          this.circlePadWidth = this.circleR - this.circleHollowR;
+          //连接线宽度
+          this.lineWidth = this.circleHollowR * this.lineWidthRatio;
+          //行的一个间隔长度
+          this.rowPad = this.canvas.clientHeight / (this.numRow * 2);
+          //列的一个间隔长度
+          this.columnPad = this.canvas.clientWidth / (this.numColumn * 2);
+          //console.log(this.rowPad, this.columnPad, this.circleR);
+
+          this.ctx = canvas.getContext("2d");
+          this.ctx.strokeStyle = "RoyalBlue";
+          this.ctx.fillStyle = this.color;
+          //线条两端的笔帽(lineCap)支持butt(默认)、round、square，但是默认的拐点会突出
+          this.ctx.lineCap = "round";
+          //两条线条交汇处的样式(lineJoin)支持miter(默认，尖角)、round、bevel(斜角或缺角)
+          this.ctx.lineJoin = "bevel";
+        }
+
+        drawCircle() {
+          this.pointPos = [];
+          for (let i = 0; i < this.numRow; i++) {
+            for (let j = 0; j < this.numColumn; j++) {
+              const x = (2 * j + 1) * this.columnPad;
+              const y = (2 * i + 1) * this.rowPad;
+              this.pointPos.push([x, y]);
+              //console.log(x, y)
+              this.ctx.beginPath();
+              this.ctx.strokeStyle = "white";
+              this.ctx.lineWidth = this.circlePadWidth;
+              this.ctx.arc(x, y, this.circleMiddleR, 0, this.doublePI);
+              this.ctx.stroke();
+
+              this.ctx.beginPath();
+              this.ctx.strokeStyle = this.color;
+              this.ctx.lineWidth = this.circleLineWidth;
+              this.ctx.arc(x, y, this.circleR, 0, this.doublePI);
+              this.ctx.stroke();
+            }
+          }
+        }
+
+        drawLine(x, y) {
+          const that = this;
+
+          function getPointPos(i) {
+            return that.pointPos[that.points[i]];
+          }
+
+          if (this.points.length == 0) return;
+          for (let i = 0; i < this.points.length; i++) {
+            //ES6的自动拆包
+            this.ctx.beginPath();
+            this.ctx.arc(
+              ...getPointPos(i),
+              this.circleHollowR,
+              0,
+              this.doublePI
+            );
+            this.ctx.fill();
+          }
+
+          this.ctx.beginPath();
+          this.ctx.lineWidth = this.lineWidth;
+          //ES6的自动拆包
+          this.ctx.moveTo(...getPointPos(0));
+          for (let i = 1; i < this.points.length; i++) {
+            this.ctx.lineTo(...getPointPos(i));
+          }
+
+          if (x != undefined && y != undefined) {
+            this.ctx.lineTo(x, y);
+          }
+          this.ctx.stroke();
+        }
+
+        draw(x, y) {
+          this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+          this.drawLine(x, y);
+          this.drawCircle();
+        }
+
+        indexOfPoint(x, y) {
+          if (this.pointPos.length == 0) throw new Error("未找到圆圈坐标数组");
+          //为了减少计算量，将每个圆当作正方形来看
+          for (let i = 0; i < this.pointPos.length; i++) {
+            if (
+              Math.abs(x - this.pointPos[i][0]) < this.circleR &&
+              Math.abs(y - this.pointPos[i][1]) < this.circleR
+            ) {
+              return i;
+            }
+          }
+          return -1;
+        }
+
+        pushToPoints(index) {
+          if (index == -1 || this.points.includes(index)) return false;
+          this.points.push(index);
+          return true;
+        }
+
+        initListener() {
+          //内嵌箭头函数(即匿名函数)是为了继续使用this
+          this.canvas.addEventListener("mousedown", e => {
+            this.touchStart(e);
+          });
+          this.canvas.addEventListener("mousemove", e => {
+            this.touchMove(e);
+          });
+          this.canvas.addEventListener("mouseup", e => {
+            this.touchEnd(e);
+          });
+          this.canvas.addEventListener("touchstart", e => {
+            this.touchStart(e);
+          });
+          this.canvas.addEventListener("touchmove", e => {
+            this.touchMove(e);
+          });
+          this.canvas.addEventListener("touchend", e => {
+            this.touchEnd(e);
+          });
+
+          window.addEventListener("resize", () => {
+            this.setData();
+            this.draw();
+          });
+        }
+
+        //兼容PC端和手机端的获取单击点坐标
+        getEventPos(event) {
+          const x = event.clientX || event.touches[0].clientX;
+          const y = event.clientY || event.touches[0].clientY;
+          return [x, y];
+        }
+
+        touchStart(e) {
+          const [x, y] = this.getEventPos(e);
+          this.points = [];
+          const index = this.indexOfPoint(x, y);
+          this.isDownOnPoint = this.pushToPoints(index);
+        }
+
+        touchMove(e) {
+          if (!this.isDownOnPoint) return;
+          const [x, y] = this.getEventPos(e);
+          const index = this.indexOfPoint(x, y);
+          this.pushToPoints(index);
+          this.draw(x, y);
+        }
+
+        touchEnd(e) {
+          if (!this.isDownOnPoint) return;
+          this.isDownOnPoint = false;
+          this.draw();
+          if (this.points.length > 1) {
+            /*
+					浏览器中弹出的对话框都是模态对话框（Modal Dialogue Box，又叫做模式对话框）
+					是指在用户想要对对话框以外的应用程序进行操作时，必须首先对该对话框进行响应。
+					*/
+            //conform 遵守；confirm 确认
+            //const ret = confirm("点击的顺序是：" + this.points.join(" -> "));
+            alert("点击的顺序是：" + this.points.join(" -> "));
+            this.points = [];
+            this.draw();
+          }
+        }
+      }
+      const canvas = document.getElementById("canvas");
+      const gestureUnlock = new GestureUnlock(canvas);
+    </script>
+  </head>
+
+  <body>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
