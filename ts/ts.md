@@ -514,6 +514,272 @@ function buildName(firstName: string, ...restOfName: string[]) {
 let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
 ```
 
+## 4. Classes
+
+### 4.1. Inheritance
+
+extends: 从基类继承的属性和方法
+
+```ts
+class Animal {
+  move(distanceInMeters: number = 0) {
+    console.log(`Animal moved ${distanceInMeters}m.`);
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("Woof! Woof!");
+  }
+}
+
+const dog = new Dog();
+dog.bark();
+dog.move(10);
+dog.bark();
+```
+
+### 4.2. Public, private, protected, readonly
+
+#### 4.2.1. Public
+
+```ts
+class Animal {
+  public name: string;
+
+  public constructor(theName: string) {
+    this.name = theName;
+  }
+
+  public move(distanceInMeters: number) {
+    console.log(`${this.name} moved ${distanceInMeters}m.`);
+  }
+}
+```
+
+#### 4.2.2. private
+
+```ts
+class Animal {
+  private name: string;
+
+  constructor(theName: string) {
+    this.name = theName;
+  }
+}
+
+new Animal("Cat").name;
+// Property 'name' is private and only accessible within class 'Animal'.
+```
+
+#### 4.2.3. protected
+
+protected以外的类不能被实例化,但可以扩展
+
+```ts
+class Person {
+  protected name: string;
+  protected constructor(theName: string) {
+    this.name = theName;
+  }
+}
+
+// Employee can extend Person
+class Employee extends Person {
+  private department: string;
+
+  constructor(name: string, department: string) {
+    super(name);
+    this.department = department;
+  }
+
+  public getElevatorPitch() {
+    return `Hello, my name is ${this.name} and I work in ${this.department}.`;
+  }
+}
+
+let howard = new Employee("Howard", "Sales");
+let john = new Person("John");
+// Constructor of class 'Person' is protected and only accessible within the class declaration.
+```
+
+#### 4.2.4. Readonly
+
+只读的属性必须在他们的声明或在构造函数中初始化。  
+
+```ts
+class Octopus {
+  readonly name: string;
+  readonly numberOfLegs: number = 8;
+
+  constructor(theName: string) {
+    this.name = theName;
+  }
+}
+
+let dad = new Octopus("Man with the 8 strong legs");
+dad.name = "Man with the 3-piece suit";
+// Cannot assign to 'name' because it is a read-only property.
+```
+
+### 4.3. Accessors
+
+get and set
+
+```ts
+const fullNameMaxLength = 10;
+
+class Employee {
+  private _fullName: string = "";
+
+  get fullName(): string {
+    return this._fullName;
+  }
+
+  set fullName(newName: string) {
+    if (newName && newName.length > fullNameMaxLength) {
+      throw new Error("fullName has a max length of " + fullNameMaxLength);
+    }
+
+    this._fullName = newName;
+  }
+}
+
+let employee = new Employee();
+employee.fullName = "Bob Smith";
+
+if (employee.fullName) {
+  console.log(employee.fullName);
+}
+```
+
+### 4.4. Static Properties
+
+在类本身可见，而不是实例
+
+```ts
+class Grid {
+  static origin = { x: 0, y: 0 };
+
+  calculateDistanceFromOrigin(point: { x: number; y: number }) {
+    let xDist = point.x - Grid.origin.x;
+    let yDist = point.y - Grid.origin.y;
+    return Math.sqrt(xDist * xDist + yDist * yDist) / this.scale;
+  }
+
+  constructor(public scale: number) {}
+}
+
+let grid1 = new Grid(1.0); // 1x scale
+let grid2 = new Grid(5.0); // 5x scale
+
+console.log(grid1.calculateDistanceFromOrigin({ x: 10, y: 10 }));
+console.log(grid2.calculateDistanceFromOrigin({ x: 10, y: 10 }));
+```
+
+### 4.5. Abstract Classes
+
+抽象类可以包含其成员的实现细节
+
+```ts
+abstract class Department {
+  constructor(public name: string) {}
+
+  printName(): void {
+    console.log("Department name: " + this.name);
+  }
+
+  abstract printMeeting(): void; // must be implemented in derived classes
+}
+
+class AccountingDepartment extends Department {
+  constructor() {
+    super("Accounting and Auditing"); // constructors in derived classes must call super()
+  }
+
+  printMeeting(): void {
+    console.log("The Accounting Department meets each Monday at 10am.");
+  }
+
+  generateReports(): void {
+    console.log("Generating accounting reports...");
+  }
+}
+
+let department: Department; // ok to create a reference to an abstract type
+department = new Department(); // error: cannot create an instance of an abstract class
+// Cannot create an instance of an abstract class.
+department = new AccountingDepartment(); // ok to create and assign a non-abstract subclass
+department.printName();
+department.printMeeting();
+department.generateReports();
+// Property 'generateReports' does not exist on type 'Department'.
+```
+
+## 5. Enums
+
+### 5.1. Numeric enums
+
+```ts
+enum Direction {
+  Up = 1,
+  Down,
+  Left,
+  Right
+}
+```
+
+### 5.2. String enums
+
+```ts
+enum Direction {
+  Up = "UP",
+  Down = "DOWN",
+  Left = "LEFT",
+  Right = "RIGHT"
+}
+```
+
+### 5.3. Heterogeneous enums
+
+```ts
+enum BooleanLikeHeterogeneousEnum {
+  No = 0,
+  Yes = "YES"
+}
+```
+
+## 6. Generics
+
+ <>  
+
+```ts
+function identity<T>(arg: T): T {
+  return arg;
+}
+```
+
+```ts
+function loggingIdentity<T>(arg: T): T {
+  console.log(arg.length);
+// Property 'length' does not exist on type 'T'.
+  return arg;
+}
+
+
+
+function loggingIdentity<T>(arg: T[]): T[] {
+  console.log(arg.length);
+  return arg;
+}
+```
+
+
+
+
+
+
+
 
 
 
