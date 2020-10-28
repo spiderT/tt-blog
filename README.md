@@ -18,7 +18,7 @@
 
 ## 4. [react/redux/test](https://github.com/ivyTa/react-learn)
 
-### 4.1 [react recoil](https://recoiljs.org/)
+### 4.1 [react recoil](https://github.com/spiderT/tt-blog/blob/master/recoil-app)
 
 ## 5. [pwa学习](https://github.com/ivyTa/pwa-learn)
 
@@ -28,25 +28,23 @@
 
 ## 8. [webrtc学习](https://github.com/ivyTa/webrtc-learn)
 
-## 9. [计算机网络](https://github.com/ivyTa/ivyTa.github.io/blob/master/networkProcotol/network.md)
+## 9. [electron学习](https://github.com/spiderT/electron-learn)
 
-## 10. [electron学习](https://github.com/spiderT/electron-learn)
+## 10. [nginx学习](https://github.com/spiderT/nginx-learn)
 
-## 11. [nginx学习](https://github.com/spiderT/nginx-learn)
+## 11. [Webgl学习](https://github.com/spiderT/webgl-learn)
 
-## 12. [Webgl学习](https://github.com/spiderT/webgl-learn)
+## 12. [java学习](https://github.com/spiderT/java-learn)
 
-## 13. [java学习](https://github.com/spiderT/java-learn)
+## 13. [mongodb学习](https://github.com/spiderT/koa-mongodb-learn)
 
-## 14. [mongodb学习](https://github.com/spiderT/koa-mongodb-learn)
+## 14. [数据结构与算法](https://github.com/ivyTa/datastructures-algorithms)
 
-## 15. [数据结构与算法](https://github.com/ivyTa/datastructures-algorithms)
+## 15. [leetcode练习](https://github.com/spiderT/leetcode-practice)
 
-## 16. [leetcode练习](https://github.com/spiderT/leetcode-practice)
+## 16. [备考笔记](https://github.com/spiderT/booknotes)
 
-## 17. [备考笔记](https://github.com/spiderT/booknotes)
-
-## 18. 其他
+## 17. 其他
 
 1. [根据设备主题网页换肤](https://github.com/spiderT/tt-blog/blob/master/notes/change-color-scheme.md)
 
