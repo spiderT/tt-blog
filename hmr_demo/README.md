@@ -448,24 +448,169 @@ function hotCheck(applyOnUpdate) {
 
 通过向服务端发起 AJAX 请求获取是否有更新文件，如果有的话将 mainfest 返回给浏览器端。  
 
-## 10.请求更新最新模块代码
+## 10. 请求更新最新模块代码
 
 通过 JSONP 请求最新的模块代码，并将代码返回给 HMR runtime 。  
 
 然后 HMR runtime 会将新代码进一步处理，判断是浏览器刷新还是模块热更新。  
 
+## 11. 更新模块和依赖引用
 
+是整个模块热更新（HMR）的核心步骤，通过 HMR runtime 的 hotApply 方法，移除过期模块和代码，并添加新的模块和代码实现热更新。  
 
+从 hotApply 方法可以看出，模块热替换主要分三个阶段：  
 
+1. 找出过期模块 outdatedModules 和过期依赖 outdatedDependencies.  
 
+webpack\lib\hmr\HotModuleReplacement.runtime.js  Line 281
 
+```js
+function hotApply(options) {
+  if (currentStatus !== "ready") {
+    return Promise.resolve().then(function () {
+      throw new Error("apply() is only allowed in ready status");
+    });
+  }
+  return internalApply(options);
+}
 
+function internalApply(options) {
+  options = options || {};
 
+  applyInvalidatedModules();
 
+  var results = currentUpdateApplyHandlers.map(function (handler) {
+    return handler(options);
+  });
+  currentUpdateApplyHandlers = undefined;
 
+  var errors = results
+    .map(function (r) {
+      return r.error;
+    })
+    .filter(Boolean);
 
+  if (errors.length > 0) {
+    setStatus("abort");
+    return Promise.resolve().then(function () {
+      throw errors[0];
+    });
+  }
 
+  // Now in "dispose" phase
+  setStatus("dispose");
 
+  results.forEach(function (result) {
+    if (result.dispose) result.dispose();
+  });
 
-参考：https://xie.infoq.cn/article/b102685ca1cbda3b8228cb1f3  
-但该文的webpack版本与本文的不一致，所以源码也不一致  
+  // Now in "apply" phase
+  setStatus("apply");
+
+  var error;
+  var reportError = function (err) {
+    if (!error) error = err;
+  };
+
+  var outdatedModules = [];
+  results.forEach(function (result) {
+    if (result.apply) {
+      var modules = result.apply(reportError);
+      if (modules) {
+        for (var i = 0; i < modules.length; i++) {
+          outdatedModules.push(modules[i]);
+        }
+      }
+    }
+  });
+```
+
+2. 从缓存中删除过期模块、依赖和所有子元素的引用；  
+
+webpack\lib\hmr\HotModuleReplacement.runtime.js  Line 361  
+
+```js
+function applyInvalidatedModules() {
+  if (queuedInvalidatedModules) {
+    if (!currentUpdateApplyHandlers) currentUpdateApplyHandlers = [];
+    Object.keys($hmrInvalidateModuleHandlers$).forEach(function (key) {
+      queuedInvalidatedModules.forEach(function (moduleId) {
+        $hmrInvalidateModuleHandlers$[key](
+          moduleId,
+          currentUpdateApplyHandlers
+        );
+      });
+    });
+    queuedInvalidatedModules = undefined;
+    return true;
+  }
+}
+```
+
+3. 将新模块代码添加到 modules 中，当下次调用 __webpack_require__ 方法的时候，就是获取到了新的模块代码了。  
+
+webpack\lib\hmr\HotModuleReplacement.runtime.js  Line 348  
+
+```js
+if (queuedInvalidatedModules) {
+  return internalApply(options).then(function (list) {
+    outdatedModules.forEach(function (moduleId) {
+      if (list.indexOf(moduleId) < 0) list.push(moduleId);
+    });
+    return list;
+  });
+}
+```
+
+## 12. 热更新错误处理
+
+在热更新过程中，hotApply 过程中可能出现 abort 或者 fail 错误，则热更新退回到刷新浏览器（Browser Reload），整个模块热更新完成。  
+
+webpack\hot\dev-server.js Line 12  
+
+```js
+var check = function check() {
+  module.hot
+    .check(true)
+    .then(function (updatedModules) {
+      if (!updatedModules) {
+        log("warning", "[HMR] Cannot find update. Need to do a full reload!");
+        log(
+          "warning",
+          "[HMR] (Probably because of restarting the webpack-dev-server)"
+        );
+        window.location.reload();
+        return;
+      }
+
+      if (!upToDate()) {
+        check();
+      }
+
+      require("./log-apply-result")(updatedModules, updatedModules);
+
+      if (upToDate()) {
+        log("info", "[HMR] App is up to date.");
+      }
+    })
+    .catch(function (err) {
+      var status = module.hot.status();
+      if (["abort", "fail"].indexOf(status) >= 0) {
+        log(
+          "warning",
+          "[HMR] Cannot apply update. Need to do a full reload!"
+        );
+        log("warning", "[HMR] " + log.formatError(err));
+        window.location.reload();
+      } else {
+        log("warning", "[HMR] Update failed: " + log.formatError(err));
+      }
+    });
+};
+```
+
+参考：  
+
+官网https://webpack.js.org/guides/hot-module-replacement/  
+
+https://xie.infoq.cn/article/b102685ca1cbda3b8228cb1f3  
