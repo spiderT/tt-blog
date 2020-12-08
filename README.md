@@ -40,11 +40,17 @@
 
 ## 14. [数据结构与算法](https://github.com/ivyTa/datastructures-algorithms)
 
-## 15. [leetcode练习](https://github.com/spiderT/leetcode-practice)
+## 15. [python学习](https://github.com/spiderT/python-learn)
 
-## 16. [备考笔记](https://github.com/spiderT/booknotes)
+## 16. [物联网 学习](https://github.com/spiderT/IOT-learn)
 
-## 17. 其他
+## 17. [selenium 学习](https://github.com/spiderT/selenium-learn)
+
+## 18. [leetcode练习](https://github.com/spiderT/leetcode-practice)
+
+## 19. [备考笔记](https://github.com/spiderT/booknotes)
+
+## 20. 其他
 
 1. [根据设备主题网页换肤](https://github.com/spiderT/tt-blog/blob/master/notes/change-color-scheme.md)
 
@@ -63,3 +69,5 @@
 8. [react fiber](https://github.com/spiderT/tt-blog/blob/master/notes/react-fiber-reconciler.md)
 
 9. [js 宏任务 微任务](https://github.com/spiderT/tt-blog/blob/master/notes/js-macrotask&microtask.md)
+
+10. [webpack HMR](https://github.com/spiderT/tt-blog/tree/master/hmr_demo)
