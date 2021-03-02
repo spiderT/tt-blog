@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script src="./hashmap.js"></script>
+    <script>
+      var PERMS_MIN_LEN = 2;
+      var END_WORD = "$";
+      var beginTime = +new Date();
+
+      // 将词的每个字都逐一插入Trie树
+      function append(trie, letter, index, array) {
+        var isEndWordLetter = letter === END_WORD;
+        var isLastLetter = index === array.length - 1;
+
+        if (isEndWordLetter && !isLastLetter) {
+          trie[END_WORD] = 1;
+        } else {
+          trie[letter] = trie[letter] || {};
+          trie = trie[letter];
+        }
+
+        if (isLastLetter) {
+          trie[END_WORD] = 1;
+        }
+
+        return trie;
+      }
+
+      // 建树
+      function create(input) {
+        if (!Array.isArray(input)) {
+          throw `Expected parameter Array, received ${typeof input}`;
+        }
+
+        var trie = input.reduce((accumulator, item) => {
+          item.toLowerCase().split("").reduce(append, accumulator);
+
+          return accumulator;
+        }, {});
+
+        return trie;
+      }
+
+      //  获取匹配的词
+      function permutations(letters, trie) {
+        if (typeof letters !== "string") {
+          throw `Permutations expects string letters, received ${typeof letters}`;
+        }
+
+        var words = [];
+
+        var permute = (word, node, prefix = "") => {
+          var wordIsEmpty = word.length === 0;
+          var wordFound = words.includes(prefix);
+          var endWordFound = node[END_WORD] === 1;
+
+          if (wordIsEmpty && endWordFound && !wordFound) {
+            words.push(prefix);
+          }
+
+          for (var i = 0, len = word.length; i < len; i++) {
+            var letter = word[i];
+
+            if (
+              endWordFound &&
+              !words.includes(prefix) &&
+              letters.includes(prefix)
+            ) {
+              words.push(prefix);
+            }
+
+            if (node[letter]) {
+              var remaining = word.substring(i + 1);
+              permute(remaining, node[letter], prefix + letter);
+            }
+          }
+
+          return words;
+        };
+
+        return permute(letters, trie);
+      }
+
+      // 获取匹配的词
+      function getAnagrams(letters, trie) {
+        if (typeof letters !== "string") {
+          throw `Expected string letters, received ${typeof letters}`;
+        }
+
+        if (letters.length < PERMS_MIN_LEN) {
+          return [];
+        }
+
+        return permutations(letters, trie);
+      }
+
+      // 如果数组中的某个元素包含另一个元素，则保留最长元素
+      function exactMatch(arr) {
+        if (!arr || arr.length < 2) {
+          return arr;
+        }
+        let repeatArr = [];
+        const len = arr.length;
+        for (let i = len - 1; i >= 0; i--) {
+          for (let j = len - i; j >= 0; j--) {
+            const item_i = arr[i],
+              item_j = arr[j];
+            if (item_i && item_j && item_i !== item_j) {
+              if (item_i.includes(item_j)) {
+                repeatArr.push(item_j);
+              }
+              if (item_j.includes(item_i)) {
+                repeatArr.push(item_i);
+              }
+            }
+          }
+        }
+        repeatArr = [...new Set(repeatArr)];
+
+        // 去除重复元素
+        const m = {};
+        arr.forEach(function (al) {
+          m[al] = al;
+        });
+        repeatArr.forEach(function (bl) {
+          delete m[bl];
+        });
+        return Object.keys(m);
+      }
+
+      var data = [
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "U81.000",
+          tagId: "228017",
+          tagName: "耐万古霉素菌株",
+        },
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "Z35.103",
+          tagId: "228273",
+          tagName: "具有绒毛膜上皮性疾病史妊娠",
+        },
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "Z52.900",
+          tagId: "228529",
+          tagName: "器官或组织供者",
+        },
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "Z85.409",
+          tagId: "228784",
+          tagName: "睾丸恶性肿瘤个人史",
+        },
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "U80.000",
+          tagId: "229040",
+          tagName: "耐青霉素菌株",
+        },
+        {
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "V96.900",
+          tagId: "229296",
+          tagName: "无动力飞行器事故乘员损伤",
+        },
+        {
+          aliasName: "",
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "G30.800",
+          tagId: "1060632",
+          tagName: "特指阿尔茨海默病",
+        },
+        {
+          aliasName: "",
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "G93.803",
+          tagId: "1061120",
+          tagName: "去脑强直",
+        },
+        {
+          aliasName: "",
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "H35.301",
+          tagId: "1061608",
+          tagName: "黄斑玻璃样疣",
+        },
+        {
+          aliasName: "",
+          deletable: true,
+          matched: false,
+          source: 0,
+          standardCode: "H54.500",
+          tagId: "1061852",
+          tagName: "重度视力缺损，单眼",
+        },
+      ];
+
+      // 生成hashmap 和 用于trie数的数组;
+      var hash = new HashMap();
+      var trieArr = [];
+
+      data.forEach(function (item) {
+        hash.put(item.tag_name, item);
+        trieArr.push(item.tag_name);
+      });
+
+      console.log("trieArr", trieArr);
+
+      var myTrie = create(trieArr);
+
+      console.log("myTrie", myTrie);
+
+      var endTime0 = +new Date();
+      var text =
+        "失眠主要表现1早醒,多梦,容易惊醒病程≥1个月主要表现1容易疲劳,精力减退,注意力下降,容易激主要表现2神疲乏力,四肢倦怠,心悸健忘 伴随症状 容易受惊吓,遇事易胆怯 诱发因素 我受慢性病困扰,长期服用影响睡眠的药物,跟心理情绪有关 影响因素 最近生活或工作压力大,饮酒、咖啡或饱食,无生活或工作压力大、无饮酒、无咖啡、无饱食 过敏史无过敏史性别男年龄30 是否上传舌象不方便拍解决方诊断：不寐病-心胆气虚证；处方：安神定志汤";
+
+      var result = getAnagrams(text, myTrie);
+      var resultSet = exactMatch(result);
+
+      // 得到hashmap的疾病标签对象list
+      var tags = [];
+      resultSet.forEach(function (item) {
+        tags.push(hash.get(item));
+      });
+
+      console.log("result", result);
+      console.log("resultSet", resultSet);
+      console.log("tags", tags);
+      var endTime1 = +new Date();
+
+      console.log("匹配共计" + (endTime1 - endTime0) + "ms");
+      console.log("用时共计" + (endTime1 - beginTime) + "ms");
+    </script>
+  </body>
+</html>
