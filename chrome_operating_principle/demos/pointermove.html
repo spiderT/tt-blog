@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      window.addEventListener("pointermove", (event) => {
+        // Chrome 会合并连续的事件(如 wheel, mousewheel, mousemove, pointermove, touchmove )，并延迟到下一帧渲染时候执行 。
+
+// 而如 keydown, keyup, mouseup, mousedown, touchstart, 和 touchend 等非连续性事件则会立即被触发。
+// 合并事件虽然能提升性能，但是如果你的应用是绘画等，则很难绘制一条平滑的曲线了，此时可以使用 `getCoalescedEvents` API 来获取组合的事件。
+
+        const events = event.getCoalescedEvents();
+        for (let event of events) {
+          const x = event.pageX;
+          const y = event.pageY;
+          console.log("x=", x, "y=", y);
+        }
+      });
+    </script>
+  </body>
+</html>

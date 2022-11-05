@@ -1,0 +1,17 @@
+body {
+  font-size: 16px;
+}
+p {
+  font-weight: bold;
+}
+span {
+  color: red;
+}
+img {
+  float: right;
+}
+#element {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}

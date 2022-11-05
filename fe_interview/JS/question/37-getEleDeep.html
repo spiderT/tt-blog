@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div  id="root">1
+      <div>2
+        <p>3
+          <p>4
+            <span>5</span>
+          </p>
+        </p>
+        <p></p>
+        <p>3<span>4</span></p>
+      </div>
+    </div>
+  </body>
+  <script>
+    // 求dom树的最大深度
+    const getDepth = (node) => {
+      // childNodes 它会把空的文本节点当成节点，
+      // children只显示元素节点即使是非空的文字节点也不显示。
+      if (!node.children || node.children.length === 0) {
+        return 1;
+      }
+      const maxChildrenDepth = [...node.children].map((v) => getDepth(v));
+      return 1 + Math.max(...maxChildrenDepth);
+    };
+    console.log(getDepth(document.getElementById('root')));
+  </script>
+</html>
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      color: #f55;
+      background: yellow;
+      width: 200px;
+      line-height: 100px;
+      text-align: center;
+      margin: 30px;
+    }
+    div{
+        overflow: hidden;
+    }
+  </style>
+  <body>
+    <p>看看我的 margin是多少</p>
+    <!-- 把第二个p用div包起来，然后激活它使其成为一个BFC -->
+    <div>
+        <p>看看我的 margin是多少</p>
+    </div>
+  </body>
+</html>

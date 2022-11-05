@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* 正三角形 */
+    div {
+      width: 0;
+      height: 0;
+      border: 40px solid;
+      border-color: transparent transparent red;
+    }
+
+    #right {
+      width: 0;
+      height: 0;
+      border: 40px solid;
+      border-color: transparent transparent red;
+      border-left: 0;
+    }
+
+    /* 带边框的三角形 */
+    #blue {
+      position: relative;
+      width: 0;
+      height: 0;
+      border-width: 0 40px 40px;
+      border-style: solid;
+      border-color: transparent transparent blue;
+    }
+    /* 绝对定位的区域是基于绝对定位父元素的padding区域 */
+    #blue:after {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: -38px;
+      border-width: 0 38px 38px;
+      border-style: solid;
+      border-color: transparent transparent yellow;
+    }
+  </style>
+  <body>
+    <div></div>
+    <div id=right></div>
+    <div id="blue"></div>
+  </body>
+</html>

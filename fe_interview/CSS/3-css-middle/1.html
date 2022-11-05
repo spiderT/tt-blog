@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* .g-container {
+      display: flex;
+    }
+
+    .g-box {
+      margin: auto;
+    } */
+
+    /* .g-container {
+      display: grid;
+      place-items: center;
+    } */
+
+    /* .g-container {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .g-box {
+      display: inline-block;
+      vertical-align: middle;
+    } */
+
+    .g-container {
+      position: relative;
+    }
+
+    .g-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <body>
+    <div
+      class="g-container"
+      style="background: lightcoral; width: 500px; height: 500px"
+    >
+      <div
+        class="g-box"
+        style="background: khaki; width: 200px; height: 200px"
+      ></div>
+    </div>
+  </body>
+</html>

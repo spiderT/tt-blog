@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Critical Path</title>
+  </head>
+  <body>
+    <p>Hello <span>web performance</span> OO!</p>
+    <div><img src="../../images/fe54.png" /></div>
+    <div id="element"></div>
+  </body>
+  <script>
+    const el = document.getElementById("element");
+
+    // 当鼠标移动到该元素上时给该元素设置 will-change 属性
+    el.addEventListener("mouseenter", hintBrowser);
+    // 当 CSS 动画结束后清除 will-change 属性
+    el.addEventListener("animationEnd", removeHint);
+
+    function hintBrowser() {
+      // 填写上那些你知道的，会在 CSS 动画中发生改变的 CSS 属性名们
+      this.style.willChange = "transform, opacity";
+      this.style.opacity = 0;
+    }
+
+    function removeHint() {
+      this.style.willChange = "auto";
+    }
+  </script>
+</html>

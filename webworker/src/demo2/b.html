@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<button>获取</button>
+
+<body>
+    <script>
+        // 这段代码是必须的，打开页面后注册SharedWorker，显示指定worker.port.start()方法建立与worker间的连接
+        if (typeof Worker === "undefined") {
+            alert('当前浏览器不支持webworker')
+        } else {
+            let worker = new SharedWorker('./worker.js')
+            worker.port.addEventListener('message', (e) => {
+                console.log('来自worker的数据：', e.data)
+            }, false)
+            worker.port.start()
+            window.worker = worker
+        }
+        // 获取和发送消息都是调用postMessage方法，我这里约定的是传递'get'表示获取数据。
+        document.querySelector('button').onclick = function() {
+            window.worker.port.postMessage('get')
+        }
+    </script>
+</body>
+
+</html>

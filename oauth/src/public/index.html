@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Node OAuth2 Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    .login-btn {
+      cursor: pointer;
+      line-height: 36px;
+      margin: 10px;
+    }
+    .login-btn::before {
+      display: inline-block;
+      content: "";
+      width: 32px;
+      height: 32px;
+      vertical-align: bottom;
+    }
+    .login-btn-github::before {
+      background: url("./images/github.png") 0 0 no-repeat;
+    }
+    .login-btn-wechat::before {
+      background: url("./images/wechat.png") 0 0 no-repeat;
+    }
+    .login-btn-qq::before {
+      background: url("./images/qq.png") 0 0 no-repeat;
+    }
+  </style>
+
+  <body>
+    <div id="login-github" class="login-btn login-btn-github">
+      Login with GitHub
+    </div>
+    <div id="login-wechat" class="login-btn login-btn-wechat">
+      Login with WeChat
+    </div>
+    <div id="login-wechat" class="login-btn login-btn-qq">
+      Login with QQ
+    </div>
+    <div id="login_container"></div>
+
+    <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <script>
+      // gitub login
+      const github_client_id = "19110a5e8aa4d4c581a5";
+
+      const github_authorize_uri = "https://github.com/login/oauth/authorize";
+      const github_redirect_uri = "http://localhost:8080/oauth/redirect";
+
+      const githubLink = document.getElementById("login-github");
+      const github_url = `${github_authorize_uri}?client_id=${github_client_id}&redirect_uri=${github_redirect_uri}`;
+      githubLink.onclick = function() {
+        location.href = github_url;
+      };
+
+      // wechat login
+      const obj = new WxLogin({
+        self_redirect: true,
+        id: "login_container",
+        appid: "wx58a832c540671009",
+        scope: "snsapi_login",
+        redirect_uri: encodeURIComponent('http://127.0.0.1:8080'),
+        state: "",
+        style: "",
+        href: ""
+      });
+    </script>
+  </body>
+</html>

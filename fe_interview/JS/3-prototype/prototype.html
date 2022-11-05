@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+     
+      function Foo(name) {
+        this.name = name;
+      }
+      const f1 = new Foo("A");
+
+      // __proto__和constructor属性是对象所独有的
+      // prototype属性是函数所独有的。它是从一个函数指向一个对象。它的含义是函数的原型对象
+      // constructor属性也是对象才拥有的，它是从一个对象指向一个函数，含义就是指向该对象的构造函数，每个对象都有构造函数（本身拥有或继承而来）
+      console.log(f1.__proto__  === Foo.prototype);  // true
+      console.log(f1.constructor === Foo);  // true
+
+      console.log(f1.__proto__.__proto__  === Object.prototype);  // true
+    </script>
+  </body>
+</html>

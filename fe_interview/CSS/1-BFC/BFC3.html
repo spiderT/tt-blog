@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .par {
+        border: 5px solid rgb(91, 243, 30);
+        width: 300px;
+        /* 计算BFC的高度时，浮动元素也参与计算。给父节点激活BFC */
+        overflow: hidden;
+      }
+
+      .child {
+        border: 5px solid rgb(233, 250, 84);
+        width: 100px;
+        height: 100px;
+        float: left;
+      }
+    </style>
+    <body>
+      <div class="par">
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+    </body>
+  </body>
+</html>
