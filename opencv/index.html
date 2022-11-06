@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello OpenCV.js——一键美颜</title>
+    <style type="text/css">
+      .inputoutput {
+        float: left;
+        margin: 10px;
+      }
+
+      #imageSrc {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Hello OpenCV.js</h2>
+    <p id="status">OpenCV.js is loading...</p>
+    <div>
+      <div class="inputoutput">
+        <img id="imageSrc" alt="" />
+        <div class="caption">
+          上传图片 <input type="file" id="fileInput" name="file" />
+        </div>
+      </div>
+      <div class="inputoutput">
+        <canvas id="canvasOutput"></canvas>
+        <div class="caption"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      const imgElement = document.getElementById("imageSrc");
+      const inputElement = document.getElementById("fileInput");
+      inputElement.addEventListener(
+        "change",
+        (e) => {
+          imgElement.src = URL.createObjectURL(e.target.files[0]);
+        },
+        false
+      );
+
+      imgElement.onload = function () {
+        let mat = cv.imread(imgElement);
+        mat = face2(mat, 4, 3);
+        cv.imshow("canvasOutput", mat);
+        mat.delete();
+      };
+
+      function onOpenCvReady() {
+        document.getElementById("status").innerHTML = "OpenCV.js is ready.";
+      }
+      function face2(image, value1, value2) {
+        const dst = new cv.Mat();
+        //磨皮系数
+        if (value1 == null || value1 == undefined) value1 = 3;
+        //细节系数 0.5 - 2
+        if (value2 == null || value2 == undefined) value2 = 1;
+
+        const dx = value1 * 5; //双边滤波参数
+        const fc = value1 * 12.5; //参数
+        const p = 0.1; //透明度
+
+        let temp1 = new cv.Mat(),
+          temp2 = new cv.Mat(),
+          temp3 = new cv.Mat(),
+          temp4 = new cv.Mat();
+
+        cv.cvtColor(image, image, cv.COLOR_RGBA2RGB, 0);
+
+        cv.bilateralFilter(image, temp1, dx, fc, fc);
+
+        let temp22 = new cv.Mat();
+        cv.subtract(temp1, image, temp22);
+
+        cv.add(
+          temp22,
+          new cv.Mat(
+            image.rows,
+            image.cols,
+            image.type(),
+            new cv.Scalar(128, 128, 128, 128)
+          ),
+          temp2
+        );
+
+        cv.GaussianBlur(
+          temp2,
+          temp3,
+          new cv.Size(2 * value2 - 1, 2 * value2 - 1),
+          0,
+          0
+        );
+
+        let temp44 = new cv.Mat();
+        temp3.convertTo(temp44, temp3.type(), 2, -255);
+
+        cv.add(image, temp44, temp4);
+        cv.addWeighted(image, p, temp4, 1 - p, 0.0, dst);
+
+        cv.add(
+          dst,
+          new cv.Mat(
+            image.rows,
+            image.cols,
+            image.type(),
+            new cv.Scalar(10, 10, 10, 0)
+          ),
+          dst
+        );
+
+        return dst;
+      }
+    </script>
+    <script
+      async
+      src="https://docs.opencv.org/3.4.0/opencv.js"
+      onload="onOpenCvReady();"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>

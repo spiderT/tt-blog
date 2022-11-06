@@ -114,7 +114,15 @@ Rust 语言是一种高效、可靠的通用高级语言。其高效不仅限于
 
 > [pwa](https://github.com/spiderT/tt-blog/blob/master/pwa)
 
+> [js函数式编程](https://github.com/spiderT/tt-blog/blob/master/functionalProgramming)
+
 > [nginx](https://github.com/spiderT/tt-blog/blob/master/nginx)
+
+> [opencv](https://github.com/spiderT/tt-blog/blob/master/opencv)
+
+> [源码学习](https://github.com/spiderT/tt-blog/blob/master/source_code_learning)
+
+react、webpack、vite...
 
 ## 前端面试题
 
